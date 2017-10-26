@@ -161,7 +161,21 @@ class RecommenderSystems:
         movie_ratings = self.calculate_mean_movie_rating(global_movie_mean)
         user_ratings = self.calculate_mean_user_rating(global_movie_mean)
         return self.calculate_baseline_RMSE(movie_ratings, user_ratings, global_movie_mean)
-
+    # Pass in preprocessed rating file or run this first
+    def preprocess_movie_id(self, rating_file_name, movie_file_name):
+        rating_data = pandas.read_csv(rating_file_name, sep=csv_delimeter, names=headers)
+        movie_data = pandas.read_csv(movie_file_name, sep=csv_delimeter, names=headers)
+        id_dict= {}
+        for ix in xrange(len(movie_data)):
+            og_id = movie_data[ix,0]
+            id_dict[ix] = og_id
+            
+            for i in xrange(len(rating_data)):
+                if rating_data[i, 1] == og_id:
+                    rating_data[i,1] = ix
+        rating_data.to_csv('remapped_rating.csv')
+        movie_data.to_csv('remapped_movie.csv')
+       
 
 if __name__ == '__main__':
     start_whole = time.time()
