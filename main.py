@@ -181,9 +181,10 @@ if __name__ == '__main__':
     start_whole = time.time()
 
     recommender = RecommenderSystems()
-    recommender.initialize_program(load_matrix=True, path_to_dataset='rating_sample.csv')
-    rmse = recommender.calculate_baseline_error()
-    print "RMSE Baseline: " + str(rmse)
+
+    #recommender.initialize_program(load_matrix=True, path_to_dataset='rating_sample.csv')
+    #rmse = recommender.calculate_baseline_error()
+    #print "RMSE Baseline: " + str(rmse)
 
 
 
