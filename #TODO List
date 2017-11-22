@@ -1,0 +1,12 @@
+#TODO List
+
+Collaborative filtering
+
+Midterm Report
+
+Testing:
+	Verify random mean values (user, mean) is accurate
+	See: data verification file
+
+Subtract mean from every row
+See about testing
