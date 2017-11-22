@@ -10,3 +10,7 @@ Testing:
 
 Subtract mean from every row
 See about testing
+
+Ensure that every user is sampled proportionally
+Line searching
+Hyperparamter optimization

@@ -40,11 +40,6 @@ class LatentFactorModel:
         self.Q = u
         diag_matrix = np.diag(s)
         self.P = diag_matrix.dot(vt)
-        # actual_value = self.test_csr[4830, 47914]
-        # col = self.P[:, 47914]
-        # row = self.Q[4830, :]
-        # value = row.dot(col) + self.user_average[47914]
-        # print "hi"
 
 
     def predicted_value(self, movie, user):
@@ -57,12 +52,12 @@ class LatentFactorModel:
         predicted_value = self.predicted_value(movie, user)
         return actual_value - predicted_value
 
-    def error_train(self, movie, user):
+    def square_error_train(self, movie, user):
         actual_value = self.training_csr[movie, user]
         predicted_value = self.predicted_value(movie, user) + self.user_average[user]
         return math.pow(actual_value - predicted_value, 2)
 
-    def error_test(self, movie, user):
+    def square_error_test(self, movie, user):
         actual_value = self.test_csr[movie, user]
         predicted_value = self.predicted_value(movie, user) + self.user_average[user]
         return math.pow(actual_value - predicted_value, 2)
@@ -72,7 +67,7 @@ class LatentFactorModel:
 
         # Loop through each entry in the test dataset
         for movie, user, true_rating in itertools.izip(self.test_coo.row, self.test_coo.col, self.test_coo.data):
-            summed_error = summed_error + self.error_test(movie, user)
+            summed_error = summed_error + self.square_error_test(movie, user)
 
         # Calculate the number of entries in the test set
         test_dataset_size = self.test_coo.nnz
@@ -86,12 +81,12 @@ class LatentFactorModel:
 
         # Loop through each entry in the test dataset
         for movie, user, true_rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
-            summed_error = summed_error + self.error_test(movie, user)
+            summed_error = summed_error + self.square_error_train(movie, user)
 
         # Calculate the number of entries in the test set
-        test_dataset_size = self.training_coo.nnz
+        training_dataset_size = self.training_coo.nnz
 
-        rmse = math.sqrt(float(summed_error) / test_dataset_size)
+        rmse = math.sqrt(float(summed_error) / training_dataset_size)
 
         return rmse
 
@@ -106,18 +101,33 @@ class LatentFactorModel:
         np.save(arr=self.P, file=p_matrix)
         np.save(arr=self.Q, file=q_matrix)
 
-        error_file = directory + "RMSE.txt"
-        f = open(error_file, "w+")
-        f.write("RMSE Training: " + str(rmse_training))
-        f.write("RMSE Test: " + str(rmse_test))
+        rmse_file = directory + "RMSE.txt"
+        rmse_info = 'RMSE Training: {} \n RMSE Test: {}'.format(rmse_training, rmse_test)
+        f = open(rmse_file, "w+")
+        f.write(rmse_info)
+        f.close()
+
+        hyper_param_file = 'optimization/hyperparams.txt'
+        params = 'Learning rate: {} \nRegularization rate: {} \nNumber of factors (k): {} \n# of epochs: {}'.format(
+            self.learning_rate, self.lambda_reg, self.k, self.epochs)
+        f = open(hyper_param_file, "w+")
+        f.write(params)
         f.close()
 
 
     def optimize_matrices(self):
         for epoch in xrange(self.epochs):
 
+            start = time.time()
             rmse_test = self.calculate_test_rmse()
+            end = time.time()
+            print "Time to calculate RMSE test: {}".format(end - start)
+
+            start = time.time()
             rmse_training = self.calculate_training_rmse()
+            end = time.time()
+            print "Time to calculate RMSE training: {}".format(end - start)
+
             print "Training RMSE for epoch {}: {}".format(epoch, rmse_training)
             print "Test RMSE for epoch {}: {}".format(epoch, rmse_test)
 
@@ -126,7 +136,7 @@ class LatentFactorModel:
 
             count = 0
             start = time.time()
-            print "Movie 4830, user 47914, rating: " + str(self.predicted_value(4830, 47914) + self.user_average[47914])
+            print "Movie 4830, user 47914, true rating: 6. Predicted rating: " + str(self.predicted_value(4830, 47914) + self.user_average[47914])
 
             # Loop through each entry in the training dataset
             for movie, user, true_rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):

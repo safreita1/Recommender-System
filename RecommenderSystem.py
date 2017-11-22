@@ -1,12 +1,8 @@
-import math
 import time
-import itertools
 import scipy.sparse as sparse
-from collections import defaultdict
 
 from LatentFactorModel import LatentFactorModel
 from BaselineRecommendations import BaselineRecommendations
-
 
 
 class RecommenderSystems:
@@ -43,7 +39,6 @@ if __name__ == '__main__':
     latent_model = LatentFactorModel(epochs=50, k=5, learning_rate=0.0002, lambda_reg=0.02, training_coo=recommender.training_matrix_coo,
                                      test_coo=recommender.test_matrix_coo, user_average=baseline.user_average)
     latent_model.run_model()
-
 
     #recommender.fill_similarity_matrix(centered_training_filepath, similarity_filepath)
     #recommender.collaborative_filter(similarity_filepath)
