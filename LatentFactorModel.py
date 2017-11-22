@@ -52,17 +52,22 @@ class LatentFactorModel:
         row = self.Q[movie, :]
         return row.dot(col)
 
-    def error_train(self, movie, user):
+    def error(self, movie, user):
         actual_value = self.training_csr[movie, user]
         predicted_value = self.predicted_value(movie, user)
         return actual_value - predicted_value
+
+    def error_train(self, movie, user):
+        actual_value = self.training_csr[movie, user]
+        predicted_value = self.predicted_value(movie, user) + self.user_average[user]
+        return math.pow(actual_value - predicted_value, 2)
 
     def error_test(self, movie, user):
         actual_value = self.test_csr[movie, user]
         predicted_value = self.predicted_value(movie, user) + self.user_average[user]
         return math.pow(actual_value - predicted_value, 2)
 
-    def calculate_rmse(self):
+    def calculate_test_rmse(self):
         summed_error = 0
 
         # Loop through each entry in the test dataset
@@ -76,8 +81,22 @@ class LatentFactorModel:
 
         return rmse
 
+    def calculate_training_rmse(self):
+        summed_error = 0
 
-    def save_model(self, epoch, rmse):
+        # Loop through each entry in the test dataset
+        for movie, user, true_rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
+            summed_error = summed_error + self.error_test(movie, user)
+
+        # Calculate the number of entries in the test set
+        test_dataset_size = self.training_coo.nnz
+
+        rmse = math.sqrt(float(summed_error) / test_dataset_size)
+
+        return rmse
+
+
+    def save_model(self, epoch, rmse_test, rmse_training):
         directory = 'optimization/epoch_{}/'.format(epoch)
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -89,16 +108,20 @@ class LatentFactorModel:
 
         error_file = directory + "RMSE.txt"
         f = open(error_file, "w+")
-        f.write("RMSE: " + str(rmse))
+        f.write("RMSE Training: " + str(rmse_training))
+        f.write("RMSE Test: " + str(rmse_test))
         f.close()
 
 
     def optimize_matrices(self):
         for epoch in xrange(self.epochs):
 
-            rmse = self.calculate_rmse()
-            print "RMSE for epoch {}: {}".format(epoch, rmse)
-            self.save_model(epoch=epoch, rmse=rmse)
+            rmse_test = self.calculate_test_rmse()
+            rmse_training = self.calculate_training_rmse()
+            print "Training RMSE for epoch {}: {}".format(epoch, rmse_training)
+            print "Test RMSE for epoch {}: {}".format(epoch, rmse_test)
+
+            self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
             print "Epoch {} model saved".format(epoch)
 
             count = 0
@@ -117,12 +140,12 @@ class LatentFactorModel:
 
                 # Loop through every latent factor
                 for k in xrange(self.k):
-                    error = 2 * self.error_train(movie, user) * self.P[k, user]
+                    error = 2 * self.error(movie, user) * self.P[k, user]
                     regularization = - 2 * self.lambda_reg * self.Q[movie, k]
                     gradient_q =  self.learning_rate * (error + regularization)
                     self.Q[movie, k] = self.Q[movie, k] + gradient_q
 
-                    gradient_p = self.learning_rate * (2 * self.error_train(movie, user) * self.Q[movie, k] - 2 * self.lambda_reg * self.P[k, user])
+                    gradient_p = self.learning_rate * (2 * self.error(movie, user) * self.Q[movie, k] - 2 * self.lambda_reg * self.P[k, user])
                     self.P[k, user] = self.P[k, user] + gradient_p
 
                     # self.Q[movie, k] = self.Q[movie, k] + self.learning_rate * (2 * self.error(movie, user) * self.P[k, user] - 2 * self.lambda_reg * self.Q[movie, k])
