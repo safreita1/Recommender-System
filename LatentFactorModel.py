@@ -111,7 +111,7 @@ class LatentFactorModel:
         else:
             print "Error: directory already exists"
 
-        hyper_param_file = 'optimization/hyperparams.txt'
+        hyper_param_file = 'optimization/{}/hyperparams.txt'.format(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
         params = 'Learning rate: {} \nRegularization rate: {} \nNumber of factors (k): {} \n# of epochs: {}'.format(
             self.learning_rate, self.lambda_reg, self.k, self.epochs)
         f = open(hyper_param_file, "w+")
