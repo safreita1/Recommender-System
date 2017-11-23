@@ -41,39 +41,47 @@ class DataPreprocessing:
     #Input:
     # data: numpy array
     def random_sample(self, data, seed=42):
-        print "init random sample"
+       # print "init random sample"
         random.seed(seed)
         percent_test = 0.2
+        percent_val = 0.1
+
         total_size = data.shape[0]
-        test_size = int(total_size * percent_test)
-        print "generate test indices"
-        tick = time.time()
-        test_list = random.sample(xrange(total_size),test_size)
-        print time.time()-tick
+        test_val_size = int(total_size * (percent_val +percent_test ))
+        #print "generate test indices"
+        #tick = time.time()
+        test_list = random.sample(xrange(total_size),test_val_size)
+        #print time.time()-tick
 
-        print "create test matrix"
-        print "Build and populate test data"
-        tick = time.time()
+       # print "create test matrix"
+       # print "Build and populate test data"
+        test_size = int(test_val_size*2/3)+1
+        val_size = test_val_size-test_size
         test_data = np.zeros((test_size, 3))
+        val_data = np.zeros((val_size,3))
         # Populate test matrix
-        index = 0
-
+        test_index = 0
+        val_index = 0
         for ix in test_list:
-            test_data[index] = data[ix]
-            index = index + 1
-        print time.time()-tick
+            if val_index < val_size:
+                val_data[val_index]= data[ix]
+                val_index = val_index + 1
+            else:
+                test_data[test_index]=  data[ix]
+                test_index = test_index + 1
 
-        print "Populate training data"
-        tick = time.time()
+
+       # print "Populate training data"
         training_data = np.delete(data, test_list, 0)
-        print time.time()-tick
-        return training_data, test_data
+        return training_data, test_data, val_data
+
+
 
     # Input:
     # rating_data: numpy array
-    def random_sparse_split(self, rating_data, training_file_name, test_file_name):
+    def random_sparse_split(self, rating_data, training_file_name, test_file_name,val_file_name):
         # Randomly split the data into an 80-20 training/test set respectively
-        training_data, test_data = self.random_sample(rating_data)
+        training_data, test_data, val_data = self.random_sample(rating_data)
         # Training data
         training_user_col = training_data[:, 0]
         training_movie_row = training_data[:, 1]
@@ -89,6 +97,12 @@ class DataPreprocessing:
         # Find the sparse matrix dimensions
         sparse_user_size = max(rating_data[:, 0]) + 1
         sparse_movie_size = max(rating_data[:, 1]) + 1
+        val_user_col = val_data[:, 0]
+        val_movie_row = val_data[:, 1]
+        val_rating_data = val_data[:, 2]
+        self.write_matrix_to_csv(val_user_col, val_movie_row, val_rating_data, val_file_name)
+        self.validation_matrix = sparse.coo_matrix((val_rating_data, (val_movie_row, val_user_col)),
+                                            shape=(sparse_movie_size, sparse_user_size), dtype=np.float64)
         self.training_matrix = sparse.coo_matrix((training_rating_data, (training_movie_row, training_user_col)),
                                             shape=(sparse_movie_size, sparse_user_size), dtype=np.float64)
         self.test_matrix = sparse.coo_matrix((test_rating_data, (test_movie_row, test_user_col)),
@@ -151,6 +165,7 @@ if __name__ == '__main__':
     arbitrary_testing_filepath = 'csv/arbitrary_test.csv'
     random_training_filepath = 'csv/random_training.csv'
     random_testing_filepath = 'csv/random_test.csv'
+    random_validation_filepath = 'csv/rantom_val.csv'
     remapped_filepath = 'csv/remapped_rating.csv'
     movie_filepath = 'csv/anime.csv'
     rating_filepath = 'csv/rating.csv'
@@ -178,13 +193,15 @@ if __name__ == '__main__':
         preprocess.save_sparse_matrix(file_name='matrices/arbitrary_test', sparse_matrix=preprocess.test_matrix)
 
     # Create randomly sampled training/test split once, save as csv files
-    if not os.path.isfile(random_training_filepath) or not os.path.isfile(random_testing_filepath):
+    if not os.path.isfile(random_training_filepath) or not os.path.isfile(random_testing_filepath) or not \
+            os.path.isfile(random_validation_filepath):
         preprocess.random_sparse_split(rating_data=rating_data, training_file_name=random_training_filepath,
-                                   test_file_name=random_testing_filepath)
+                                   test_file_name=random_testing_filepath,val_file_name=random_validation_filepath)
 
          #Save randomly sampled sparse matrices as npz files
         preprocess.save_sparse_matrix(file_name='matrices/random_training', sparse_matrix=preprocess.training_matrix)
         preprocess.save_sparse_matrix(file_name='matrices/random_test', sparse_matrix=preprocess.test_matrix)
+        preprocess.save_sparse_matrix(file_name='matrices/random_val', sparse_matrix=preprocess.validation_matrix)
 
     end = time.time()
     print "Time to run program " + str((end - start_whole))
