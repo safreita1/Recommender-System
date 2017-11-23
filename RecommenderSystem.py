@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     baseline = BaselineRecommendations(training_matrix_coo=recommender.training_matrix_coo, test_matrix_coo=recommender.test_matrix_coo)
     baseline.run_baseline()
-    latent_model = LatentFactorModel(epochs=50, k=5, learning_rate=0.0002, lambda_reg=0.02, training_coo=recommender.training_matrix_coo,
+    latent_model = LatentFactorModel(epochs=50, k=50, learning_rate=0.0002, lambda_reg=0.02, training_coo=recommender.training_matrix_coo,
                                      test_coo=recommender.test_matrix_coo, user_average=baseline.user_average)
     latent_model.run_model()
 
