@@ -25,6 +25,7 @@ class LatentFactorModel:
         self.test_csr = None
         self.user_average = user_average
         self.user_std = defaultdict(int)
+        self.model_directory = None
 
     def calculate_user_std(self):
         for movie, user, rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
@@ -93,7 +94,12 @@ class LatentFactorModel:
 
 
     def save_model(self, epoch, rmse_test, rmse_training):
-        directory = 'optimization/{}/epoch_{}/'.format(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'), epoch)
+        if epoch == 0:
+            self.model_directory = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+        else:
+            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+
         if not os.path.exists(directory):
             os.makedirs(directory)
 
