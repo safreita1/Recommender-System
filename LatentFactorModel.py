@@ -166,7 +166,7 @@ class LatentFactorModel:
         # Find the last epoch that was saved
         epoch = self.find_current_epoch(model_directory=model_directory)
         if epoch >= 0:
-            self.current_epoch = epoch + 1
+            self.current_epoch = epoch
         else:
             print "Failed to find epoch folder"
             exit(1)
