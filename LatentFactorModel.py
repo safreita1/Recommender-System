@@ -6,6 +6,7 @@ from collections import defaultdict
 from MatrixOperations import convert_coo_to_csc_and_csr, center_matrix_user
 import time
 import os
+import datetime
 
 
 class LatentFactorModel:
@@ -24,6 +25,7 @@ class LatentFactorModel:
         self.test_csr = None
         self.user_average = user_average
         self.user_std = defaultdict(int)
+        self.model_directory = None
 
     def calculate_user_std(self):
         for movie, user, rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
@@ -92,22 +94,30 @@ class LatentFactorModel:
 
 
     def save_model(self, epoch, rmse_test, rmse_training):
-        directory = 'optimization/epoch_{}/'.format(epoch)
+        if epoch == 0:
+            self.model_directory = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+        else:
+            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+
         if not os.path.exists(directory):
             os.makedirs(directory)
-        p_matrix = "{}{}".format(directory, "P.npy")
-        q_matrix = "{}{}".format(directory, "Q.npy")
 
-        np.save(arr=self.P, file=p_matrix)
-        np.save(arr=self.Q, file=q_matrix)
+            p_matrix = "{}{}".format(directory, "P.npy")
+            q_matrix = "{}{}".format(directory, "Q.npy")
 
-        rmse_file = directory + "RMSE.txt"
-        rmse_info = 'RMSE Training: {} \n RMSE Test: {}'.format(rmse_training, rmse_test)
-        f = open(rmse_file, "w+")
-        f.write(rmse_info)
-        f.close()
+            np.save(arr=self.P, file=p_matrix)
+            np.save(arr=self.Q, file=q_matrix)
 
-        hyper_param_file = 'optimization/hyperparams.txt'
+            rmse_file = directory + "RMSE.txt"
+            rmse_info = 'RMSE Training: {} \n RMSE Test: {}'.format(rmse_training, rmse_test)
+            f = open(rmse_file, "w+")
+            f.write(rmse_info)
+            f.close()
+        else:
+            print "Error: directory already exists"
+
+        hyper_param_file = 'optimization/{}/hyperparams.txt'.format(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
         params = 'Learning rate: {} \nRegularization rate: {} \nNumber of factors (k): {} \n# of epochs: {}'.format(
             self.learning_rate, self.lambda_reg, self.k, self.epochs)
         f = open(hyper_param_file, "w+")

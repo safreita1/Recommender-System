@@ -18,7 +18,7 @@ class BaselineRecommendations:
         self.movie_average = {}
         self.user_centered = {}
         self.user_average = {}
-        self.global_movie_mean = 0.0
+        self.global_mean = 0.0
 
     def calculate_baseline_RMSE(self):
         summed_error = 0
@@ -31,7 +31,7 @@ class BaselineRecommendations:
 
             # Get the baseline rating for this user in the test set
             user_baseline = self.user_centered[user]
-            estimated_rating = movie_baseline + user_baseline + self.global_movie_mean
+            estimated_rating = movie_baseline + user_baseline + self.global_mean
             self.baseline_rating[(movie, user)] = estimated_rating
 
             # Calculate the error between the predicted rating and the true rating
@@ -51,14 +51,14 @@ class BaselineRecommendations:
         return error
 
 
-    def calculate_global_mean_movie_rating(self):
+    def calculate_global_baseline_rating(self):
         summed_movie_rating = 0
         for i, j, v in itertools.izip(self.training_matrix_coo.row, self.training_matrix_coo.col,
                                       self.training_matrix_coo.data):
             summed_movie_rating = summed_movie_rating + v
 
         number_of_ratings = self.training_matrix_coo.nnz
-        self.global_movie_mean = float(summed_movie_rating) / number_of_ratings
+        self.global_mean = float(summed_movie_rating) / number_of_ratings
 
 
     def calculate_relative_mean_movie_rating(self):
@@ -74,10 +74,9 @@ class BaselineRecommendations:
             if movie_sums[index] != 0:
                 movie_average = float(movie_sums[index]) / movie_rating_counts[index]
                 self.movie_average[index] = movie_average
-                self.movie_centered[index] = movie_average - self.global_movie_mean
+                self.movie_centered[index] = movie_average - self.global_mean
             else:
-                # TODO Evaluate if zero is best here
-                self.movie_average[index] = 0
+                self.movie_average[index] = self.global_mean
                 self.movie_centered[index] = 0
 
 
@@ -96,15 +95,15 @@ class BaselineRecommendations:
             if user_sums[index] != 0:
                 user_average = float(user_sums[index]) / user_rating_counts[index]
                 self.user_average[index] = user_average
-                self.user_centered[index] = user_average - self.global_movie_mean
+                self.user_centered[index] = user_average - self.global_mean
             else:
-                self.user_average[index] = 0
+                self.user_average[index] = self.global_mean
                 self.user_centered[index] = 0
 
 
     def calculate_baseline_error(self):
         start = time.time()
-        self.calculate_global_mean_movie_rating()
+        self.calculate_global_baseline_rating()
         end = time.time()
         print "Finished global movie mean: " + str((end - start))
 
