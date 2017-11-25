@@ -44,7 +44,10 @@ if __name__ == '__main__':
     baseline.run_baseline()
     latent_model = LatentFactorModel(epochs=50, k=k_trials[0], learning_rate=learning_rate_trials[0], lambda_reg=lambda_reg_trials[1], training_coo=recommender.training_matrix_coo,
                                      test_coo=recommender.test_matrix_coo, user_average=baseline.user_average)
-    latent_model.run_model()
+
+    # Overrides default parameters passed in constructor
+    #latent_model.run_new_model()
+    latent_model.run_old_model(model_directory='optimization/2017-11-23_16-28-35/')
 
     #recommender.fill_similarity_matrix(centered_training_filepath, similarity_filepath)
     #recommender.collaborative_filter(similarity_filepath)

@@ -14,6 +14,7 @@ class LatentFactorModel:
         self.P = None
         self.Q = None
         self.epochs = epochs
+        self.current_epoch = 0
         self.k = k
         self.learning_rate = learning_rate
         self.lambda_reg = lambda_reg
@@ -26,6 +27,7 @@ class LatentFactorModel:
         self.user_average = user_average
         self.user_std = defaultdict(int)
         self.model_directory = None
+        self.model_loaded = False
 
     def calculate_user_std(self):
         for movie, user, rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
@@ -94,60 +96,136 @@ class LatentFactorModel:
 
 
     def save_model(self, epoch, rmse_test, rmse_training):
+        # Only create the hyperparameter file once
         if epoch == 0:
-            self.model_directory = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+            self.model_directory = 'optimization/{}/'.format(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
+            directory = '{}epoch_{}/'.format(self.model_directory, epoch)
+            os.makedirs(self.model_directory)
+
+            self.save_hyperparameters()
         else:
-            directory = 'optimization/{}/epoch_{}/'.format(self.model_directory, epoch)
+            directory = '{}epoch_{}/'.format(self.model_directory, epoch)
 
         if not os.path.exists(directory):
             os.makedirs(directory)
-
-            p_matrix = "{}{}".format(directory, "P.npy")
-            q_matrix = "{}{}".format(directory, "Q.npy")
-
-            np.save(arr=self.P, file=p_matrix)
-            np.save(arr=self.Q, file=q_matrix)
-
-            rmse_file = directory + "RMSE.txt"
-            rmse_info = 'RMSE Training: {} \n RMSE Test: {}'.format(rmse_training, rmse_test)
-            f = open(rmse_file, "w+")
-            f.write(rmse_info)
-            f.close()
+            self.save_matrices(directory=directory)
+            self.save_rmse_file(directory=directory, rmse_training=rmse_training, rmse_test=rmse_test)
         else:
             print "Error: directory already exists"
 
-        hyper_param_file = 'optimization/{}/hyperparams.txt'.format(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S'))
-        params = 'Learning rate: {} \nRegularization rate: {} \nNumber of factors (k): {} \n# of epochs: {}'.format(
-            self.learning_rate, self.lambda_reg, self.k, self.epochs)
+    def find_current_epoch(self, model_directory):
+        highest_epoch = -1
+        for directory in os.listdir(model_directory):
+            # Check that it's actually a directory
+            if os.path.isdir(model_directory + directory):
+                temp, current_epoch = directory.split('_')
+                current_epoch = int(current_epoch)
+                if current_epoch > highest_epoch:
+                    highest_epoch = current_epoch
+
+        return highest_epoch
+
+
+    def load_hyperparameters(self, path_to_hyperparam_file):
+        with open(path_to_hyperparam_file) as f:
+            lines = f.readlines()
+            temp, learning_rate = lines[0].split(':')
+            temp, reg_rate = lines[1].split(':')
+            temp, num_factors = lines[2].split(':')
+            temp, epochs = lines[3].split(':')
+
+            self.learning_rate = float(learning_rate.strip())
+            self.lambda_reg = float(reg_rate.strip())
+            self.k = int(num_factors.strip())
+            self.epochs = int(epochs.strip())
+
+    def save_hyperparameters(self):
+        hyper_param_file = '{}hyperparams.txt'.format(self.model_directory)
+        params = 'Learning rate: {} \nRegularization rate: {} \nNumber of factors (k): {} \n# of epochs: {}'.format(self.learning_rate, self.lambda_reg, self.k, self.epochs)
         f = open(hyper_param_file, "w+")
         f.write(params)
         f.close()
 
+    def save_rmse_file(self, directory, rmse_training, rmse_test):
+        rmse_file = directory + "RMSE.txt"
+        rmse_info = 'RMSE Training: {} \nRMSE Test: {}'.format(rmse_training, rmse_test)
+        f = open(rmse_file, "w+")
+        f.write(rmse_info)
+        f.close()
+
+    def save_matrices(self, directory):
+        p_matrix = "{}{}".format(directory, "P.npy")
+        q_matrix = "{}{}".format(directory, "Q.npy")
+
+        np.save(arr=self.P, file=p_matrix)
+        np.save(arr=self.Q, file=q_matrix)
+
+    def load_model(self, model_directory):
+        self.model_loaded = True
+
+        # Find the last epoch that was saved
+        epoch = self.find_current_epoch(model_directory=model_directory)
+        if epoch >= 0:
+            self.current_epoch = epoch + 1
+        else:
+            print "Failed to find epoch folder"
+            exit(1)
+
+        path_to_model = model_directory + 'epoch_{}/'.format(epoch)
+        path_to_hyperparam = model_directory + 'hyperparams.txt'
+
+        self.model_directory = model_directory
+
+        # Check that hyperparamter file exists
+        if os.path.exists(path_to_hyperparam):
+            self.load_hyperparameters(path_to_hyperparam)
+        else:
+            print "Failed to find the hyperparameter file."
+            exit(1)
+
+        path_to_matrix_P = path_to_model + 'P.npy'
+        path_to_matrix_Q = path_to_model + 'Q.npy'
+        # Check that the models exist
+        if os.path.exists(path_to_model):
+            self.P = np.load(path_to_matrix_P)
+            self.Q = np.load(path_to_matrix_Q)
+        else:
+            print "Failed to load model."
+            exit(1)
+
+
+    def calculate_epoch_error(self, epoch):
+        print "Movie 4830, user 47914, true rating: 6. Predicted rating: " + str( self.predicted_value(4830, 47914) + self.user_average[47914])
+
+        start = time.time()
+        rmse_test = self.calculate_test_rmse()
+        end = time.time()
+        print "Time to calculate RMSE test: {}".format(end - start)
+
+        start = time.time()
+        rmse_training = self.calculate_training_rmse()
+        end = time.time()
+        print "Time to calculate RMSE training: {}".format(end - start)
+
+        print "Training RMSE for epoch {}: {}".format(epoch, rmse_training)
+        print "Test RMSE for epoch {}: {}".format(epoch, rmse_test)
+
+        return rmse_test, rmse_training
 
     def optimize_matrices(self):
-        for epoch in xrange(self.epochs):
+        model_already_tested_and_saved = self.model_loaded
+        for epoch in xrange(self.current_epoch, self.epochs):
 
-            start = time.time()
-            rmse_test = self.calculate_test_rmse()
-            end = time.time()
-            print "Time to calculate RMSE test: {}".format(end - start)
+            if not model_already_tested_and_saved:
+                rmse_test, rmse_training = self.calculate_epoch_error(epoch)
 
-            start = time.time()
-            rmse_training = self.calculate_training_rmse()
-            end = time.time()
-            print "Time to calculate RMSE training: {}".format(end - start)
-
-            print "Training RMSE for epoch {}: {}".format(epoch, rmse_training)
-            print "Test RMSE for epoch {}: {}".format(epoch, rmse_test)
-
-            self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
-            print "Epoch {} model saved".format(epoch)
+                self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
+                print "Epoch {} model saved".format(epoch)
+            else:
+                model_already_tested_and_saved = False
 
             count = 0
             start = time.time()
-            print "Movie 4830, user 47914, true rating: 6. Predicted rating: " + str(self.predicted_value(4830, 47914) + self.user_average[47914])
-
             # Loop through each entry in the training dataset
             for movie, user, true_rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
 
@@ -172,11 +250,20 @@ class LatentFactorModel:
                     # self.P[k, user] = self.P[k, user] + self.learning_rate * (2 * self.error(movie, user) * self.Q[movie, k] - 2 * self.lambda_reg * self.P[k, user])
 
 
-    def run_model(self):
+    def run_new_model(self):
         self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
 
         self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
         self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
 
         self.run_svd()
+        self.optimize_matrices()
+
+    def run_old_model(self, model_directory):
+        self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
+
+        self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
+        self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
+
+        self.load_model(model_directory=model_directory)
         self.optimize_matrices()
