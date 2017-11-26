@@ -124,6 +124,16 @@ class LatentFactorModel:
         f.write(params)
         f.close()
 
+    def error_function(self,movie, user, k):
+        return self.error(movie, user) - self.lambda_reg*self.Q[movie,k]*self.P[k,user]
+    def error_gradient(self,movie,user,k):
+        return 2*self.error(movie, user) * self.P[k,user] - 2 *self.lambda_reg*self.Q[movie,k]
+
+    def backtracking_line_search(self, movie, user, k, delta):
+        alpba = 0.2
+        beta = 0.7
+        step = 1
+        return None
 
     def optimize_matrices(self):
         for epoch in xrange(self.epochs):

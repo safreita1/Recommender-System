@@ -2,7 +2,7 @@ from scipy import sparse
 import itertools
 import numpy as np
 
-def center_matrix(self, sparse_matrix, file_name):
+def center_matrix(sparse_matrix, file_name,movie_average):
     ix = 0
     num_movies = sparse_matrix.shape[0]
     num_users = sparse_matrix.shape[1]
@@ -15,7 +15,7 @@ def center_matrix(self, sparse_matrix, file_name):
     for movie, user, rating in itertools.izip(sparse_matrix.row, sparse_matrix.col, sparse_matrix.data):
         movies[ix] = movie
         users[ix] = user
-        ratings[ix] = rating - self.movie_average[movie]
+        ratings[ix] = rating - movie_average[movie]
         ix = ix + 1
 
     new_sparse_matrix = sparse.coo_matrix((ratings, (movies, users)), shape=(num_movies, num_users), dtype=np.float64)
