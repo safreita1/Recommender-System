@@ -1,6 +1,7 @@
 from LatentFactorModel import LatentFactorModel
 from BaselineRecommendations import BaselineRecommendations
 from DataPreprocessing import DataPreprocessing
+from CollaborativeFiltering import CollaborativeFiltering
 
 
 if __name__ == '__main__':
@@ -9,42 +10,60 @@ if __name__ == '__main__':
     #***************Data Preprocessing***************
     print "If this is your first time running the program? You'll need to create the necessary matrices and" \
           "remapped rating file if it is."
-    user_input = raw_input("Create matrices and remapped rating file if they don't already exist? (yes or no) ")
-    while user_input != 'yes' and user_input != 'no':
-        user_input = raw_input("Create matrices and remapped rating file if they don't already exist? (yes or no) ")
-
-    if user_input == 'yes':
+    initialization = raw_input("Create matrices and remapped rating file if they don't already exist? (yes or no) ")
+    while initialization != 'yes' and initialization != 'no':
+        initialization = raw_input("Create matrices and remapped rating file if they don't already exist? (yes or no) ")
+    if initialization == 'yes':
         preprocess = DataPreprocessing()
         preprocess.run_random_split()
         preprocess.run_arbitrary_split()
 
     #***************Baseline Recommendation***************
-    user_input = raw_input("Do you want to run the baseline recommendation? (yes or no) ")
-    while user_input != 'yes' and user_input != 'no':
-        user_input = raw_input("Do you want to run the baseline recommendation? (yes or no) ")
-    if user_input == 'yes':
-        user_input = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
-        while user_input != 'r' and user_input != 'a' and user_input != 'b':
-            user_input = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
-        if user_input == 'r':
+    baseline = raw_input("Do you want to run the baseline recommendation? (yes or no) ")
+    while baseline != 'yes' and baseline != 'no':
+        baseline = raw_input("Do you want to run the baseline recommendation? (yes or no) ")
+    if baseline == 'yes':
+        sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
+        while sample_type != 'r' and sample_type != 'a' and sample_type != 'b':
+            sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
+        if sample_type == 'r':
             print "Calculating RMSE for arbitrary dataset split."
-            baseline = BaselineRecommendations('random')
-            baseline = BaselineRecommendations('random')
-            baseline.run_baseline()
-        elif user_input == 'a':
-            baseline = BaselineRecommendations('arbitrary')
-            baseline.run_baseline()
-        elif user_input == 'b':
+            baseline_recommend = BaselineRecommendations('random')
+            baseline_recommend.run_baseline()
+        elif sample_type == 'a':
+            baseline_recommend = BaselineRecommendations('arbitrary')
+            baseline_recommend.run_baseline()
+        elif sample_type == 'b':
             print "Calculating RMSE for random dataset split."
-            baseline = BaselineRecommendations('random')
-            baseline.run_baseline()
+            baseline_recommend = BaselineRecommendations('random')
+            baseline_recommend.run_baseline()
             print "Calculating RMSE for arbitrary dataset split."
-            baseline = BaselineRecommendations('arbitrary')
-            baseline.run_baseline()
+            baseline_recommend = BaselineRecommendations('arbitrary')
+            baseline_recommend.run_baseline()
+
 
     #***************Collaborative Filtering Recommendation***************
-
-
+    collab_filt = raw_input("Do you want to run the collaborative filtering recommendation? (yes or no) ")
+    while collab_filt != 'yes' and collab_filt != 'no':
+        collab_filt = raw_input("Do you want to run the collaborative filtering recommendation? (yes or no) ")
+    if collab_filt == 'yes':
+        sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
+        while sample_type != 'r' and sample_type != 'a' and sample_type != 'b':
+            sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
+        if sample_type == 'r':
+            print "Calculating RMSE for arbitrary dataset split."
+            collab_recommend = CollaborativeFiltering()
+            collab_recommend.collaborative_filter()
+        elif sample_type == 'a':
+            collab_recommend = CollaborativeFiltering(dataset='arbitrary')
+            collab_recommend.collaborative_filter()
+        elif sample_type == 'b':
+            print "Calculating RMSE for random dataset split."
+            collab_recommend = CollaborativeFiltering()
+            collab_recommend.collaborative_filter()
+            print "Calculating RMSE for arbitrary dataset split."
+            collab_recommend = CollaborativeFiltering(dataset='arbitrary')
+            collab_recommend.collaborative_filter()
 
 
     #***************Latent Factor Model Recommendation***************
