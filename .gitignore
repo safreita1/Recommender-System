@@ -3,3 +3,4 @@
 *.pyc
 *.zip
 *.npz
+optimization/*

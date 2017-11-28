@@ -1,0 +1,93 @@
+Initializing Collaborative Filtering
+Running Center Matrix
+Center Matrix done in 5.90000009537 seconds
+Building Similarity Matrix
+Building Similarity Matrix done in 43.7209999561 seconds
+Class initialization done in 53.120000124 seconds
+Collaborative Filter RMSE
+Current Cycle: 1000 
+Time for last 1000 cycles: 4.35899996758
+Current Cycle: 2000 
+Time for last 1000 cycles: 3.72399997711
+Current Cycle: 3000 
+Time for last 1000 cycles: 4.90799999237
+Current Cycle: 4000 
+Time for last 1000 cycles: 5.42100000381
+Current Cycle: 5000 
+Time for last 1000 cycles: 4.10400009155
+Current Cycle: 6000 
+Time for last 1000 cycles: 4.25999999046
+Current Cycle: 7000 
+Time for last 1000 cycles: 7.56999993324
+Current Cycle: 8000 
+Time for last 1000 cycles: 4.33999991417
+Current Cycle: 9000 
+Time for last 1000 cycles: 4.9430000782
+Current Cycle: 10000 
+Time for last 1000 cycles: 3.31599998474
+Current Cycle: 11000 
+Time for last 1000 cycles: 4.93200016022
+Current Cycle: 12000 
+Time for last 1000 cycles: 5.09299993515
+Current Cycle: 13000 
+Time for last 1000 cycles: 5.13400006294
+Current Cycle: 14000 
+Time for last 1000 cycles: 3.32299995422
+Current Cycle: 15000 
+Time for last 1000 cycles: 6.22799992561
+Current Cycle: 16000 
+Time for last 1000 cycles: 4.57299995422
+Current Cycle: 17000 
+Time for last 1000 cycles: 3.32800006866
+Current Cycle: 18000 
+Time for last 1000 cycles: 6.75300002098
+Current Cycle: 19000 
+Time for last 1000 cycles: 5.0150001049
+Current Cycle: 20000 
+Time for last 1000 cycles: 3.7539999485
+Current Cycle: 21000 
+Time for last 1000 cycles: 5.21899986267
+Current Cycle: 22000 
+Time for last 1000 cycles: 5.19400000572
+Current Cycle: 23000 
+Time for last 1000 cycles: 4.89699983597
+Current Cycle: 24000 
+Time for last 1000 cycles: 8.41100001335
+Current Cycle: 25000 
+Time for last 1000 cycles: 11.9240000248
+Current Cycle: 26000 
+Time for last 1000 cycles: 3.91799998283
+Current Cycle: 27000 
+Time for last 1000 cycles: 3.40000009537
+Current Cycle: 28000 
+Time for last 1000 cycles: 4.5649998188
+Current Cycle: 29000 
+Time for last 1000 cycles: 4.20700001717
+Current Cycle: 30000 
+Time for last 1000 cycles: 4.74000000954
+Current Cycle: 31000 
+Time for last 1000 cycles: 3.7389998436
+Current Cycle: 32000 
+Time for last 1000 cycles: 4.07500004768
+Current Cycle: 33000 
+Time for last 1000 cycles: 3.17999982834
+Current Cycle: 34000 
+Time for last 1000 cycles: 3.56699991226
+Current Cycle: 35000 
+Time for last 1000 cycles: 4.55799984932
+Current Cycle: 36000 
+Time for last 1000 cycles: 5.49199986458
+Current Cycle: 37000 
+Time for last 1000 cycles: 4.63900017738
+Current Cycle: 38000 
+Time for last 1000 cycles: 3.4960000515
+Current Cycle: 39000 
+Time for last 1000 cycles: 4.25499987602
+Current Cycle: 40000 
+Time for last 1000 cycles: 3.58599996567
+Current Cycle: 41000 
+Time for last 1000 cycles: 5.00600004196
+Current Cycle: 42000 
+Time for last 1000 cycles: 5.28299999237
+Current Cycle: 43000 
+Time for last 1000 cycles: 4.18300008774
