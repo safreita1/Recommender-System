@@ -178,7 +178,7 @@ if __name__ == '__main__':
     if not os.path.isfile(remapped_filepath):
         preprocess.remap_dataset(path_to_movies=movie_filepath, path_to_ratings=rating_filepath, target_filepath=remapped_filepath)
 
-    # Create random training/test set split once, save as csv files
+    # Load remapped dataset
     if os.path.isfile(remapped_filepath):
         rating_data = preprocess.load_csv_as_nparray(remapped_filepath)
     else:
