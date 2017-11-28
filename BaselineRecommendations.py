@@ -1,6 +1,7 @@
 import math
 import itertools
 import time
+from scipy import sparse
 from MatrixOperations import convert_coo_to_csc_and_csr
 
 
@@ -15,9 +16,7 @@ class BaselineRecommendations:
 
         self.baseline_rating = {}
         self.movie_centered = {}
-        self.movie_average = {}
         self.user_centered = {}
-        self.user_average = {}
         self.global_mean = 0.0
 
     def calculate_baseline_RMSE(self):
@@ -73,10 +72,8 @@ class BaselineRecommendations:
             # Check to see if the movie has not been rated
             if movie_sums[index] != 0:
                 movie_average = float(movie_sums[index]) / movie_rating_counts[index]
-                self.movie_average[index] = movie_average
                 self.movie_centered[index] = movie_average - self.global_mean
             else:
-                self.movie_average[index] = self.global_mean
                 self.movie_centered[index] = 0
 
 
@@ -94,10 +91,8 @@ class BaselineRecommendations:
             # Check to see if the user has not rated
             if user_sums[index] != 0:
                 user_average = float(user_sums[index]) / user_rating_counts[index]
-                self.user_average[index] = user_average
                 self.user_centered[index] = user_average - self.global_mean
             else:
-                self.user_average[index] = self.global_mean
                 self.user_centered[index] = 0
 
 
@@ -131,3 +126,34 @@ class BaselineRecommendations:
         print "Finished converting to csc and csr"
         rmse = self.calculate_baseline_error()
         print "RMSE Baseline: " + str(rmse)
+
+if __name__ == '__main__':
+    start_time = time.time()
+    print "Running Baseline Estimate on Random Dataset"
+
+    dataset = 'random'
+    random_training_filepath = 'matrices/{}_training.npz'.format(dataset)
+    random_testing_filepath = 'matrices/{}_test.npz'.format(dataset)
+
+    random_test = sparse.load_npz(random_testing_filepath)
+    random_training = sparse.load_npz(random_training_filepath)
+
+    random_baseline = BaselineRecommendations(random_training,random_test)
+    random_baseline.run_baseline()
+
+    print "Baseline Estimate on Random Dataset done in {} seconds".format(time.time() - start_time)
+
+    start_time = time.time()
+    print "Running Baseline Estimate on Arbitrary Dataset"
+
+    dataset = 'arbitrary'
+    arbitrary_training_filepath = 'matrices/{}_training.npz'.format(dataset)
+    arbitrary_testing_filepath = 'matrices/{}_test.npz'.format(dataset)
+
+    arbitrary_test = sparse.load_npz(arbitrary_testing_filepath)
+    arbitrary_training = sparse.load_npz(arbitrary_training_filepath)
+
+    arbitrary_baseline = BaselineRecommendations(arbitrary_training, arbitrary_test)
+    arbitrary_baseline.run_baseline()
+
+    print "Baseline Estimate on Random Dataset done in {} seconds".format(time.time() - start_time)

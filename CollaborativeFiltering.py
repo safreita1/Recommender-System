@@ -189,8 +189,15 @@ class CollaborativeFiltering:
 
 if __name__ == '__main__':
     # This should not take more time than a minute or two
+    start_time = time.time()
+    print "Running Collaborative Filtering on Random Dataset"
     recommender = CollaborativeFiltering()
+
     # This took two hours to run on a 4 GHz i7e six core processor with 16 GB ram on an SSD
     recommender.collaborative_filter()
+    print "Collaborative Filter on Random Dataset done in {} seconds".format(time.time() - start_time)
+    start_time = time.time()
+    print "Running Collaborative Filtering on Arbitrary Dataset"
     recommender_arbitary = CollaborativeFiltering(dataset='arbitrary')
     recommender_arbitary.collaborative_filter()
+    print "Collaborative Filter on Arbitrary Dataset done in  {} seconds".format(time.time() - start_time)

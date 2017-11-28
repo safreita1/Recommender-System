@@ -1,93 +1,5090 @@
+Running Collaborative Filtering on Random Dataset
 Initializing Collaborative Filtering
 Running Center Matrix
-Center Matrix done in 5.90000009537 seconds
+Center Matrix done in 6.20799994469 seconds
 Building Similarity Matrix
-Building Similarity Matrix done in 43.7209999561 seconds
-Class initialization done in 53.120000124 seconds
+Building Similarity Matrix done in 46.4619998932 seconds
+Class initialization done in 56.4719998837 seconds
 Collaborative Filter RMSE
 Current Cycle: 1000 
-Time for last 1000 cycles: 4.35899996758
+Time for last 1000 cycles: 4.52100014687
 Current Cycle: 2000 
-Time for last 1000 cycles: 3.72399997711
+Time for last 1000 cycles: 3.80399990082
 Current Cycle: 3000 
-Time for last 1000 cycles: 4.90799999237
+Time for last 1000 cycles: 5.17899990082
 Current Cycle: 4000 
-Time for last 1000 cycles: 5.42100000381
+Time for last 1000 cycles: 6.14299988747
 Current Cycle: 5000 
-Time for last 1000 cycles: 4.10400009155
+Time for last 1000 cycles: 4.30599999428
 Current Cycle: 6000 
-Time for last 1000 cycles: 4.25999999046
+Time for last 1000 cycles: 4.48699998856
 Current Cycle: 7000 
-Time for last 1000 cycles: 7.56999993324
+Time for last 1000 cycles: 8.23599982262
 Current Cycle: 8000 
-Time for last 1000 cycles: 4.33999991417
+Time for last 1000 cycles: 4.66499996185
 Current Cycle: 9000 
-Time for last 1000 cycles: 4.9430000782
+Time for last 1000 cycles: 5.22000002861
 Current Cycle: 10000 
-Time for last 1000 cycles: 3.31599998474
+Time for last 1000 cycles: 3.49400019646
 Current Cycle: 11000 
-Time for last 1000 cycles: 4.93200016022
+Time for last 1000 cycles: 5.13100004196
 Current Cycle: 12000 
-Time for last 1000 cycles: 5.09299993515
+Time for last 1000 cycles: 5.29299998283
 Current Cycle: 13000 
-Time for last 1000 cycles: 5.13400006294
+Time for last 1000 cycles: 5.37199997902
 Current Cycle: 14000 
-Time for last 1000 cycles: 3.32299995422
+Time for last 1000 cycles: 3.41400003433
 Current Cycle: 15000 
-Time for last 1000 cycles: 6.22799992561
+Time for last 1000 cycles: 6.53500008583
 Current Cycle: 16000 
-Time for last 1000 cycles: 4.57299995422
+Time for last 1000 cycles: 4.79299998283
 Current Cycle: 17000 
-Time for last 1000 cycles: 3.32800006866
+Time for last 1000 cycles: 3.48399996758
 Current Cycle: 18000 
-Time for last 1000 cycles: 6.75300002098
+Time for last 1000 cycles: 7.06299996376
 Current Cycle: 19000 
-Time for last 1000 cycles: 5.0150001049
+Time for last 1000 cycles: 5.22400021553
 Current Cycle: 20000 
-Time for last 1000 cycles: 3.7539999485
+Time for last 1000 cycles: 3.92299985886
 Current Cycle: 21000 
-Time for last 1000 cycles: 5.21899986267
+Time for last 1000 cycles: 5.41199994087
 Current Cycle: 22000 
-Time for last 1000 cycles: 5.19400000572
+Time for last 1000 cycles: 5.42299985886
 Current Cycle: 23000 
-Time for last 1000 cycles: 4.89699983597
+Time for last 1000 cycles: 5.14399981499
 Current Cycle: 24000 
-Time for last 1000 cycles: 8.41100001335
+Time for last 1000 cycles: 8.86000013351
 Current Cycle: 25000 
-Time for last 1000 cycles: 11.9240000248
+Time for last 1000 cycles: 12.6909999847
 Current Cycle: 26000 
-Time for last 1000 cycles: 3.91799998283
+Time for last 1000 cycles: 4.1890001297
 Current Cycle: 27000 
-Time for last 1000 cycles: 3.40000009537
+Time for last 1000 cycles: 3.61199998856
 Current Cycle: 28000 
-Time for last 1000 cycles: 4.5649998188
+Time for last 1000 cycles: 4.82399988174
 Current Cycle: 29000 
-Time for last 1000 cycles: 4.20700001717
+Time for last 1000 cycles: 4.41400003433
 Current Cycle: 30000 
-Time for last 1000 cycles: 4.74000000954
+Time for last 1000 cycles: 5.00999999046
 Current Cycle: 31000 
-Time for last 1000 cycles: 3.7389998436
+Time for last 1000 cycles: 4.40499997139
 Current Cycle: 32000 
-Time for last 1000 cycles: 4.07500004768
+Time for last 1000 cycles: 4.65300011635
 Current Cycle: 33000 
-Time for last 1000 cycles: 3.17999982834
+Time for last 1000 cycles: 3.32399988174
 Current Cycle: 34000 
-Time for last 1000 cycles: 3.56699991226
+Time for last 1000 cycles: 3.77100014687
 Current Cycle: 35000 
-Time for last 1000 cycles: 4.55799984932
+Time for last 1000 cycles: 4.76900005341
 Current Cycle: 36000 
-Time for last 1000 cycles: 5.49199986458
+Time for last 1000 cycles: 5.94400000572
 Current Cycle: 37000 
-Time for last 1000 cycles: 4.63900017738
+Time for last 1000 cycles: 4.92000007629
 Current Cycle: 38000 
-Time for last 1000 cycles: 3.4960000515
+Time for last 1000 cycles: 3.66799998283
 Current Cycle: 39000 
-Time for last 1000 cycles: 4.25499987602
+Time for last 1000 cycles: 4.49699997902
 Current Cycle: 40000 
-Time for last 1000 cycles: 3.58599996567
+Time for last 1000 cycles: 3.79099988937
 Current Cycle: 41000 
-Time for last 1000 cycles: 5.00600004196
+Time for last 1000 cycles: 5.25099992752
 Current Cycle: 42000 
-Time for last 1000 cycles: 5.28299999237
+Time for last 1000 cycles: 5.55900001526
 Current Cycle: 43000 
-Time for last 1000 cycles: 4.18300008774
+Time for last 1000 cycles: 4.40700006485
+Current Cycle: 44000 
+Time for last 1000 cycles: 5.25599980354
+Current Cycle: 45000 
+Time for last 1000 cycles: 3.84000015259
+Current Cycle: 46000 
+Time for last 1000 cycles: 9.40900015831
+Current Cycle: 47000 
+Time for last 1000 cycles: 6.90700006485
+Current Cycle: 48000 
+Time for last 1000 cycles: 4.61299991608
+Current Cycle: 49000 
+Time for last 1000 cycles: 10.3040001392
+Current Cycle: 50000 
+Time for last 1000 cycles: 5.05599999428
+Current Cycle: 51000 
+Time for last 1000 cycles: 4.47600007057
+Current Cycle: 52000 
+Time for last 1000 cycles: 4.61699986458
+Current Cycle: 53000 
+Time for last 1000 cycles: 3.92600011826
+Current Cycle: 54000 
+Time for last 1000 cycles: 4.13999986649
+Current Cycle: 55000 
+Time for last 1000 cycles: 5.6320002079
+Current Cycle: 56000 
+Time for last 1000 cycles: 7.6740000248
+Current Cycle: 57000 
+Time for last 1000 cycles: 5.12099981308
+Current Cycle: 58000 
+Time for last 1000 cycles: 5.70700001717
+Current Cycle: 59000 
+Time for last 1000 cycles: 3.55599999428
+Current Cycle: 60000 
+Time for last 1000 cycles: 3.59200000763
+Current Cycle: 61000 
+Time for last 1000 cycles: 3.34699988365
+Current Cycle: 62000 
+Time for last 1000 cycles: 4.1819999218
+Current Cycle: 63000 
+Time for last 1000 cycles: 4.55899977684
+Current Cycle: 64000 
+Time for last 1000 cycles: 5.79699993134
+Current Cycle: 65000 
+Time for last 1000 cycles: 4.85099983215
+Current Cycle: 66000 
+Time for last 1000 cycles: 5.23799991608
+Current Cycle: 67000 
+Time for last 1000 cycles: 3.70600008965
+Current Cycle: 68000 
+Time for last 1000 cycles: 4.70499992371
+Current Cycle: 69000 
+Time for last 1000 cycles: 4.2959997654
+Current Cycle: 70000 
+Time for last 1000 cycles: 6.88499999046
+Current Cycle: 71000 
+Time for last 1000 cycles: 5.55900001526
+Current Cycle: 72000 
+Time for last 1000 cycles: 4.09899997711
+Current Cycle: 73000 
+Time for last 1000 cycles: 4.70600008965
+Current Cycle: 74000 
+Time for last 1000 cycles: 4.1130001545
+Current Cycle: 75000 
+Time for last 1000 cycles: 6.49900007248
+Current Cycle: 76000 
+Time for last 1000 cycles: 6.25099992752
+Current Cycle: 77000 
+Time for last 1000 cycles: 5.80399990082
+Current Cycle: 78000 
+Time for last 1000 cycles: 4.31599998474
+Current Cycle: 79000 
+Time for last 1000 cycles: 5.06599998474
+Current Cycle: 80000 
+Time for last 1000 cycles: 4.85800004005
+Current Cycle: 81000 
+Time for last 1000 cycles: 7.47099995613
+Current Cycle: 82000 
+Time for last 1000 cycles: 7.76799988747
+Current Cycle: 83000 
+Time for last 1000 cycles: 4.47000002861
+Current Cycle: 84000 
+Time for last 1000 cycles: 5.6179997921
+Current Cycle: 85000 
+Time for last 1000 cycles: 6.59200000763
+Current Cycle: 86000 
+Time for last 1000 cycles: 10.7190001011
+Current Cycle: 87000 
+Time for last 1000 cycles: 8.33500003815
+Current Cycle: 88000 
+Time for last 1000 cycles: 5.44499993324
+Current Cycle: 89000 
+Time for last 1000 cycles: 5.98199987411
+Current Cycle: 90000 
+Time for last 1000 cycles: 7.14100003242
+Current Cycle: 91000 
+Time for last 1000 cycles: 6.13100004196
+Current Cycle: 92000 
+Time for last 1000 cycles: 7.82999992371
+Current Cycle: 93000 
+Time for last 1000 cycles: 4.57099986076
+Current Cycle: 94000 
+Time for last 1000 cycles: 6.64500021935
+Current Cycle: 95000 
+Time for last 1000 cycles: 5.51300001144
+Current Cycle: 96000 
+Time for last 1000 cycles: 7.22000002861
+Current Cycle: 97000 
+Time for last 1000 cycles: 8.91400003433
+Current Cycle: 98000 
+Time for last 1000 cycles: 4.94799995422
+Current Cycle: 99000 
+Time for last 1000 cycles: 10.2710001469
+Current Cycle: 100000 
+Time for last 1000 cycles: 6.25999999046
+Current Cycle: 101000 
+Time for last 1000 cycles: 4.93899989128
+Current Cycle: 102000 
+Time for last 1000 cycles: 5.62400007248
+Current Cycle: 103000 
+Time for last 1000 cycles: 5.17700004578
+Current Cycle: 104000 
+Time for last 1000 cycles: 6.59299993515
+Current Cycle: 105000 
+Time for last 1000 cycles: 7.34699988365
+Current Cycle: 106000 
+Time for last 1000 cycles: 4.81900000572
+Current Cycle: 107000 
+Time for last 1000 cycles: 6.16700005531
+Current Cycle: 108000 
+Time for last 1000 cycles: 5.13400006294
+Current Cycle: 109000 
+Time for last 1000 cycles: 8.48199987411
+Current Cycle: 110000 
+Time for last 1000 cycles: 7.68099999428
+Current Cycle: 111000 
+Time for last 1000 cycles: 6.25999999046
+Current Cycle: 112000 
+Time for last 1000 cycles: 7.3149998188
+Current Cycle: 113000 
+Time for last 1000 cycles: 7.88700008392
+Current Cycle: 114000 
+Time for last 1000 cycles: 8.27500009537
+Current Cycle: 115000 
+Time for last 1000 cycles: 5.16700005531
+Current Cycle: 116000 
+Time for last 1000 cycles: 5.98099994659
+Current Cycle: 117000 
+Time for last 1000 cycles: 5.46200013161
+Current Cycle: 118000 
+Time for last 1000 cycles: 6.625
+Current Cycle: 119000 
+Time for last 1000 cycles: 7.1210000515
+Current Cycle: 120000 
+Time for last 1000 cycles: 5.83100008965
+Current Cycle: 121000 
+Time for last 1000 cycles: 7.27500009537
+Current Cycle: 122000 
+Time for last 1000 cycles: 9.02500009537
+Current Cycle: 123000 
+Time for last 1000 cycles: 4.78500008583
+Current Cycle: 124000 
+Time for last 1000 cycles: 7.62800002098
+Current Cycle: 125000 
+Time for last 1000 cycles: 8.85899996758
+Current Cycle: 126000 
+Time for last 1000 cycles: 4.9880001545
+Current Cycle: 127000 
+Time for last 1000 cycles: 5.34500002861
+Current Cycle: 128000 
+Time for last 1000 cycles: 11.370000124
+Current Cycle: 129000 
+Time for last 1000 cycles: 5.57999992371
+Current Cycle: 130000 
+Time for last 1000 cycles: 25.2430000305
+Current Cycle: 131000 
+Time for last 1000 cycles: 7.65199995041
+Current Cycle: 132000 
+Time for last 1000 cycles: 5.25899982452
+Current Cycle: 133000 
+Time for last 1000 cycles: 6.49399995804
+Current Cycle: 134000 
+Time for last 1000 cycles: 9.00100016594
+Current Cycle: 135000 
+Time for last 1000 cycles: 4.61100006104
+Current Cycle: 136000 
+Time for last 1000 cycles: 5.09399986267
+Current Cycle: 137000 
+Time for last 1000 cycles: 6.38100004196
+Current Cycle: 138000 
+Time for last 1000 cycles: 10.3139998913
+Current Cycle: 139000 
+Time for last 1000 cycles: 8.20700001717
+Current Cycle: 140000 
+Time for last 1000 cycles: 4.84500002861
+Current Cycle: 141000 
+Time for last 1000 cycles: 7.82699990273
+Current Cycle: 142000 
+Time for last 1000 cycles: 5.01600003242
+Current Cycle: 143000 
+Time for last 1000 cycles: 5.20600008965
+Current Cycle: 144000 
+Time for last 1000 cycles: 4.94400000572
+Current Cycle: 145000 
+Time for last 1000 cycles: 8.30700016022
+Current Cycle: 146000 
+Time for last 1000 cycles: 6.89600014687
+Current Cycle: 147000 
+Time for last 1000 cycles: 14.3440001011
+Current Cycle: 148000 
+Time for last 1000 cycles: 10.2769999504
+Current Cycle: 149000 
+Time for last 1000 cycles: 6.98399996758
+Current Cycle: 150000 
+Time for last 1000 cycles: 12.5850000381
+Current Cycle: 151000 
+Time for last 1000 cycles: 6.28200006485
+Current Cycle: 152000 
+Time for last 1000 cycles: 6.95700001717
+Current Cycle: 153000 
+Time for last 1000 cycles: 3.23699998856
+Current Cycle: 154000 
+Time for last 1000 cycles: 4.19099998474
+Current Cycle: 155000 
+Time for last 1000 cycles: 2.64500021935
+Current Cycle: 156000 
+Time for last 1000 cycles: 4.58200001717
+Current Cycle: 157000 
+Time for last 1000 cycles: 3.80599999428
+Current Cycle: 158000 
+Time for last 1000 cycles: 6.30900001526
+Current Cycle: 159000 
+Time for last 1000 cycles: 2.65899991989
+Current Cycle: 160000 
+Time for last 1000 cycles: 12.132999897
+Current Cycle: 161000 
+Time for last 1000 cycles: 3.33800005913
+Current Cycle: 162000 
+Time for last 1000 cycles: 2.55500006676
+Current Cycle: 163000 
+Time for last 1000 cycles: 3.31500005722
+Current Cycle: 164000 
+Time for last 1000 cycles: 3.1320002079
+Current Cycle: 165000 
+Time for last 1000 cycles: 4.02900004387
+Current Cycle: 166000 
+Time for last 1000 cycles: 3.3029999733
+Current Cycle: 167000 
+Time for last 1000 cycles: 3.07699990273
+Current Cycle: 168000 
+Time for last 1000 cycles: 3.9390001297
+Current Cycle: 169000 
+Time for last 1000 cycles: 3.92700004578
+Current Cycle: 170000 
+Time for last 1000 cycles: 5.06999993324
+Current Cycle: 171000 
+Time for last 1000 cycles: 4.01300001144
+Current Cycle: 172000 
+Time for last 1000 cycles: 4.33100008965
+Current Cycle: 173000 
+Time for last 1000 cycles: 6.42700004578
+Current Cycle: 174000 
+Time for last 1000 cycles: 6.74000000954
+Current Cycle: 175000 
+Time for last 1000 cycles: 6.77800011635
+Current Cycle: 176000 
+Time for last 1000 cycles: 6.81699991226
+Current Cycle: 177000 
+Time for last 1000 cycles: 10.2860000134
+Current Cycle: 178000 
+Time for last 1000 cycles: 3.60599994659
+Current Cycle: 179000 
+Time for last 1000 cycles: 9.19800019264
+Current Cycle: 180000 
+Time for last 1000 cycles: 6.39600014687
+Current Cycle: 181000 
+Time for last 1000 cycles: 4.15699982643
+Current Cycle: 182000 
+Time for last 1000 cycles: 5.58299994469
+Current Cycle: 183000 
+Time for last 1000 cycles: 3.39299988747
+Current Cycle: 184000 
+Time for last 1000 cycles: 8.70799994469
+Current Cycle: 185000 
+Time for last 1000 cycles: 10.1529998779
+Current Cycle: 186000 
+Time for last 1000 cycles: 5.74399995804
+Current Cycle: 187000 
+Time for last 1000 cycles: 5.89399981499
+Current Cycle: 188000 
+Time for last 1000 cycles: 5.32800006866
+Current Cycle: 189000 
+Time for last 1000 cycles: 5.80099987984
+Current Cycle: 190000 
+Time for last 1000 cycles: 7.14199995995
+Current Cycle: 191000 
+Time for last 1000 cycles: 6.25
+Current Cycle: 192000 
+Time for last 1000 cycles: 5.75599980354
+Current Cycle: 193000 
+Time for last 1000 cycles: 5.97999978065
+Current Cycle: 194000 
+Time for last 1000 cycles: 5.42899990082
+Current Cycle: 195000 
+Time for last 1000 cycles: 10.9330000877
+Current Cycle: 196000 
+Time for last 1000 cycles: 8.35899996758
+Current Cycle: 197000 
+Time for last 1000 cycles: 15.7969999313
+Current Cycle: 198000 
+Time for last 1000 cycles: 9.98500013351
+Current Cycle: 199000 
+Time for last 1000 cycles: 7.12300014496
+Current Cycle: 200000 
+Time for last 1000 cycles: 7.32699990273
+Current Cycle: 201000 
+Time for last 1000 cycles: 12.1610000134
+Current Cycle: 202000 
+Time for last 1000 cycles: 5.41799998283
+Current Cycle: 203000 
+Time for last 1000 cycles: 5.13400006294
+Current Cycle: 204000 
+Time for last 1000 cycles: 3.59500002861
+Current Cycle: 205000 
+Time for last 1000 cycles: 5.29999995232
+Current Cycle: 206000 
+Time for last 1000 cycles: 5.65000009537
+Current Cycle: 207000 
+Time for last 1000 cycles: 4.32199978828
+Current Cycle: 208000 
+Time for last 1000 cycles: 4.56599998474
+Current Cycle: 209000 
+Time for last 1000 cycles: 5.14099979401
+Current Cycle: 210000 
+Time for last 1000 cycles: 5.74099993706
+Current Cycle: 211000 
+Time for last 1000 cycles: 4.72600007057
+Current Cycle: 212000 
+Time for last 1000 cycles: 3.92200016975
+Current Cycle: 213000 
+Time for last 1000 cycles: 3.51399993896
+Current Cycle: 214000 
+Time for last 1000 cycles: 7.6779999733
+Current Cycle: 215000 
+Time for last 1000 cycles: 8.81799983978
+Current Cycle: 216000 
+Time for last 1000 cycles: 3.07500004768
+Current Cycle: 217000 
+Time for last 1000 cycles: 5.49199986458
+Current Cycle: 218000 
+Time for last 1000 cycles: 8.88599991798
+Current Cycle: 219000 
+Time for last 1000 cycles: 7.79499983788
+Current Cycle: 220000 
+Time for last 1000 cycles: 4.03100013733
+Current Cycle: 221000 
+Time for last 1000 cycles: 4.71200013161
+Current Cycle: 222000 
+Time for last 1000 cycles: 4.15900015831
+Current Cycle: 223000 
+Time for last 1000 cycles: 4.05599999428
+Current Cycle: 224000 
+Time for last 1000 cycles: 6.31500005722
+Current Cycle: 225000 
+Time for last 1000 cycles: 4.79400014877
+Current Cycle: 226000 
+Time for last 1000 cycles: 3.68000006676
+Current Cycle: 227000 
+Time for last 1000 cycles: 4.11899995804
+Current Cycle: 228000 
+Time for last 1000 cycles: 5.10500001907
+Current Cycle: 229000 
+Time for last 1000 cycles: 3.52699995041
+Current Cycle: 230000 
+Time for last 1000 cycles: 4.47699999809
+Current Cycle: 231000 
+Time for last 1000 cycles: 4.31200003624
+Current Cycle: 232000 
+Time for last 1000 cycles: 3.367000103
+Current Cycle: 233000 
+Time for last 1000 cycles: 4.73799991608
+Current Cycle: 234000 
+Time for last 1000 cycles: 3.34399986267
+Current Cycle: 235000 
+Time for last 1000 cycles: 3.73399996758
+Current Cycle: 236000 
+Time for last 1000 cycles: 8.29600000381
+Current Cycle: 237000 
+Time for last 1000 cycles: 10.3159999847
+Current Cycle: 238000 
+Time for last 1000 cycles: 5.98099994659
+Current Cycle: 239000 
+Time for last 1000 cycles: 4.07099986076
+Current Cycle: 240000 
+Time for last 1000 cycles: 4.70799994469
+Current Cycle: 241000 
+Time for last 1000 cycles: 3.74399995804
+Current Cycle: 242000 
+Time for last 1000 cycles: 3.2349998951
+Current Cycle: 243000 
+Time for last 1000 cycles: 7.15499997139
+Current Cycle: 244000 
+Time for last 1000 cycles: 4.85500001907
+Current Cycle: 245000 
+Time for last 1000 cycles: 3.03999996185
+Current Cycle: 246000 
+Time for last 1000 cycles: 3.26999998093
+Current Cycle: 247000 
+Time for last 1000 cycles: 4.35000014305
+Current Cycle: 248000 
+Time for last 1000 cycles: 4.75100016594
+Current Cycle: 249000 
+Time for last 1000 cycles: 3.82999992371
+Current Cycle: 250000 
+Time for last 1000 cycles: 4.5720000267
+Current Cycle: 251000 
+Time for last 1000 cycles: 4.48599982262
+Current Cycle: 252000 
+Time for last 1000 cycles: 5.47500014305
+Current Cycle: 253000 
+Time for last 1000 cycles: 3.27300000191
+Current Cycle: 254000 
+Time for last 1000 cycles: 4.48099994659
+Current Cycle: 255000 
+Time for last 1000 cycles: 4.82999992371
+Current Cycle: 256000 
+Time for last 1000 cycles: 5.93799996376
+Current Cycle: 257000 
+Time for last 1000 cycles: 3.43099999428
+Current Cycle: 258000 
+Time for last 1000 cycles: 4.10699987411
+Current Cycle: 259000 
+Time for last 1000 cycles: 4.27499985695
+Current Cycle: 260000 
+Time for last 1000 cycles: 4.39400005341
+Current Cycle: 261000 
+Time for last 1000 cycles: 3.79099988937
+Current Cycle: 262000 
+Time for last 1000 cycles: 3.54000020027
+Current Cycle: 263000 
+Time for last 1000 cycles: 4.70399999619
+Current Cycle: 264000 
+Time for last 1000 cycles: 5.36599993706
+Current Cycle: 265000 
+Time for last 1000 cycles: 4.22799992561
+Current Cycle: 266000 
+Time for last 1000 cycles: 5.17500019073
+Current Cycle: 267000 
+Time for last 1000 cycles: 8.257999897
+Current Cycle: 268000 
+Time for last 1000 cycles: 5.99399995804
+Current Cycle: 269000 
+Time for last 1000 cycles: 3.77800011635
+Current Cycle: 270000 
+Time for last 1000 cycles: 5.65700006485
+Current Cycle: 271000 
+Time for last 1000 cycles: 6.02799987793
+Current Cycle: 272000 
+Time for last 1000 cycles: 6.62599992752
+Current Cycle: 273000 
+Time for last 1000 cycles: 6.18499994278
+Current Cycle: 274000 
+Time for last 1000 cycles: 5.4470000267
+Current Cycle: 275000 
+Time for last 1000 cycles: 7.76699995995
+Current Cycle: 276000 
+Time for last 1000 cycles: 5.52399992943
+Current Cycle: 277000 
+Time for last 1000 cycles: 3.43099999428
+Current Cycle: 278000 
+Time for last 1000 cycles: 6.76799988747
+Current Cycle: 279000 
+Time for last 1000 cycles: 4.09999990463
+Current Cycle: 280000 
+Time for last 1000 cycles: 6.75900006294
+Current Cycle: 281000 
+Time for last 1000 cycles: 4.25300002098
+Current Cycle: 282000 
+Time for last 1000 cycles: 6.03900003433
+Current Cycle: 283000 
+Time for last 1000 cycles: 4.22399997711
+Current Cycle: 284000 
+Time for last 1000 cycles: 3.86100006104
+Current Cycle: 285000 
+Time for last 1000 cycles: 9.12299990654
+Current Cycle: 286000 
+Time for last 1000 cycles: 8.05999994278
+Current Cycle: 287000 
+Time for last 1000 cycles: 11.2620000839
+Current Cycle: 288000 
+Time for last 1000 cycles: 4.46799993515
+Current Cycle: 289000 
+Time for last 1000 cycles: 4.21600008011
+Current Cycle: 290000 
+Time for last 1000 cycles: 4.34500002861
+Current Cycle: 291000 
+Time for last 1000 cycles: 4.30200004578
+Current Cycle: 292000 
+Time for last 1000 cycles: 4.55700016022
+Current Cycle: 293000 
+Time for last 1000 cycles: 6.01699995995
+Current Cycle: 294000 
+Time for last 1000 cycles: 4.3069999218
+Current Cycle: 295000 
+Time for last 1000 cycles: 4.81900000572
+Current Cycle: 296000 
+Time for last 1000 cycles: 4.88899993896
+Current Cycle: 297000 
+Time for last 1000 cycles: 3.79800009727
+Current Cycle: 298000 
+Time for last 1000 cycles: 3.89699983597
+Current Cycle: 299000 
+Time for last 1000 cycles: 6.11599993706
+Current Cycle: 300000 
+Time for last 1000 cycles: 7.87199997902
+Current Cycle: 301000 
+Time for last 1000 cycles: 5.5569999218
+Current Cycle: 302000 
+Time for last 1000 cycles: 5.33200001717
+Current Cycle: 303000 
+Time for last 1000 cycles: 3.75699996948
+Current Cycle: 304000 
+Time for last 1000 cycles: 3.3900001049
+Current Cycle: 305000 
+Time for last 1000 cycles: 3.85700011253
+Current Cycle: 306000 
+Time for last 1000 cycles: 5.10799980164
+Current Cycle: 307000 
+Time for last 1000 cycles: 2.97300004959
+Current Cycle: 308000 
+Time for last 1000 cycles: 3.95000004768
+Current Cycle: 309000 
+Time for last 1000 cycles: 4.43400001526
+Current Cycle: 310000 
+Time for last 1000 cycles: 7.54399991035
+Current Cycle: 311000 
+Time for last 1000 cycles: 3.42100000381
+Current Cycle: 312000 
+Time for last 1000 cycles: 7.17300009727
+Current Cycle: 313000 
+Time for last 1000 cycles: 3.66100001335
+Current Cycle: 314000 
+Time for last 1000 cycles: 4.59899997711
+Current Cycle: 315000 
+Time for last 1000 cycles: 5.46700000763
+Current Cycle: 316000 
+Time for last 1000 cycles: 4.05999994278
+Current Cycle: 317000 
+Time for last 1000 cycles: 5.42700004578
+Current Cycle: 318000 
+Time for last 1000 cycles: 8.12600016594
+Current Cycle: 319000 
+Time for last 1000 cycles: 4.242000103
+Current Cycle: 320000 
+Time for last 1000 cycles: 6.257999897
+Current Cycle: 321000 
+Time for last 1000 cycles: 4.03799986839
+Current Cycle: 322000 
+Time for last 1000 cycles: 5.12199997902
+Current Cycle: 323000 
+Time for last 1000 cycles: 5.77200007439
+Current Cycle: 324000 
+Time for last 1000 cycles: 4.96600008011
+Current Cycle: 325000 
+Time for last 1000 cycles: 4.9319999218
+Current Cycle: 326000 
+Time for last 1000 cycles: 5.26799988747
+Current Cycle: 327000 
+Time for last 1000 cycles: 4.32299995422
+Current Cycle: 328000 
+Time for last 1000 cycles: 7.03500008583
+Current Cycle: 329000 
+Time for last 1000 cycles: 5.23100018501
+Current Cycle: 330000 
+Time for last 1000 cycles: 5.33300018311
+Current Cycle: 331000 
+Time for last 1000 cycles: 4.87700009346
+Current Cycle: 332000 
+Time for last 1000 cycles: 4.11800003052
+Current Cycle: 333000 
+Time for last 1000 cycles: 3.73199987411
+Current Cycle: 334000 
+Time for last 1000 cycles: 5.3599998951
+Current Cycle: 335000 
+Time for last 1000 cycles: 4.66900014877
+Current Cycle: 336000 
+Time for last 1000 cycles: 5.16799998283
+Current Cycle: 337000 
+Time for last 1000 cycles: 4.37600016594
+Current Cycle: 338000 
+Time for last 1000 cycles: 6.71100020409
+Current Cycle: 339000 
+Time for last 1000 cycles: 3.27300000191
+Current Cycle: 340000 
+Time for last 1000 cycles: 4.50199985504
+Current Cycle: 341000 
+Time for last 1000 cycles: 4.25
+Current Cycle: 342000 
+Time for last 1000 cycles: 6.86500000954
+Current Cycle: 343000 
+Time for last 1000 cycles: 4.125
+Current Cycle: 344000 
+Time for last 1000 cycles: 7.49399995804
+Current Cycle: 345000 
+Time for last 1000 cycles: 4.06500005722
+Current Cycle: 346000 
+Time for last 1000 cycles: 6.18400001526
+Current Cycle: 347000 
+Time for last 1000 cycles: 4.85599994659
+Current Cycle: 348000 
+Time for last 1000 cycles: 5.85400009155
+Current Cycle: 349000 
+Time for last 1000 cycles: 3.59399986267
+Current Cycle: 350000 
+Time for last 1000 cycles: 4.58399987221
+Current Cycle: 351000 
+Time for last 1000 cycles: 5.80099987984
+Current Cycle: 352000 
+Time for last 1000 cycles: 6.21099996567
+Current Cycle: 353000 
+Time for last 1000 cycles: 5.38900017738
+Current Cycle: 354000 
+Time for last 1000 cycles: 4.66700005531
+Current Cycle: 355000 
+Time for last 1000 cycles: 7.01900005341
+Current Cycle: 356000 
+Time for last 1000 cycles: 6.63499999046
+Current Cycle: 357000 
+Time for last 1000 cycles: 5.83299994469
+Current Cycle: 358000 
+Time for last 1000 cycles: 7.51999998093
+Current Cycle: 359000 
+Time for last 1000 cycles: 5.97099995613
+Current Cycle: 360000 
+Time for last 1000 cycles: 4.91599988937
+Current Cycle: 361000 
+Time for last 1000 cycles: 4.39699983597
+Current Cycle: 362000 
+Time for last 1000 cycles: 4.70600008965
+Current Cycle: 363000 
+Time for last 1000 cycles: 10.8170001507
+Current Cycle: 364000 
+Time for last 1000 cycles: 9.39600014687
+Current Cycle: 365000 
+Time for last 1000 cycles: 5.8259999752
+Current Cycle: 366000 
+Time for last 1000 cycles: 7.22900009155
+Current Cycle: 367000 
+Time for last 1000 cycles: 6.52400016785
+Current Cycle: 368000 
+Time for last 1000 cycles: 6.45799994469
+Current Cycle: 369000 
+Time for last 1000 cycles: 5.56900000572
+Current Cycle: 370000 
+Time for last 1000 cycles: 4.75699996948
+Current Cycle: 371000 
+Time for last 1000 cycles: 5.67900013924
+Current Cycle: 372000 
+Time for last 1000 cycles: 7.72099995613
+Current Cycle: 373000 
+Time for last 1000 cycles: 5.73000001907
+Current Cycle: 374000 
+Time for last 1000 cycles: 4.90600013733
+Current Cycle: 375000 
+Time for last 1000 cycles: 4.62800002098
+Current Cycle: 376000 
+Time for last 1000 cycles: 6.4279999733
+Current Cycle: 377000 
+Time for last 1000 cycles: 3.86600017548
+Current Cycle: 378000 
+Time for last 1000 cycles: 8.63899993896
+Current Cycle: 379000 
+Time for last 1000 cycles: 16.1089999676
+Current Cycle: 380000 
+Time for last 1000 cycles: 9.88899993896
+Current Cycle: 381000 
+Time for last 1000 cycles: 4.91499996185
+Current Cycle: 382000 
+Time for last 1000 cycles: 5.70199990273
+Current Cycle: 383000 
+Time for last 1000 cycles: 6.43499994278
+Current Cycle: 384000 
+Time for last 1000 cycles: 7.18600010872
+Current Cycle: 385000 
+Time for last 1000 cycles: 7.02999997139
+Current Cycle: 386000 
+Time for last 1000 cycles: 5.56999993324
+Current Cycle: 387000 
+Time for last 1000 cycles: 9.33899998665
+Current Cycle: 388000 
+Time for last 1000 cycles: 7.24099993706
+Current Cycle: 389000 
+Time for last 1000 cycles: 10.6840000153
+Current Cycle: 390000 
+Time for last 1000 cycles: 6.39399981499
+Current Cycle: 391000 
+Time for last 1000 cycles: 6.54600000381
+Current Cycle: 392000 
+Time for last 1000 cycles: 11.6670000553
+Current Cycle: 393000 
+Time for last 1000 cycles: 7.07500004768
+Current Cycle: 394000 
+Time for last 1000 cycles: 3.96799993515
+Current Cycle: 395000 
+Time for last 1000 cycles: 4.78299999237
+Current Cycle: 396000 
+Time for last 1000 cycles: 14.126999855
+Current Cycle: 397000 
+Time for last 1000 cycles: 5.41599988937
+Current Cycle: 398000 
+Time for last 1000 cycles: 5.95399999619
+Current Cycle: 399000 
+Time for last 1000 cycles: 4.67499995232
+Current Cycle: 400000 
+Time for last 1000 cycles: 6.08500003815
+Current Cycle: 401000 
+Time for last 1000 cycles: 8.43600010872
+Current Cycle: 402000 
+Time for last 1000 cycles: 12.5469999313
+Current Cycle: 403000 
+Time for last 1000 cycles: 5.07500004768
+Current Cycle: 404000 
+Time for last 1000 cycles: 8.64599990845
+Current Cycle: 405000 
+Time for last 1000 cycles: 6.257999897
+Current Cycle: 406000 
+Time for last 1000 cycles: 7.65499997139
+Current Cycle: 407000 
+Time for last 1000 cycles: 5.73699998856
+Current Cycle: 408000 
+Time for last 1000 cycles: 4.38800001144
+Current Cycle: 409000 
+Time for last 1000 cycles: 4.40700006485
+Current Cycle: 410000 
+Time for last 1000 cycles: 7.04800009727
+Current Cycle: 411000 
+Time for last 1000 cycles: 9.07899999619
+Current Cycle: 412000 
+Time for last 1000 cycles: 9.03900003433
+Current Cycle: 413000 
+Time for last 1000 cycles: 4.24000000954
+Current Cycle: 414000 
+Time for last 1000 cycles: 5.41999983788
+Current Cycle: 415000 
+Time for last 1000 cycles: 5.58300018311
+Current Cycle: 416000 
+Time for last 1000 cycles: 5.3259999752
+Current Cycle: 417000 
+Time for last 1000 cycles: 6.71600008011
+Current Cycle: 418000 
+Time for last 1000 cycles: 7.54799985886
+Current Cycle: 419000 
+Time for last 1000 cycles: 7.1859998703
+Current Cycle: 420000 
+Time for last 1000 cycles: 6.48399996758
+Current Cycle: 421000 
+Time for last 1000 cycles: 7.16499996185
+Current Cycle: 422000 
+Time for last 1000 cycles: 5.08399987221
+Current Cycle: 423000 
+Time for last 1000 cycles: 5.23500013351
+Current Cycle: 424000 
+Time for last 1000 cycles: 5.14599990845
+Current Cycle: 425000 
+Time for last 1000 cycles: 3.81699991226
+Current Cycle: 426000 
+Time for last 1000 cycles: 4.09800004959
+Current Cycle: 427000 
+Time for last 1000 cycles: 3.94000005722
+Current Cycle: 428000 
+Time for last 1000 cycles: 6.1970000267
+Current Cycle: 429000 
+Time for last 1000 cycles: 4.84100008011
+Current Cycle: 430000 
+Time for last 1000 cycles: 6.24000000954
+Current Cycle: 431000 
+Time for last 1000 cycles: 8.20500016212
+Current Cycle: 432000 
+Time for last 1000 cycles: 4.78600001335
+Current Cycle: 433000 
+Time for last 1000 cycles: 6.54299998283
+Current Cycle: 434000 
+Time for last 1000 cycles: 6.16999983788
+Current Cycle: 435000 
+Time for last 1000 cycles: 4.35599994659
+Current Cycle: 436000 
+Time for last 1000 cycles: 9.99099993706
+Current Cycle: 437000 
+Time for last 1000 cycles: 5.72199988365
+Current Cycle: 438000 
+Time for last 1000 cycles: 5.83100008965
+Current Cycle: 439000 
+Time for last 1000 cycles: 4.82500004768
+Current Cycle: 440000 
+Time for last 1000 cycles: 4.23300004005
+Current Cycle: 441000 
+Time for last 1000 cycles: 10.4830000401
+Current Cycle: 442000 
+Time for last 1000 cycles: 4.99399995804
+Current Cycle: 443000 
+Time for last 1000 cycles: 5.99699997902
+Current Cycle: 444000 
+Time for last 1000 cycles: 5.99399995804
+Current Cycle: 445000 
+Time for last 1000 cycles: 5.34900021553
+Current Cycle: 446000 
+Time for last 1000 cycles: 7.74900007248
+Current Cycle: 447000 
+Time for last 1000 cycles: 7.2539999485
+Current Cycle: 448000 
+Time for last 1000 cycles: 5.58299994469
+Current Cycle: 449000 
+Time for last 1000 cycles: 8.33999991417
+Current Cycle: 450000 
+Time for last 1000 cycles: 7.0490000248
+Current Cycle: 451000 
+Time for last 1000 cycles: 5.78500008583
+Current Cycle: 452000 
+Time for last 1000 cycles: 5.11999988556
+Current Cycle: 453000 
+Time for last 1000 cycles: 5.08700013161
+Current Cycle: 454000 
+Time for last 1000 cycles: 6.16000008583
+Current Cycle: 455000 
+Time for last 1000 cycles: 6.05500006676
+Current Cycle: 456000 
+Time for last 1000 cycles: 5.37399983406
+Current Cycle: 457000 
+Time for last 1000 cycles: 4.70799994469
+Current Cycle: 458000 
+Time for last 1000 cycles: 5.86000013351
+Current Cycle: 459000 
+Time for last 1000 cycles: 6.56299996376
+Current Cycle: 460000 
+Time for last 1000 cycles: 8.16899991035
+Current Cycle: 461000 
+Time for last 1000 cycles: 7.37400007248
+Current Cycle: 462000 
+Time for last 1000 cycles: 5.10299992561
+Current Cycle: 463000 
+Time for last 1000 cycles: 6.16199994087
+Current Cycle: 464000 
+Time for last 1000 cycles: 5.33200001717
+Current Cycle: 465000 
+Time for last 1000 cycles: 8.16200017929
+Current Cycle: 466000 
+Time for last 1000 cycles: 6.37299990654
+Current Cycle: 467000 
+Time for last 1000 cycles: 6.28599977493
+Current Cycle: 468000 
+Time for last 1000 cycles: 5.60400009155
+Current Cycle: 469000 
+Time for last 1000 cycles: 4.86000013351
+Current Cycle: 470000 
+Time for last 1000 cycles: 6.90599989891
+Current Cycle: 471000 
+Time for last 1000 cycles: 4.85199999809
+Current Cycle: 472000 
+Time for last 1000 cycles: 5.55200004578
+Current Cycle: 473000 
+Time for last 1000 cycles: 5.80000019073
+Current Cycle: 474000 
+Time for last 1000 cycles: 6.15499997139
+Current Cycle: 475000 
+Time for last 1000 cycles: 9.98699998856
+Current Cycle: 476000 
+Time for last 1000 cycles: 9.77099990845
+Current Cycle: 477000 
+Time for last 1000 cycles: 4.89999985695
+Current Cycle: 478000 
+Time for last 1000 cycles: 5.34699988365
+Current Cycle: 479000 
+Time for last 1000 cycles: 9.79999995232
+Current Cycle: 480000 
+Time for last 1000 cycles: 5.41599988937
+Current Cycle: 481000 
+Time for last 1000 cycles: 4.62800002098
+Current Cycle: 482000 
+Time for last 1000 cycles: 5.90999984741
+Current Cycle: 483000 
+Time for last 1000 cycles: 6.95200014114
+Current Cycle: 484000 
+Time for last 1000 cycles: 7.72300004959
+Current Cycle: 485000 
+Time for last 1000 cycles: 5.3820002079
+Current Cycle: 486000 
+Time for last 1000 cycles: 5.00300002098
+Current Cycle: 487000 
+Time for last 1000 cycles: 4.9240000248
+Current Cycle: 488000 
+Time for last 1000 cycles: 6.55800008774
+Current Cycle: 489000 
+Time for last 1000 cycles: 3.86400008202
+Current Cycle: 490000 
+Time for last 1000 cycles: 4.06900000572
+Current Cycle: 491000 
+Time for last 1000 cycles: 5.09300017357
+Current Cycle: 492000 
+Time for last 1000 cycles: 7.75999999046
+Current Cycle: 493000 
+Time for last 1000 cycles: 4.89199995995
+Current Cycle: 494000 
+Time for last 1000 cycles: 6.73199987411
+Current Cycle: 495000 
+Time for last 1000 cycles: 13.7740001678
+Current Cycle: 496000 
+Time for last 1000 cycles: 8.14599990845
+Current Cycle: 497000 
+Time for last 1000 cycles: 6.49699997902
+Current Cycle: 498000 
+Time for last 1000 cycles: 4.48300004005
+Current Cycle: 499000 
+Time for last 1000 cycles: 7.67000007629
+Current Cycle: 500000 
+Time for last 1000 cycles: 6.38199996948
+Current Cycle: 501000 
+Time for last 1000 cycles: 13.881000042
+Current Cycle: 502000 
+Time for last 1000 cycles: 12.0620000362
+Current Cycle: 503000 
+Time for last 1000 cycles: 6.08000016212
+Current Cycle: 504000 
+Time for last 1000 cycles: 3.89299988747
+Current Cycle: 505000 
+Time for last 1000 cycles: 5.22099995613
+Current Cycle: 506000 
+Time for last 1000 cycles: 5.30400013924
+Current Cycle: 507000 
+Time for last 1000 cycles: 5.19799995422
+Current Cycle: 508000 
+Time for last 1000 cycles: 9.36199998856
+Current Cycle: 509000 
+Time for last 1000 cycles: 8.19800019264
+Current Cycle: 510000 
+Time for last 1000 cycles: 8.09400010109
+Current Cycle: 511000 
+Time for last 1000 cycles: 4.64499998093
+Current Cycle: 512000 
+Time for last 1000 cycles: 6.22999978065
+Current Cycle: 513000 
+Time for last 1000 cycles: 6.01699995995
+Current Cycle: 514000 
+Time for last 1000 cycles: 5.86400008202
+Current Cycle: 515000 
+Time for last 1000 cycles: 13.3229999542
+Current Cycle: 516000 
+Time for last 1000 cycles: 4.97399997711
+Current Cycle: 517000 
+Time for last 1000 cycles: 5.01699995995
+Current Cycle: 518000 
+Time for last 1000 cycles: 4.90199995041
+Current Cycle: 519000 
+Time for last 1000 cycles: 7.68200016022
+Current Cycle: 520000 
+Time for last 1000 cycles: 6.23400020599
+Current Cycle: 521000 
+Time for last 1000 cycles: 5.02099990845
+Current Cycle: 522000 
+Time for last 1000 cycles: 4.25800013542
+Current Cycle: 523000 
+Time for last 1000 cycles: 4.79800009727
+Current Cycle: 524000 
+Time for last 1000 cycles: 5.79100012779
+Current Cycle: 525000 
+Time for last 1000 cycles: 5.2619998455
+Current Cycle: 526000 
+Time for last 1000 cycles: 6.07099986076
+Current Cycle: 527000 
+Time for last 1000 cycles: 6.39900016785
+Current Cycle: 528000 
+Time for last 1000 cycles: 5.65400004387
+Current Cycle: 529000 
+Time for last 1000 cycles: 4.87300014496
+Current Cycle: 530000 
+Time for last 1000 cycles: 4.22599983215
+Current Cycle: 531000 
+Time for last 1000 cycles: 7.36099982262
+Current Cycle: 532000 
+Time for last 1000 cycles: 5.12099981308
+Current Cycle: 533000 
+Time for last 1000 cycles: 5.44500017166
+Current Cycle: 534000 
+Time for last 1000 cycles: 6.09000015259
+Current Cycle: 535000 
+Time for last 1000 cycles: 3.7539999485
+Current Cycle: 536000 
+Time for last 1000 cycles: 5.29400014877
+Current Cycle: 537000 
+Time for last 1000 cycles: 6.74500012398
+Current Cycle: 538000 
+Time for last 1000 cycles: 14.7770001888
+Current Cycle: 539000 
+Time for last 1000 cycles: 16.7590000629
+Current Cycle: 540000 
+Time for last 1000 cycles: 5.34600019455
+Current Cycle: 541000 
+Time for last 1000 cycles: 5.8029999733
+Current Cycle: 542000 
+Time for last 1000 cycles: 7.29999995232
+Current Cycle: 543000 
+Time for last 1000 cycles: 5.98099994659
+Current Cycle: 544000 
+Time for last 1000 cycles: 6.93000006676
+Current Cycle: 545000 
+Time for last 1000 cycles: 6.25100016594
+Current Cycle: 546000 
+Time for last 1000 cycles: 9.54500007629
+Current Cycle: 547000 
+Time for last 1000 cycles: 5.04399991035
+Current Cycle: 548000 
+Time for last 1000 cycles: 4.28200006485
+Current Cycle: 549000 
+Time for last 1000 cycles: 4.3220000267
+Current Cycle: 550000 
+Time for last 1000 cycles: 5.18799996376
+Current Cycle: 551000 
+Time for last 1000 cycles: 4.55399990082
+Current Cycle: 552000 
+Time for last 1000 cycles: 4.38499999046
+Current Cycle: 553000 
+Time for last 1000 cycles: 5.72900009155
+Current Cycle: 554000 
+Time for last 1000 cycles: 3.867000103
+Current Cycle: 555000 
+Time for last 1000 cycles: 4.93000006676
+Current Cycle: 556000 
+Time for last 1000 cycles: 5.07500004768
+Current Cycle: 557000 
+Time for last 1000 cycles: 3.35199999809
+Current Cycle: 558000 
+Time for last 1000 cycles: 3.37600016594
+Current Cycle: 559000 
+Time for last 1000 cycles: 5.17300009727
+Current Cycle: 560000 
+Time for last 1000 cycles: 6.34699988365
+Current Cycle: 561000 
+Time for last 1000 cycles: 4.58599996567
+Current Cycle: 562000 
+Time for last 1000 cycles: 3.45900011063
+Current Cycle: 563000 
+Time for last 1000 cycles: 5.94000005722
+Current Cycle: 564000 
+Time for last 1000 cycles: 4.48500013351
+Current Cycle: 565000 
+Time for last 1000 cycles: 4.45900011063
+Current Cycle: 566000 
+Time for last 1000 cycles: 4.39099979401
+Current Cycle: 567000 
+Time for last 1000 cycles: 3.80399990082
+Current Cycle: 568000 
+Time for last 1000 cycles: 6.26399993896
+Current Cycle: 569000 
+Time for last 1000 cycles: 3.98900008202
+Current Cycle: 570000 
+Time for last 1000 cycles: 5.74900007248
+Current Cycle: 571000 
+Time for last 1000 cycles: 4.03499984741
+Current Cycle: 572000 
+Time for last 1000 cycles: 5.95600008965
+Current Cycle: 573000 
+Time for last 1000 cycles: 7.11299991608
+Current Cycle: 574000 
+Time for last 1000 cycles: 5.86600017548
+Current Cycle: 575000 
+Time for last 1000 cycles: 5.55999994278
+Current Cycle: 576000 
+Time for last 1000 cycles: 8.34699988365
+Current Cycle: 577000 
+Time for last 1000 cycles: 3.63700008392
+Current Cycle: 578000 
+Time for last 1000 cycles: 4.28699994087
+Current Cycle: 579000 
+Time for last 1000 cycles: 4.89400005341
+Current Cycle: 580000 
+Time for last 1000 cycles: 5.22399997711
+Current Cycle: 581000 
+Time for last 1000 cycles: 4.34999990463
+Current Cycle: 582000 
+Time for last 1000 cycles: 4.27900004387
+Current Cycle: 583000 
+Time for last 1000 cycles: 3.48199987411
+Current Cycle: 584000 
+Time for last 1000 cycles: 9.51699995995
+Current Cycle: 585000 
+Time for last 1000 cycles: 3.80900001526
+Current Cycle: 586000 
+Time for last 1000 cycles: 7.35000014305
+Current Cycle: 587000 
+Time for last 1000 cycles: 4.28900003433
+Current Cycle: 588000 
+Time for last 1000 cycles: 3.26300001144
+Current Cycle: 589000 
+Time for last 1000 cycles: 5.53399991989
+Current Cycle: 590000 
+Time for last 1000 cycles: 3.43099999428
+Current Cycle: 591000 
+Time for last 1000 cycles: 2.73600006104
+Current Cycle: 592000 
+Time for last 1000 cycles: 4.79100012779
+Current Cycle: 593000 
+Time for last 1000 cycles: 2.67199993134
+Current Cycle: 594000 
+Time for last 1000 cycles: 4.37600016594
+Current Cycle: 595000 
+Time for last 1000 cycles: 5.4509999752
+Current Cycle: 596000 
+Time for last 1000 cycles: 8.33400011063
+Current Cycle: 597000 
+Time for last 1000 cycles: 5.34800004959
+Current Cycle: 598000 
+Time for last 1000 cycles: 6.41699981689
+Current Cycle: 599000 
+Time for last 1000 cycles: 4.92700004578
+Current Cycle: 600000 
+Time for last 1000 cycles: 4.53500008583
+Current Cycle: 601000 
+Time for last 1000 cycles: 6.72199988365
+Current Cycle: 602000 
+Time for last 1000 cycles: 4.19000005722
+Current Cycle: 603000 
+Time for last 1000 cycles: 3.41400003433
+Current Cycle: 604000 
+Time for last 1000 cycles: 7.66799998283
+Current Cycle: 605000 
+Time for last 1000 cycles: 4.33599996567
+Current Cycle: 606000 
+Time for last 1000 cycles: 8.25200009346
+Current Cycle: 607000 
+Time for last 1000 cycles: 5.742000103
+Current Cycle: 608000 
+Time for last 1000 cycles: 4.06799983978
+Current Cycle: 609000 
+Time for last 1000 cycles: 4.52599978447
+Current Cycle: 610000 
+Time for last 1000 cycles: 5.96499991417
+Current Cycle: 611000 
+Time for last 1000 cycles: 4.65699982643
+Current Cycle: 612000 
+Time for last 1000 cycles: 5.30099987984
+Current Cycle: 613000 
+Time for last 1000 cycles: 4.53999996185
+Current Cycle: 614000 
+Time for last 1000 cycles: 5.33799982071
+Current Cycle: 615000 
+Time for last 1000 cycles: 4.4889998436
+Current Cycle: 616000 
+Time for last 1000 cycles: 5.50500011444
+Current Cycle: 617000 
+Time for last 1000 cycles: 4.0609998703
+Current Cycle: 618000 
+Time for last 1000 cycles: 5.85100007057
+Current Cycle: 619000 
+Time for last 1000 cycles: 5.02399992943
+Current Cycle: 620000 
+Time for last 1000 cycles: 5.67600011826
+Current Cycle: 621000 
+Time for last 1000 cycles: 3.95700001717
+Current Cycle: 622000 
+Time for last 1000 cycles: 4.56799983978
+Current Cycle: 623000 
+Time for last 1000 cycles: 3.36899995804
+Current Cycle: 624000 
+Time for last 1000 cycles: 3.71199989319
+Current Cycle: 625000 
+Time for last 1000 cycles: 4.9240000248
+Current Cycle: 626000 
+Time for last 1000 cycles: 4.39100003242
+Current Cycle: 627000 
+Time for last 1000 cycles: 3.66499996185
+Current Cycle: 628000 
+Time for last 1000 cycles: 6.14199995995
+Current Cycle: 629000 
+Time for last 1000 cycles: 3.54600000381
+Current Cycle: 630000 
+Time for last 1000 cycles: 3.26799988747
+Current Cycle: 631000 
+Time for last 1000 cycles: 3.95899987221
+Current Cycle: 632000 
+Time for last 1000 cycles: 6.1740000248
+Current Cycle: 633000 
+Time for last 1000 cycles: 5.492000103
+Current Cycle: 634000 
+Time for last 1000 cycles: 3.87199997902
+Current Cycle: 635000 
+Time for last 1000 cycles: 3.11199998856
+Current Cycle: 636000 
+Time for last 1000 cycles: 4.12199997902
+Current Cycle: 637000 
+Time for last 1000 cycles: 2.86400008202
+Current Cycle: 638000 
+Time for last 1000 cycles: 3.71600008011
+Current Cycle: 639000 
+Time for last 1000 cycles: 6.5680000782
+Current Cycle: 640000 
+Time for last 1000 cycles: 3.30099987984
+Current Cycle: 641000 
+Time for last 1000 cycles: 6.1210000515
+Current Cycle: 642000 
+Time for last 1000 cycles: 4.48300004005
+Current Cycle: 643000 
+Time for last 1000 cycles: 3.70900011063
+Current Cycle: 644000 
+Time for last 1000 cycles: 4.3710000515
+Current Cycle: 645000 
+Time for last 1000 cycles: 4.36800003052
+Current Cycle: 646000 
+Time for last 1000 cycles: 3.7990000248
+Current Cycle: 647000 
+Time for last 1000 cycles: 5.1890001297
+Current Cycle: 648000 
+Time for last 1000 cycles: 4.72600007057
+Current Cycle: 649000 
+Time for last 1000 cycles: 7.31599998474
+Current Cycle: 650000 
+Time for last 1000 cycles: 4.33599996567
+Current Cycle: 651000 
+Time for last 1000 cycles: 4.72000002861
+Current Cycle: 652000 
+Time for last 1000 cycles: 4.25999999046
+Current Cycle: 653000 
+Time for last 1000 cycles: 6.44999980927
+Current Cycle: 654000 
+Time for last 1000 cycles: 3.98299980164
+Current Cycle: 655000 
+Time for last 1000 cycles: 5.95000004768
+Current Cycle: 656000 
+Time for last 1000 cycles: 4.61100006104
+Current Cycle: 657000 
+Time for last 1000 cycles: 5.60100007057
+Current Cycle: 658000 
+Time for last 1000 cycles: 3.10699987411
+Current Cycle: 659000 
+Time for last 1000 cycles: 3.87599992752
+Current Cycle: 660000 
+Time for last 1000 cycles: 5.21900010109
+Current Cycle: 661000 
+Time for last 1000 cycles: 3.78500008583
+Current Cycle: 662000 
+Time for last 1000 cycles: 9.74000000954
+Current Cycle: 663000 
+Time for last 1000 cycles: 4.14800000191
+Current Cycle: 664000 
+Time for last 1000 cycles: 4.79299998283
+Current Cycle: 665000 
+Time for last 1000 cycles: 5.33599996567
+Current Cycle: 666000 
+Time for last 1000 cycles: 3.63899993896
+Current Cycle: 667000 
+Time for last 1000 cycles: 5.50699996948
+Current Cycle: 668000 
+Time for last 1000 cycles: 6.91900014877
+Current Cycle: 669000 
+Time for last 1000 cycles: 4.38800001144
+Current Cycle: 670000 
+Time for last 1000 cycles: 8.63800001144
+Current Cycle: 671000 
+Time for last 1000 cycles: 6.54699993134
+Current Cycle: 672000 
+Time for last 1000 cycles: 4.93799996376
+Current Cycle: 673000 
+Time for last 1000 cycles: 5.31399989128
+Current Cycle: 674000 
+Time for last 1000 cycles: 7.84399986267
+Current Cycle: 675000 
+Time for last 1000 cycles: 6.16400003433
+Current Cycle: 676000 
+Time for last 1000 cycles: 4.54500007629
+Current Cycle: 677000 
+Time for last 1000 cycles: 6.51799988747
+Current Cycle: 678000 
+Time for last 1000 cycles: 6.22099995613
+Current Cycle: 679000 
+Time for last 1000 cycles: 3.39400005341
+Current Cycle: 680000 
+Time for last 1000 cycles: 5.05500006676
+Current Cycle: 681000 
+Time for last 1000 cycles: 5.41599988937
+Current Cycle: 682000 
+Time for last 1000 cycles: 12.7100000381
+Current Cycle: 683000 
+Time for last 1000 cycles: 3.92600011826
+Current Cycle: 684000 
+Time for last 1000 cycles: 4.8900001049
+Current Cycle: 685000 
+Time for last 1000 cycles: 4.60100007057
+Current Cycle: 686000 
+Time for last 1000 cycles: 4.03499984741
+Current Cycle: 687000 
+Time for last 1000 cycles: 3.69099998474
+Current Cycle: 688000 
+Time for last 1000 cycles: 15.0810000896
+Current Cycle: 689000 
+Time for last 1000 cycles: 4.75500011444
+Current Cycle: 690000 
+Time for last 1000 cycles: 4.65899991989
+Current Cycle: 691000 
+Time for last 1000 cycles: 7.12999987602
+Current Cycle: 692000 
+Time for last 1000 cycles: 8.02700018883
+Current Cycle: 693000 
+Time for last 1000 cycles: 6.94200015068
+Current Cycle: 694000 
+Time for last 1000 cycles: 5.30599999428
+Current Cycle: 695000 
+Time for last 1000 cycles: 4.86400008202
+Current Cycle: 696000 
+Time for last 1000 cycles: 7.22800016403
+Current Cycle: 697000 
+Time for last 1000 cycles: 6.0720000267
+Current Cycle: 698000 
+Time for last 1000 cycles: 4.6130001545
+Current Cycle: 699000 
+Time for last 1000 cycles: 4.92000007629
+Current Cycle: 700000 
+Time for last 1000 cycles: 6.58499979973
+Current Cycle: 701000 
+Time for last 1000 cycles: 4.89800000191
+Current Cycle: 702000 
+Time for last 1000 cycles: 8.43099999428
+Current Cycle: 703000 
+Time for last 1000 cycles: 4.17700004578
+Current Cycle: 704000 
+Time for last 1000 cycles: 4.02200007439
+Current Cycle: 705000 
+Time for last 1000 cycles: 4.34099984169
+Current Cycle: 706000 
+Time for last 1000 cycles: 4.27999997139
+Current Cycle: 707000 
+Time for last 1000 cycles: 6.96199989319
+Current Cycle: 708000 
+Time for last 1000 cycles: 7.87200021744
+Current Cycle: 709000 
+Time for last 1000 cycles: 4.73000001907
+Current Cycle: 710000 
+Time for last 1000 cycles: 7.8710000515
+Current Cycle: 711000 
+Time for last 1000 cycles: 5.50899982452
+Current Cycle: 712000 
+Time for last 1000 cycles: 8.16400003433
+Current Cycle: 713000 
+Time for last 1000 cycles: 3.6360001564
+Current Cycle: 714000 
+Time for last 1000 cycles: 5.39600014687
+Current Cycle: 715000 
+Time for last 1000 cycles: 6.45700001717
+Current Cycle: 716000 
+Time for last 1000 cycles: 4.41799998283
+Current Cycle: 717000 
+Time for last 1000 cycles: 5.40400004387
+Current Cycle: 718000 
+Time for last 1000 cycles: 10.5279998779
+Current Cycle: 719000 
+Time for last 1000 cycles: 4.28999996185
+Current Cycle: 720000 
+Time for last 1000 cycles: 4.54500007629
+Current Cycle: 721000 
+Time for last 1000 cycles: 3.27399992943
+Current Cycle: 722000 
+Time for last 1000 cycles: 3.15000009537
+Current Cycle: 723000 
+Time for last 1000 cycles: 3.43799996376
+Current Cycle: 724000 
+Time for last 1000 cycles: 3.38899993896
+Current Cycle: 725000 
+Time for last 1000 cycles: 3.83200001717
+Current Cycle: 726000 
+Time for last 1000 cycles: 3.50600004196
+Current Cycle: 727000 
+Time for last 1000 cycles: 36.862000227
+Current Cycle: 728000 
+Time for last 1000 cycles: 6.46399998665
+Current Cycle: 729000 
+Time for last 1000 cycles: 3.06200003624
+Current Cycle: 730000 
+Time for last 1000 cycles: 4.34200000763
+Current Cycle: 731000 
+Time for last 1000 cycles: 4.75500011444
+Current Cycle: 732000 
+Time for last 1000 cycles: 4.71399998665
+Current Cycle: 733000 
+Time for last 1000 cycles: 4.6139998436
+Current Cycle: 734000 
+Time for last 1000 cycles: 3.94099998474
+Current Cycle: 735000 
+Time for last 1000 cycles: 3.29699993134
+Current Cycle: 736000 
+Time for last 1000 cycles: 5.81299996376
+Current Cycle: 737000 
+Time for last 1000 cycles: 3.90199995041
+Current Cycle: 738000 
+Time for last 1000 cycles: 4.62400007248
+Current Cycle: 739000 
+Time for last 1000 cycles: 4.6819999218
+Current Cycle: 740000 
+Time for last 1000 cycles: 8.29200005531
+Current Cycle: 741000 
+Time for last 1000 cycles: 3.5529999733
+Current Cycle: 742000 
+Time for last 1000 cycles: 3.66100001335
+Current Cycle: 743000 
+Time for last 1000 cycles: 4.625
+Current Cycle: 744000 
+Time for last 1000 cycles: 4.53500008583
+Current Cycle: 745000 
+Time for last 1000 cycles: 3.1859998703
+Current Cycle: 746000 
+Time for last 1000 cycles: 6.21399998665
+Current Cycle: 747000 
+Time for last 1000 cycles: 3.96799993515
+Current Cycle: 748000 
+Time for last 1000 cycles: 5.20900011063
+Current Cycle: 749000 
+Time for last 1000 cycles: 5.0759999752
+Current Cycle: 750000 
+Time for last 1000 cycles: 5.58599996567
+Current Cycle: 751000 
+Time for last 1000 cycles: 4.71600008011
+Current Cycle: 752000 
+Time for last 1000 cycles: 5.76699995995
+Current Cycle: 753000 
+Time for last 1000 cycles: 6.5039999485
+Current Cycle: 754000 
+Time for last 1000 cycles: 4.01700019836
+Current Cycle: 755000 
+Time for last 1000 cycles: 4.367000103
+Current Cycle: 756000 
+Time for last 1000 cycles: 4.81900000572
+Current Cycle: 757000 
+Time for last 1000 cycles: 5.76900005341
+Current Cycle: 758000 
+Time for last 1000 cycles: 6.41299986839
+Current Cycle: 759000 
+Time for last 1000 cycles: 5.4240000248
+Current Cycle: 760000 
+Time for last 1000 cycles: 7.08099985123
+Current Cycle: 761000 
+Time for last 1000 cycles: 5.15799999237
+Current Cycle: 762000 
+Time for last 1000 cycles: 7.53200006485
+Current Cycle: 763000 
+Time for last 1000 cycles: 6.93099999428
+Current Cycle: 764000 
+Time for last 1000 cycles: 4.72299981117
+Current Cycle: 765000 
+Time for last 1000 cycles: 5.77399992943
+Current Cycle: 766000 
+Time for last 1000 cycles: 4.75099992752
+Current Cycle: 767000 
+Time for last 1000 cycles: 6.89400005341
+Current Cycle: 768000 
+Time for last 1000 cycles: 4.37599992752
+Current Cycle: 769000 
+Time for last 1000 cycles: 6.257999897
+Current Cycle: 770000 
+Time for last 1000 cycles: 6.70600008965
+Current Cycle: 771000 
+Time for last 1000 cycles: 3.33999991417
+Current Cycle: 772000 
+Time for last 1000 cycles: 5.05499982834
+Current Cycle: 773000 
+Time for last 1000 cycles: 5.87599992752
+Current Cycle: 774000 
+Time for last 1000 cycles: 24.760999918
+Current Cycle: 775000 
+Time for last 1000 cycles: 3.13000011444
+Current Cycle: 776000 
+Time for last 1000 cycles: 4.49399995804
+Current Cycle: 777000 
+Time for last 1000 cycles: 8.26600003242
+Current Cycle: 778000 
+Time for last 1000 cycles: 6.09800004959
+Current Cycle: 779000 
+Time for last 1000 cycles: 6.81500005722
+Current Cycle: 780000 
+Time for last 1000 cycles: 4.49599981308
+Current Cycle: 781000 
+Time for last 1000 cycles: 5.27300000191
+Current Cycle: 782000 
+Time for last 1000 cycles: 3.50300002098
+Current Cycle: 783000 
+Time for last 1000 cycles: 5.71600008011
+Current Cycle: 784000 
+Time for last 1000 cycles: 5.48900008202
+Current Cycle: 785000 
+Time for last 1000 cycles: 6.16899991035
+Current Cycle: 786000 
+Time for last 1000 cycles: 4.66599988937
+Current Cycle: 787000 
+Time for last 1000 cycles: 5.80900001526
+Current Cycle: 788000 
+Time for last 1000 cycles: 4.97599983215
+Current Cycle: 789000 
+Time for last 1000 cycles: 4.79299998283
+Current Cycle: 790000 
+Time for last 1000 cycles: 3.08500003815
+Current Cycle: 791000 
+Time for last 1000 cycles: 3.4849998951
+Current Cycle: 792000 
+Time for last 1000 cycles: 3.5
+Current Cycle: 793000 
+Time for last 1000 cycles: 2.9350001812
+Current Cycle: 794000 
+Time for last 1000 cycles: 4.63499999046
+Current Cycle: 795000 
+Time for last 1000 cycles: 6.07500004768
+Current Cycle: 796000 
+Time for last 1000 cycles: 4.3860001564
+Current Cycle: 797000 
+Time for last 1000 cycles: 5.68400001526
+Current Cycle: 798000 
+Time for last 1000 cycles: 6.67499995232
+Current Cycle: 799000 
+Time for last 1000 cycles: 5.75499987602
+Current Cycle: 800000 
+Time for last 1000 cycles: 4.70199990273
+Current Cycle: 801000 
+Time for last 1000 cycles: 6.0110001564
+Current Cycle: 802000 
+Time for last 1000 cycles: 4.50699996948
+Current Cycle: 803000 
+Time for last 1000 cycles: 4.24699997902
+Current Cycle: 804000 
+Time for last 1000 cycles: 8.38100004196
+Current Cycle: 805000 
+Time for last 1000 cycles: 7.95800018311
+Current Cycle: 806000 
+Time for last 1000 cycles: 9.21599984169
+Current Cycle: 807000 
+Time for last 1000 cycles: 7.7990000248
+Current Cycle: 808000 
+Time for last 1000 cycles: 5.86099982262
+Current Cycle: 809000 
+Time for last 1000 cycles: 10.3059999943
+Current Cycle: 810000 
+Time for last 1000 cycles: 7.48500013351
+Current Cycle: 811000 
+Time for last 1000 cycles: 7.50499987602
+Current Cycle: 812000 
+Time for last 1000 cycles: 5.30499982834
+Current Cycle: 813000 
+Time for last 1000 cycles: 4.51999998093
+Current Cycle: 814000 
+Time for last 1000 cycles: 4.89800000191
+Current Cycle: 815000 
+Time for last 1000 cycles: 7.1819999218
+Current Cycle: 816000 
+Time for last 1000 cycles: 6.1899998188
+Current Cycle: 817000 
+Time for last 1000 cycles: 5.76900005341
+Current Cycle: 818000 
+Time for last 1000 cycles: 4.22500014305
+Current Cycle: 819000 
+Time for last 1000 cycles: 6.2460000515
+Current Cycle: 820000 
+Time for last 1000 cycles: 4.04600000381
+Current Cycle: 821000 
+Time for last 1000 cycles: 4.35699987411
+Current Cycle: 822000 
+Time for last 1000 cycles: 3.64400005341
+Current Cycle: 823000 
+Time for last 1000 cycles: 6.13400006294
+Current Cycle: 824000 
+Time for last 1000 cycles: 5.11199998856
+Current Cycle: 825000 
+Time for last 1000 cycles: 3.4880001545
+Current Cycle: 826000 
+Time for last 1000 cycles: 6.37099981308
+Current Cycle: 827000 
+Time for last 1000 cycles: 5.3820002079
+Current Cycle: 828000 
+Time for last 1000 cycles: 4.16999983788
+Current Cycle: 829000 
+Time for last 1000 cycles: 5.01900005341
+Current Cycle: 830000 
+Time for last 1000 cycles: 8.54600000381
+Current Cycle: 831000 
+Time for last 1000 cycles: 6.84999990463
+Current Cycle: 832000 
+Time for last 1000 cycles: 6.79200005531
+Current Cycle: 833000 
+Time for last 1000 cycles: 7.47900009155
+Current Cycle: 834000 
+Time for last 1000 cycles: 11.7900002003
+Current Cycle: 835000 
+Time for last 1000 cycles: 6.46799993515
+Current Cycle: 836000 
+Time for last 1000 cycles: 5.11600017548
+Current Cycle: 837000 
+Time for last 1000 cycles: 4.63000011444
+Current Cycle: 838000 
+Time for last 1000 cycles: 8.09999990463
+Current Cycle: 839000 
+Time for last 1000 cycles: 6.67899990082
+Current Cycle: 840000 
+Time for last 1000 cycles: 5.63999986649
+Current Cycle: 841000 
+Time for last 1000 cycles: 13.1150000095
+Current Cycle: 842000 
+Time for last 1000 cycles: 7.66499996185
+Current Cycle: 843000 
+Time for last 1000 cycles: 5.45199990273
+Current Cycle: 844000 
+Time for last 1000 cycles: 4.82100009918
+Current Cycle: 845000 
+Time for last 1000 cycles: 10.888999939
+Current Cycle: 846000 
+Time for last 1000 cycles: 8.18799996376
+Current Cycle: 847000 
+Time for last 1000 cycles: 6.80499982834
+Current Cycle: 848000 
+Time for last 1000 cycles: 10.9719998837
+Current Cycle: 849000 
+Time for last 1000 cycles: 5.03800010681
+Current Cycle: 850000 
+Time for last 1000 cycles: 6.34599995613
+Current Cycle: 851000 
+Time for last 1000 cycles: 8.06900000572
+Current Cycle: 852000 
+Time for last 1000 cycles: 7.6289999485
+Current Cycle: 853000 
+Time for last 1000 cycles: 4.5
+Current Cycle: 854000 
+Time for last 1000 cycles: 6.64499998093
+Current Cycle: 855000 
+Time for last 1000 cycles: 3.54400014877
+Current Cycle: 856000 
+Time for last 1000 cycles: 4.60400009155
+Current Cycle: 857000 
+Time for last 1000 cycles: 4.882999897
+Current Cycle: 858000 
+Time for last 1000 cycles: 9.45900011063
+Current Cycle: 859000 
+Time for last 1000 cycles: 4.65000009537
+Current Cycle: 860000 
+Time for last 1000 cycles: 6.78200006485
+Current Cycle: 861000 
+Time for last 1000 cycles: 6.49099993706
+Current Cycle: 862000 
+Time for last 1000 cycles: 4.47600007057
+Current Cycle: 863000 
+Time for last 1000 cycles: 5.46000003815
+Current Cycle: 864000 
+Time for last 1000 cycles: 7.15299987793
+Current Cycle: 865000 
+Time for last 1000 cycles: 9.00699996948
+Current Cycle: 866000 
+Time for last 1000 cycles: 7.01600003242
+Current Cycle: 867000 
+Time for last 1000 cycles: 7.1400001049
+Current Cycle: 868000 
+Time for last 1000 cycles: 11.7150001526
+Current Cycle: 869000 
+Time for last 1000 cycles: 6.64800000191
+Current Cycle: 870000 
+Time for last 1000 cycles: 5.02099990845
+Current Cycle: 871000 
+Time for last 1000 cycles: 6.76099991798
+Current Cycle: 872000 
+Time for last 1000 cycles: 5.68099999428
+Current Cycle: 873000 
+Time for last 1000 cycles: 9.18299984932
+Current Cycle: 874000 
+Time for last 1000 cycles: 4.18799996376
+Current Cycle: 875000 
+Time for last 1000 cycles: 4.36000013351
+Current Cycle: 876000 
+Time for last 1000 cycles: 6.31100010872
+Current Cycle: 877000 
+Time for last 1000 cycles: 6.35400009155
+Current Cycle: 878000 
+Time for last 1000 cycles: 15.5190000534
+Current Cycle: 879000 
+Time for last 1000 cycles: 6.42499995232
+Current Cycle: 880000 
+Time for last 1000 cycles: 4.71399998665
+Current Cycle: 881000 
+Time for last 1000 cycles: 6.16100001335
+Current Cycle: 882000 
+Time for last 1000 cycles: 5.11000013351
+Current Cycle: 883000 
+Time for last 1000 cycles: 8.23399996758
+Current Cycle: 884000 
+Time for last 1000 cycles: 6.81599998474
+Current Cycle: 885000 
+Time for last 1000 cycles: 11.3680000305
+Current Cycle: 886000 
+Time for last 1000 cycles: 6.58999991417
+Current Cycle: 887000 
+Time for last 1000 cycles: 24.6789999008
+Current Cycle: 888000 
+Time for last 1000 cycles: 12.7929999828
+Current Cycle: 889000 
+Time for last 1000 cycles: 5.19799995422
+Current Cycle: 890000 
+Time for last 1000 cycles: 12.0690000057
+Current Cycle: 891000 
+Time for last 1000 cycles: 6.52099990845
+Current Cycle: 892000 
+Time for last 1000 cycles: 8.05099987984
+Current Cycle: 893000 
+Time for last 1000 cycles: 6.84800004959
+Current Cycle: 894000 
+Time for last 1000 cycles: 6.8599998951
+Current Cycle: 895000 
+Time for last 1000 cycles: 7.74800014496
+Current Cycle: 896000 
+Time for last 1000 cycles: 4.50200009346
+Current Cycle: 897000 
+Time for last 1000 cycles: 4.94899988174
+Current Cycle: 898000 
+Time for last 1000 cycles: 10.4509999752
+Current Cycle: 899000 
+Time for last 1000 cycles: 9.6819999218
+Current Cycle: 900000 
+Time for last 1000 cycles: 5.49399995804
+Current Cycle: 901000 
+Time for last 1000 cycles: 3.76799988747
+Current Cycle: 902000 
+Time for last 1000 cycles: 5.51999998093
+Current Cycle: 903000 
+Time for last 1000 cycles: 8.41799998283
+Current Cycle: 904000 
+Time for last 1000 cycles: 6.21299982071
+Current Cycle: 905000 
+Time for last 1000 cycles: 5.46000003815
+Current Cycle: 906000 
+Time for last 1000 cycles: 6.26799988747
+Current Cycle: 907000 
+Time for last 1000 cycles: 7.13100004196
+Current Cycle: 908000 
+Time for last 1000 cycles: 4.4430000782
+Current Cycle: 909000 
+Time for last 1000 cycles: 6.03799986839
+Current Cycle: 910000 
+Time for last 1000 cycles: 7.95899987221
+Current Cycle: 911000 
+Time for last 1000 cycles: 3.96499991417
+Current Cycle: 912000 
+Time for last 1000 cycles: 5.10800004005
+Current Cycle: 913000 
+Time for last 1000 cycles: 8.99100017548
+Current Cycle: 914000 
+Time for last 1000 cycles: 6.93400001526
+Current Cycle: 915000 
+Time for last 1000 cycles: 5.93499994278
+Current Cycle: 916000 
+Time for last 1000 cycles: 10.0820000172
+Current Cycle: 917000 
+Time for last 1000 cycles: 8.25800013542
+Current Cycle: 918000 
+Time for last 1000 cycles: 3.66000008583
+Current Cycle: 919000 
+Time for last 1000 cycles: 5.44099998474
+Current Cycle: 920000 
+Time for last 1000 cycles: 6.32999992371
+Current Cycle: 921000 
+Time for last 1000 cycles: 9.50499987602
+Current Cycle: 922000 
+Time for last 1000 cycles: 8.55400013924
+Current Cycle: 923000 
+Time for last 1000 cycles: 15.1759998798
+Current Cycle: 924000 
+Time for last 1000 cycles: 8.80999994278
+Current Cycle: 925000 
+Time for last 1000 cycles: 4.14100003242
+Current Cycle: 926000 
+Time for last 1000 cycles: 6.52300000191
+Current Cycle: 927000 
+Time for last 1000 cycles: 14.3519999981
+Current Cycle: 928000 
+Time for last 1000 cycles: 23.2139999866
+Current Cycle: 929000 
+Time for last 1000 cycles: 4.28999996185
+Current Cycle: 930000 
+Time for last 1000 cycles: 4.56500005722
+Current Cycle: 931000 
+Time for last 1000 cycles: 5.51699995995
+Current Cycle: 932000 
+Time for last 1000 cycles: 5.06399989128
+Current Cycle: 933000 
+Time for last 1000 cycles: 7.72499990463
+Current Cycle: 934000 
+Time for last 1000 cycles: 8.23600006104
+Current Cycle: 935000 
+Time for last 1000 cycles: 13.9260001183
+Current Cycle: 936000 
+Time for last 1000 cycles: 8.99000000954
+Current Cycle: 937000 
+Time for last 1000 cycles: 5.60600018501
+Current Cycle: 938000 
+Time for last 1000 cycles: 5.58699989319
+Current Cycle: 939000 
+Time for last 1000 cycles: 6.88499999046
+Current Cycle: 940000 
+Time for last 1000 cycles: 5.9880001545
+Current Cycle: 941000 
+Time for last 1000 cycles: 4.95700001717
+Current Cycle: 942000 
+Time for last 1000 cycles: 5.75300002098
+Current Cycle: 943000 
+Time for last 1000 cycles: 5.04699993134
+Current Cycle: 944000 
+Time for last 1000 cycles: 8.91700005531
+Current Cycle: 945000 
+Time for last 1000 cycles: 7.72099995613
+Current Cycle: 946000 
+Time for last 1000 cycles: 4.81600022316
+Current Cycle: 947000 
+Time for last 1000 cycles: 6.36299991608
+Current Cycle: 948000 
+Time for last 1000 cycles: 12.7029998302
+Current Cycle: 949000 
+Time for last 1000 cycles: 6.25499987602
+Current Cycle: 950000 
+Time for last 1000 cycles: 7.47799992561
+Current Cycle: 951000 
+Time for last 1000 cycles: 5.62599992752
+Current Cycle: 952000 
+Time for last 1000 cycles: 10.0940001011
+Current Cycle: 953000 
+Time for last 1000 cycles: 4.04299998283
+Current Cycle: 954000 
+Time for last 1000 cycles: 3.94599986076
+Current Cycle: 955000 
+Time for last 1000 cycles: 5.43099999428
+Current Cycle: 956000 
+Time for last 1000 cycles: 6.93699979782
+Current Cycle: 957000 
+Time for last 1000 cycles: 4.92700004578
+Current Cycle: 958000 
+Time for last 1000 cycles: 6.63100004196
+Current Cycle: 959000 
+Time for last 1000 cycles: 6.64999985695
+Current Cycle: 960000 
+Time for last 1000 cycles: 5.34599995613
+Current Cycle: 961000 
+Time for last 1000 cycles: 4.99900007248
+Current Cycle: 962000 
+Time for last 1000 cycles: 4.77699995041
+Current Cycle: 963000 
+Time for last 1000 cycles: 3.48799991608
+Current Cycle: 964000 
+Time for last 1000 cycles: 8.66599988937
+Current Cycle: 965000 
+Time for last 1000 cycles: 3.66799998283
+Current Cycle: 966000 
+Time for last 1000 cycles: 3.69499993324
+Current Cycle: 967000 
+Time for last 1000 cycles: 2.81299996376
+Current Cycle: 968000 
+Time for last 1000 cycles: 3.35500001907
+Current Cycle: 969000 
+Time for last 1000 cycles: 4.04100012779
+Current Cycle: 970000 
+Time for last 1000 cycles: 3.41100001335
+Current Cycle: 971000 
+Time for last 1000 cycles: 3.56299996376
+Current Cycle: 972000 
+Time for last 1000 cycles: 3.97600007057
+Current Cycle: 973000 
+Time for last 1000 cycles: 6.10799980164
+Current Cycle: 974000 
+Time for last 1000 cycles: 5.0490000248
+Current Cycle: 975000 
+Time for last 1000 cycles: 6.78799986839
+Current Cycle: 976000 
+Time for last 1000 cycles: 4.77200007439
+Current Cycle: 977000 
+Time for last 1000 cycles: 9.96099996567
+Current Cycle: 978000 
+Time for last 1000 cycles: 10.1990001202
+Current Cycle: 979000 
+Time for last 1000 cycles: 7.62599992752
+Current Cycle: 980000 
+Time for last 1000 cycles: 9.72000002861
+Current Cycle: 981000 
+Time for last 1000 cycles: 5.48799991608
+Current Cycle: 982000 
+Time for last 1000 cycles: 4.55999994278
+Current Cycle: 983000 
+Time for last 1000 cycles: 4.83300018311
+Current Cycle: 984000 
+Time for last 1000 cycles: 6.58000016212
+Current Cycle: 985000 
+Time for last 1000 cycles: 4.7650001049
+Current Cycle: 986000 
+Time for last 1000 cycles: 5.38900017738
+Current Cycle: 987000 
+Time for last 1000 cycles: 3.62699985504
+Current Cycle: 988000 
+Time for last 1000 cycles: 3.5
+Current Cycle: 989000 
+Time for last 1000 cycles: 4.65100002289
+Current Cycle: 990000 
+Time for last 1000 cycles: 5.35600018501
+Current Cycle: 991000 
+Time for last 1000 cycles: 4.33299994469
+Current Cycle: 992000 
+Time for last 1000 cycles: 8.59399986267
+Current Cycle: 993000 
+Time for last 1000 cycles: 7.45799994469
+Current Cycle: 994000 
+Time for last 1000 cycles: 8.68799996376
+Current Cycle: 995000 
+Time for last 1000 cycles: 5.5609998703
+Current Cycle: 996000 
+Time for last 1000 cycles: 6.80400013924
+Current Cycle: 997000 
+Time for last 1000 cycles: 18.3450000286
+Current Cycle: 998000 
+Time for last 1000 cycles: 15.1339998245
+Current Cycle: 999000 
+Time for last 1000 cycles: 7.28299999237
+Current Cycle: 1000000 
+Time for last 1000 cycles: 5.00999999046
+Current Cycle: 1001000 
+Time for last 1000 cycles: 4.47900009155
+Current Cycle: 1002000 
+Time for last 1000 cycles: 4.70700001717
+Current Cycle: 1003000 
+Time for last 1000 cycles: 6.48699998856
+Current Cycle: 1004000 
+Time for last 1000 cycles: 5.71000003815
+Current Cycle: 1005000 
+Time for last 1000 cycles: 6.20500016212
+Current Cycle: 1006000 
+Time for last 1000 cycles: 5.62199997902
+Current Cycle: 1007000 
+Time for last 1000 cycles: 6.27200007439
+Current Cycle: 1008000 
+Time for last 1000 cycles: 10.9140000343
+Current Cycle: 1009000 
+Time for last 1000 cycles: 4.35199999809
+Current Cycle: 1010000 
+Time for last 1000 cycles: 5.48000001907
+Current Cycle: 1011000 
+Time for last 1000 cycles: 5.68299984932
+Current Cycle: 1012000 
+Time for last 1000 cycles: 10.0130000114
+Current Cycle: 1013000 
+Time for last 1000 cycles: 6.25
+Current Cycle: 1014000 
+Time for last 1000 cycles: 6.1139998436
+Current Cycle: 1015000 
+Time for last 1000 cycles: 5.55500006676
+Current Cycle: 1016000 
+Time for last 1000 cycles: 8.42300009727
+Current Cycle: 1017000 
+Time for last 1000 cycles: 8.05799984932
+Current Cycle: 1018000 
+Time for last 1000 cycles: 9.6819999218
+Current Cycle: 1019000 
+Time for last 1000 cycles: 12.7489998341
+Current Cycle: 1020000 
+Time for last 1000 cycles: 6.76800012589
+Current Cycle: 1021000 
+Time for last 1000 cycles: 11.2520000935
+Current Cycle: 1022000 
+Time for last 1000 cycles: 10.0939998627
+Current Cycle: 1023000 
+Time for last 1000 cycles: 6.4960000515
+Current Cycle: 1024000 
+Time for last 1000 cycles: 6.16099977493
+Current Cycle: 1025000 
+Time for last 1000 cycles: 7.61600017548
+Current Cycle: 1026000 
+Time for last 1000 cycles: 9.12699985504
+Current Cycle: 1027000 
+Time for last 1000 cycles: 9.61899995804
+Current Cycle: 1028000 
+Time for last 1000 cycles: 7.632999897
+Current Cycle: 1029000 
+Time for last 1000 cycles: 4.57899999619
+Current Cycle: 1030000 
+Time for last 1000 cycles: 5.23300004005
+Current Cycle: 1031000 
+Time for last 1000 cycles: 7.28699994087
+Current Cycle: 1032000 
+Time for last 1000 cycles: 5.50699996948
+Current Cycle: 1033000 
+Time for last 1000 cycles: 6.56999993324
+Current Cycle: 1034000 
+Time for last 1000 cycles: 7.58799982071
+Current Cycle: 1035000 
+Time for last 1000 cycles: 8.27499985695
+Current Cycle: 1036000 
+Time for last 1000 cycles: 4.16799998283
+Current Cycle: 1037000 
+Time for last 1000 cycles: 10.0549998283
+Current Cycle: 1038000 
+Time for last 1000 cycles: 7.66900014877
+Current Cycle: 1039000 
+Time for last 1000 cycles: 5.76400017738
+Current Cycle: 1040000 
+Time for last 1000 cycles: 8.36199998856
+Current Cycle: 1041000 
+Time for last 1000 cycles: 7.29499983788
+Current Cycle: 1042000 
+Time for last 1000 cycles: 11.9370000362
+Current Cycle: 1043000 
+Time for last 1000 cycles: 6.85699987411
+Current Cycle: 1044000 
+Time for last 1000 cycles: 6.5720000267
+Current Cycle: 1045000 
+Time for last 1000 cycles: 10.1529998779
+Current Cycle: 1046000 
+Time for last 1000 cycles: 6.1139998436
+Current Cycle: 1047000 
+Time for last 1000 cycles: 7.48399996758
+Current Cycle: 1048000 
+Time for last 1000 cycles: 25.7809998989
+Current Cycle: 1049000 
+Time for last 1000 cycles: 6.36599993706
+Current Cycle: 1050000 
+Time for last 1000 cycles: 6.16499996185
+Current Cycle: 1051000 
+Time for last 1000 cycles: 5.27099990845
+Current Cycle: 1052000 
+Time for last 1000 cycles: 7.94099998474
+Current Cycle: 1053000 
+Time for last 1000 cycles: 5.99400019646
+Current Cycle: 1054000 
+Time for last 1000 cycles: 4.72699999809
+Current Cycle: 1055000 
+Time for last 1000 cycles: 5.44299983978
+Current Cycle: 1056000 
+Time for last 1000 cycles: 5.73300004005
+Current Cycle: 1057000 
+Time for last 1000 cycles: 6.20100021362
+Current Cycle: 1058000 
+Time for last 1000 cycles: 6.84200000763
+Current Cycle: 1059000 
+Time for last 1000 cycles: 6.29999995232
+Current Cycle: 1060000 
+Time for last 1000 cycles: 5.68099999428
+Current Cycle: 1061000 
+Time for last 1000 cycles: 5.94299983978
+Current Cycle: 1062000 
+Time for last 1000 cycles: 6.01999998093
+Current Cycle: 1063000 
+Time for last 1000 cycles: 4.51999998093
+Current Cycle: 1064000 
+Time for last 1000 cycles: 4.21399998665
+Current Cycle: 1065000 
+Time for last 1000 cycles: 7.06599998474
+Current Cycle: 1066000 
+Time for last 1000 cycles: 5.22600007057
+Current Cycle: 1067000 
+Time for last 1000 cycles: 4.9509999752
+Current Cycle: 1068000 
+Time for last 1000 cycles: 7.58299994469
+Current Cycle: 1069000 
+Time for last 1000 cycles: 8.50699996948
+Current Cycle: 1070000 
+Time for last 1000 cycles: 5.59000015259
+Current Cycle: 1071000 
+Time for last 1000 cycles: 5.01600003242
+Current Cycle: 1072000 
+Time for last 1000 cycles: 6.67800021172
+Current Cycle: 1073000 
+Time for last 1000 cycles: 7.09500002861
+Current Cycle: 1074000 
+Time for last 1000 cycles: 5.37400007248
+Current Cycle: 1075000 
+Time for last 1000 cycles: 6.87800002098
+Current Cycle: 1076000 
+Time for last 1000 cycles: 10.7350001335
+Current Cycle: 1077000 
+Time for last 1000 cycles: 5.83700013161
+Current Cycle: 1078000 
+Time for last 1000 cycles: 5.65799999237
+Current Cycle: 1079000 
+Time for last 1000 cycles: 7.4279999733
+Current Cycle: 1080000 
+Time for last 1000 cycles: 5.09400010109
+Current Cycle: 1081000 
+Time for last 1000 cycles: 6.93899989128
+Current Cycle: 1082000 
+Time for last 1000 cycles: 8.40499997139
+Current Cycle: 1083000 
+Time for last 1000 cycles: 5.68200016022
+Current Cycle: 1084000 
+Time for last 1000 cycles: 5.81100010872
+Current Cycle: 1085000 
+Time for last 1000 cycles: 6.39400005341
+Current Cycle: 1086000 
+Time for last 1000 cycles: 6.0649998188
+Current Cycle: 1087000 
+Time for last 1000 cycles: 5.21900010109
+Current Cycle: 1088000 
+Time for last 1000 cycles: 5.02199983597
+Current Cycle: 1089000 
+Time for last 1000 cycles: 5.51499986649
+Current Cycle: 1090000 
+Time for last 1000 cycles: 3.91199994087
+Current Cycle: 1091000 
+Time for last 1000 cycles: 4.00900006294
+Current Cycle: 1092000 
+Time for last 1000 cycles: 3.39900016785
+Current Cycle: 1093000 
+Time for last 1000 cycles: 4.34999990463
+Current Cycle: 1094000 
+Time for last 1000 cycles: 4.44899988174
+Current Cycle: 1095000 
+Time for last 1000 cycles: 4.31700015068
+Current Cycle: 1096000 
+Time for last 1000 cycles: 5.11500000954
+Current Cycle: 1097000 
+Time for last 1000 cycles: 3.52200007439
+Current Cycle: 1098000 
+Time for last 1000 cycles: 5.29600000381
+Current Cycle: 1099000 
+Time for last 1000 cycles: 3.62599992752
+Current Cycle: 1100000 
+Time for last 1000 cycles: 3.75999999046
+Current Cycle: 1101000 
+Time for last 1000 cycles: 4.82299995422
+Current Cycle: 1102000 
+Time for last 1000 cycles: 3.94000005722
+Current Cycle: 1103000 
+Time for last 1000 cycles: 6.8869998455
+Current Cycle: 1104000 
+Time for last 1000 cycles: 4.20399999619
+Current Cycle: 1105000 
+Time for last 1000 cycles: 3.83400011063
+Current Cycle: 1106000 
+Time for last 1000 cycles: 3.71899986267
+Current Cycle: 1107000 
+Time for last 1000 cycles: 5.60800004005
+Current Cycle: 1108000 
+Time for last 1000 cycles: 5.15399980545
+Current Cycle: 1109000 
+Time for last 1000 cycles: 4.41700005531
+Current Cycle: 1110000 
+Time for last 1000 cycles: 3.04299998283
+Current Cycle: 1111000 
+Time for last 1000 cycles: 3.93499994278
+Current Cycle: 1112000 
+Time for last 1000 cycles: 4.37099981308
+Current Cycle: 1113000 
+Time for last 1000 cycles: 3.17899990082
+Current Cycle: 1114000 
+Time for last 1000 cycles: 3.06700015068
+Current Cycle: 1115000 
+Time for last 1000 cycles: 3.8029999733
+Current Cycle: 1116000 
+Time for last 1000 cycles: 3.95600008965
+Current Cycle: 1117000 
+Time for last 1000 cycles: 2.93600010872
+Current Cycle: 1118000 
+Time for last 1000 cycles: 3.85899996758
+Current Cycle: 1119000 
+Time for last 1000 cycles: 2.95300006866
+Current Cycle: 1120000 
+Time for last 1000 cycles: 3.77800011635
+Current Cycle: 1121000 
+Time for last 1000 cycles: 2.90300011635
+Current Cycle: 1122000 
+Time for last 1000 cycles: 4.09499979019
+Current Cycle: 1123000 
+Time for last 1000 cycles: 5.95399999619
+Current Cycle: 1124000 
+Time for last 1000 cycles: 3.00900006294
+Current Cycle: 1125000 
+Time for last 1000 cycles: 3.96500015259
+Current Cycle: 1126000 
+Time for last 1000 cycles: 5.70399999619
+Current Cycle: 1127000 
+Time for last 1000 cycles: 5.11199998856
+Current Cycle: 1128000 
+Time for last 1000 cycles: 3.85800004005
+Current Cycle: 1129000 
+Time for last 1000 cycles: 3.4849998951
+Current Cycle: 1130000 
+Time for last 1000 cycles: 3.8149998188
+Current Cycle: 1131000 
+Time for last 1000 cycles: 3.54500007629
+Current Cycle: 1132000 
+Time for last 1000 cycles: 3.84400010109
+Current Cycle: 1133000 
+Time for last 1000 cycles: 4.64499998093
+Current Cycle: 1134000 
+Time for last 1000 cycles: 5.29299998283
+Current Cycle: 1135000 
+Time for last 1000 cycles: 5.0529999733
+Current Cycle: 1136000 
+Time for last 1000 cycles: 4.15999984741
+Current Cycle: 1137000 
+Time for last 1000 cycles: 3.77999997139
+Current Cycle: 1138000 
+Time for last 1000 cycles: 4.20899987221
+Current Cycle: 1139000 
+Time for last 1000 cycles: 5.01999998093
+Current Cycle: 1140000 
+Time for last 1000 cycles: 4.01300001144
+Current Cycle: 1141000 
+Time for last 1000 cycles: 6.01400017738
+Current Cycle: 1142000 
+Time for last 1000 cycles: 5.21800017357
+Current Cycle: 1143000 
+Time for last 1000 cycles: 6.90899991989
+Current Cycle: 1144000 
+Time for last 1000 cycles: 6.05999994278
+Current Cycle: 1145000 
+Time for last 1000 cycles: 14.3880000114
+Current Cycle: 1146000 
+Time for last 1000 cycles: 19.4690001011
+Current Cycle: 1147000 
+Time for last 1000 cycles: 4.5
+Current Cycle: 1148000 
+Time for last 1000 cycles: 5.38099980354
+Current Cycle: 1149000 
+Time for last 1000 cycles: 4.85699987411
+Current Cycle: 1150000 
+Time for last 1000 cycles: 5.84300017357
+Current Cycle: 1151000 
+Time for last 1000 cycles: 6.96000003815
+Current Cycle: 1152000 
+Time for last 1000 cycles: 7.01399993896
+Current Cycle: 1153000 
+Time for last 1000 cycles: 5.06299996376
+Current Cycle: 1154000 
+Time for last 1000 cycles: 3.85400009155
+Current Cycle: 1155000 
+Time for last 1000 cycles: 4.16300010681
+Current Cycle: 1156000 
+Time for last 1000 cycles: 6.27300000191
+Current Cycle: 1157000 
+Time for last 1000 cycles: 6.10000014305
+Current Cycle: 1158000 
+Time for last 1000 cycles: 6.16400003433
+Current Cycle: 1159000 
+Time for last 1000 cycles: 7.16099977493
+Current Cycle: 1160000 
+Time for last 1000 cycles: 6.26599979401
+Current Cycle: 1161000 
+Time for last 1000 cycles: 4.48599982262
+Current Cycle: 1162000 
+Time for last 1000 cycles: 5.85299992561
+Current Cycle: 1163000 
+Time for last 1000 cycles: 9.56999993324
+Current Cycle: 1164000 
+Time for last 1000 cycles: 3.90100002289
+Current Cycle: 1165000 
+Time for last 1000 cycles: 5.19199991226
+Current Cycle: 1166000 
+Time for last 1000 cycles: 5.02699995041
+Current Cycle: 1167000 
+Time for last 1000 cycles: 6.80599999428
+Current Cycle: 1168000 
+Time for last 1000 cycles: 5.69299983978
+Current Cycle: 1169000 
+Time for last 1000 cycles: 6.36500000954
+Current Cycle: 1170000 
+Time for last 1000 cycles: 4.57299995422
+Current Cycle: 1171000 
+Time for last 1000 cycles: 6.28699994087
+Current Cycle: 1172000 
+Time for last 1000 cycles: 9.27400016785
+Current Cycle: 1173000 
+Time for last 1000 cycles: 9.57399988174
+Current Cycle: 1174000 
+Time for last 1000 cycles: 8.242000103
+Current Cycle: 1175000 
+Time for last 1000 cycles: 4.84100008011
+Current Cycle: 1176000 
+Time for last 1000 cycles: 6.68400001526
+Current Cycle: 1177000 
+Time for last 1000 cycles: 4.97899985313
+Current Cycle: 1178000 
+Time for last 1000 cycles: 4.22499990463
+Current Cycle: 1179000 
+Time for last 1000 cycles: 8.43099999428
+Current Cycle: 1180000 
+Time for last 1000 cycles: 9.04000020027
+Current Cycle: 1181000 
+Time for last 1000 cycles: 7.44799995422
+Current Cycle: 1182000 
+Time for last 1000 cycles: 5.04600000381
+Current Cycle: 1183000 
+Time for last 1000 cycles: 5.57499980927
+Current Cycle: 1184000 
+Time for last 1000 cycles: 4.90499997139
+Current Cycle: 1185000 
+Time for last 1000 cycles: 5.93499994278
+Current Cycle: 1186000 
+Time for last 1000 cycles: 3.63800001144
+Current Cycle: 1187000 
+Time for last 1000 cycles: 9.14999985695
+Current Cycle: 1188000 
+Time for last 1000 cycles: 6.48000001907
+Current Cycle: 1189000 
+Time for last 1000 cycles: 5.19000005722
+Current Cycle: 1190000 
+Time for last 1000 cycles: 6.09299993515
+Current Cycle: 1191000 
+Time for last 1000 cycles: 5.05900001526
+Current Cycle: 1192000 
+Time for last 1000 cycles: 3.992000103
+Current Cycle: 1193000 
+Time for last 1000 cycles: 5.84899997711
+Current Cycle: 1194000 
+Time for last 1000 cycles: 6.29100012779
+Current Cycle: 1195000 
+Time for last 1000 cycles: 4.17299985886
+Current Cycle: 1196000 
+Time for last 1000 cycles: 5.92199993134
+Current Cycle: 1197000 
+Time for last 1000 cycles: 4.02300000191
+Current Cycle: 1198000 
+Time for last 1000 cycles: 4.98200011253
+Current Cycle: 1199000 
+Time for last 1000 cycles: 7.15499997139
+Current Cycle: 1200000 
+Time for last 1000 cycles: 4.22800016403
+Current Cycle: 1201000 
+Time for last 1000 cycles: 4.40199995041
+Current Cycle: 1202000 
+Time for last 1000 cycles: 4.45599985123
+Current Cycle: 1203000 
+Time for last 1000 cycles: 6.5119998455
+Current Cycle: 1204000 
+Time for last 1000 cycles: 4.48999977112
+Current Cycle: 1205000 
+Time for last 1000 cycles: 3.75800013542
+Current Cycle: 1206000 
+Time for last 1000 cycles: 3.20100021362
+Current Cycle: 1207000 
+Time for last 1000 cycles: 4.82399988174
+Current Cycle: 1208000 
+Time for last 1000 cycles: 4.4390001297
+Current Cycle: 1209000 
+Time for last 1000 cycles: 3.53899979591
+Current Cycle: 1210000 
+Time for last 1000 cycles: 4.24000000954
+Current Cycle: 1211000 
+Time for last 1000 cycles: 3.4430000782
+Current Cycle: 1212000 
+Time for last 1000 cycles: 3.27899980545
+Current Cycle: 1213000 
+Time for last 1000 cycles: 3.23300004005
+Current Cycle: 1214000 
+Time for last 1000 cycles: 4.29999995232
+Current Cycle: 1215000 
+Time for last 1000 cycles: 7.49399995804
+Current Cycle: 1216000 
+Time for last 1000 cycles: 4.0720000267
+Current Cycle: 1217000 
+Time for last 1000 cycles: 4.28200006485
+Current Cycle: 1218000 
+Time for last 1000 cycles: 5.73799991608
+Current Cycle: 1219000 
+Time for last 1000 cycles: 4.3599998951
+Current Cycle: 1220000 
+Time for last 1000 cycles: 3.73300004005
+Current Cycle: 1221000 
+Time for last 1000 cycles: 4.66400003433
+Current Cycle: 1222000 
+Time for last 1000 cycles: 5.84100008011
+Current Cycle: 1223000 
+Time for last 1000 cycles: 5.73200011253
+Current Cycle: 1224000 
+Time for last 1000 cycles: 3.47200012207
+Current Cycle: 1225000 
+Time for last 1000 cycles: 4.51599979401
+Current Cycle: 1226000 
+Time for last 1000 cycles: 5.51399993896
+Current Cycle: 1227000 
+Time for last 1000 cycles: 3.89400005341
+Current Cycle: 1228000 
+Time for last 1000 cycles: 3.71700000763
+Current Cycle: 1229000 
+Time for last 1000 cycles: 5.5110001564
+Current Cycle: 1230000 
+Time for last 1000 cycles: 4.27999997139
+Current Cycle: 1231000 
+Time for last 1000 cycles: 2.71299982071
+Current Cycle: 1232000 
+Time for last 1000 cycles: 4.08599996567
+Current Cycle: 1233000 
+Time for last 1000 cycles: 3.74699997902
+Current Cycle: 1234000 
+Time for last 1000 cycles: 5.46999979019
+Current Cycle: 1235000 
+Time for last 1000 cycles: 4.6850001812
+Current Cycle: 1236000 
+Time for last 1000 cycles: 3.11899995804
+Current Cycle: 1237000 
+Time for last 1000 cycles: 4.83299994469
+Current Cycle: 1238000 
+Time for last 1000 cycles: 3.92599987984
+Current Cycle: 1239000 
+Time for last 1000 cycles: 4.56299996376
+Current Cycle: 1240000 
+Time for last 1000 cycles: 3.46900010109
+Current Cycle: 1241000 
+Time for last 1000 cycles: 8.33599996567
+Current Cycle: 1242000 
+Time for last 1000 cycles: 4.09200000763
+Current Cycle: 1243000 
+Time for last 1000 cycles: 4.42299985886
+Current Cycle: 1244000 
+Time for last 1000 cycles: 5.25199985504
+Current Cycle: 1245000 
+Time for last 1000 cycles: 4.55099987984
+Current Cycle: 1246000 
+Time for last 1000 cycles: 4.66799998283
+Current Cycle: 1247000 
+Time for last 1000 cycles: 3.79999995232
+Current Cycle: 1248000 
+Time for last 1000 cycles: 2.98599982262
+Current Cycle: 1249000 
+Time for last 1000 cycles: 4.18499994278
+Current Cycle: 1250000 
+Time for last 1000 cycles: 2.96399998665
+Current Cycle: 1251000 
+Time for last 1000 cycles: 2.74899983406
+Current Cycle: 1252000 
+Time for last 1000 cycles: 4.45499992371
+Current Cycle: 1253000 
+Time for last 1000 cycles: 4.53600001335
+Current Cycle: 1254000 
+Time for last 1000 cycles: 3.47900009155
+Current Cycle: 1255000 
+Time for last 1000 cycles: 4.66499996185
+Current Cycle: 1256000 
+Time for last 1000 cycles: 4.46000003815
+Current Cycle: 1257000 
+Time for last 1000 cycles: 3.90300011635
+Current Cycle: 1258000 
+Time for last 1000 cycles: 4.55999994278
+Current Cycle: 1259000 
+Time for last 1000 cycles: 4.05799984932
+Current Cycle: 1260000 
+Time for last 1000 cycles: 5.31900000572
+Current Cycle: 1261000 
+Time for last 1000 cycles: 8.69400000572
+Current Cycle: 1262000 
+Time for last 1000 cycles: 5.22699999809
+Current Cycle: 1263000 
+Time for last 1000 cycles: 6.58500003815
+Current Cycle: 1264000 
+Time for last 1000 cycles: 5.26999998093
+Current Cycle: 1265000 
+Time for last 1000 cycles: 6.79800009727
+Current Cycle: 1266000 
+Time for last 1000 cycles: 7.16599988937
+Current Cycle: 1267000 
+Time for last 1000 cycles: 3.98300004005
+Item-Item Collaborative Filtering RMSE: 1.12882361009
+Elapsed Time: 7533.19500017
+Collaborative Filter on Random Dataset done in 7589.66700006 seconds
+Running Collaborative Filtering on Arbitrary Dataset
+Initializing Collaborative Filtering
+Running Center Matrix
+Center Matrix done in 6.09000015259 seconds
+Building Similarity Matrix
+Building Similarity Matrix done in 50.2969999313 seconds
+Class initialization done in 59.6879999638 seconds
+Collaborative Filter RMSE
+Current Cycle: 1000 
+Time for last 1000 cycles: 0.628999948502
+Current Cycle: 2000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 3000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 4000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 5000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 6000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 7000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 8000 
+Time for last 1000 cycles: 0.451999902725
+Current Cycle: 9000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 10000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 11000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 12000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 13000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 14000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 15000 
+Time for last 1000 cycles: 0.391999959946
+Current Cycle: 16000 
+Time for last 1000 cycles: 0.476999998093
+Current Cycle: 17000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 18000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 19000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 20000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 21000 
+Time for last 1000 cycles: 0.473999977112
+Current Cycle: 22000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 23000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 24000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 25000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 26000 
+Time for last 1000 cycles: 0.476999998093
+Current Cycle: 27000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 28000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 29000 
+Time for last 1000 cycles: 0.371999979019
+Current Cycle: 30000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 31000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 32000 
+Time for last 1000 cycles: 0.492999792099
+Current Cycle: 33000 
+Time for last 1000 cycles: 0.491999864578
+Current Cycle: 34000 
+Time for last 1000 cycles: 0.494000196457
+Current Cycle: 35000 
+Time for last 1000 cycles: 0.483999967575
+Current Cycle: 36000 
+Time for last 1000 cycles: 0.477999925613
+Current Cycle: 37000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 38000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 39000 
+Time for last 1000 cycles: 0.480000019073
+Current Cycle: 40000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 41000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 42000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 43000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 44000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 45000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 46000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 47000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 48000 
+Time for last 1000 cycles: 0.498000144958
+Current Cycle: 49000 
+Time for last 1000 cycles: 0.491999864578
+Current Cycle: 50000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 51000 
+Time for last 1000 cycles: 0.480000019073
+Current Cycle: 52000 
+Time for last 1000 cycles: 0.486000061035
+Current Cycle: 53000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 54000 
+Time for last 1000 cycles: 0.480000019073
+Current Cycle: 55000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 56000 
+Time for last 1000 cycles: 0.494999885559
+Current Cycle: 57000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 58000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 59000 
+Time for last 1000 cycles: 0.489000082016
+Current Cycle: 60000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 61000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 62000 
+Time for last 1000 cycles: 0.490999937057
+Current Cycle: 63000 
+Time for last 1000 cycles: 0.491000175476
+Current Cycle: 64000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 65000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 66000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 67000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 68000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 69000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 70000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 71000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 72000 
+Time for last 1000 cycles: 0.49599981308
+Current Cycle: 73000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 74000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 75000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 76000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 77000 
+Time for last 1000 cycles: 0.510000228882
+Current Cycle: 78000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 79000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 80000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 81000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 82000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 83000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 84000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 85000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 86000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 87000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 88000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 89000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 90000 
+Time for last 1000 cycles: 0.492000102997
+Current Cycle: 91000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 92000 
+Time for last 1000 cycles: 0.484000205994
+Current Cycle: 93000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 94000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 95000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 96000 
+Time for last 1000 cycles: 0.478999853134
+Current Cycle: 97000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 98000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 99000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 100000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 101000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 102000 
+Time for last 1000 cycles: 0.486999988556
+Current Cycle: 103000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 104000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 105000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 106000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 107000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 108000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 109000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 110000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 111000 
+Time for last 1000 cycles: 0.491000175476
+Current Cycle: 112000 
+Time for last 1000 cycles: 0.494999885559
+Current Cycle: 113000 
+Time for last 1000 cycles: 0.47000002861
+Current Cycle: 114000 
+Time for last 1000 cycles: 0.498999834061
+Current Cycle: 115000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 116000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 117000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 118000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 119000 
+Time for last 1000 cycles: 0.494999885559
+Current Cycle: 120000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 121000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 122000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 123000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 124000 
+Time for last 1000 cycles: 0.477999925613
+Current Cycle: 125000 
+Time for last 1000 cycles: 0.486999988556
+Current Cycle: 126000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 127000 
+Time for last 1000 cycles: 0.488000154495
+Current Cycle: 128000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 129000 
+Time for last 1000 cycles: 0.483999967575
+Current Cycle: 130000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 131000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 132000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 133000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 134000 
+Time for last 1000 cycles: 0.453999996185
+Current Cycle: 135000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 136000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 137000 
+Time for last 1000 cycles: 0.50400018692
+Current Cycle: 138000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 139000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 140000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 141000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 142000 
+Time for last 1000 cycles: 0.492999792099
+Current Cycle: 143000 
+Time for last 1000 cycles: 0.491999864578
+Current Cycle: 144000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 145000 
+Time for last 1000 cycles: 0.483999967575
+Current Cycle: 146000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 147000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 148000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 149000 
+Time for last 1000 cycles: 0.46599984169
+Current Cycle: 150000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 151000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 152000 
+Time for last 1000 cycles: 0.492000102997
+Current Cycle: 153000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 154000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 155000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 156000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 157000 
+Time for last 1000 cycles: 0.492000102997
+Current Cycle: 158000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 159000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 160000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 161000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 162000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 163000 
+Time for last 1000 cycles: 0.480000019073
+Current Cycle: 164000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 165000 
+Time for last 1000 cycles: 0.460999965668
+Current Cycle: 166000 
+Time for last 1000 cycles: 0.453999996185
+Current Cycle: 167000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 168000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 169000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 170000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 171000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 172000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 173000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 174000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 175000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 176000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 177000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 178000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 179000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 180000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 181000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 182000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 183000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 184000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 185000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 186000 
+Time for last 1000 cycles: 0.476999998093
+Current Cycle: 187000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 188000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 189000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 190000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 191000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 192000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 193000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 194000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 195000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 196000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 197000 
+Time for last 1000 cycles: 0.491000175476
+Current Cycle: 198000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 199000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 200000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 201000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 202000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 203000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 204000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 205000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 206000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 207000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 208000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 209000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 210000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 211000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 212000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 213000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 214000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 215000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 216000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 217000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 218000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 219000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 220000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 221000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 222000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 223000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 224000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 225000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 226000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 227000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 228000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 229000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 230000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 231000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 232000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 233000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 234000 
+Time for last 1000 cycles: 0.43499994278
+Current Cycle: 235000 
+Time for last 1000 cycles: 0.44000005722
+Current Cycle: 236000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 237000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 238000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 239000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 240000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 241000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 242000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 243000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 244000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 245000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 246000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 247000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 248000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 249000 
+Time for last 1000 cycles: 0.481999874115
+Current Cycle: 250000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 251000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 252000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 253000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 254000 
+Time for last 1000 cycles: 0.498999834061
+Current Cycle: 255000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 256000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 257000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 258000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 259000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 260000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 261000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 262000 
+Time for last 1000 cycles: 0.487000226974
+Current Cycle: 263000 
+Time for last 1000 cycles: 0.512999773026
+Current Cycle: 264000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 265000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 266000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 267000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 268000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 269000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 270000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 271000 
+Time for last 1000 cycles: 0.469000101089
+Current Cycle: 272000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 273000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 274000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 275000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 276000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 277000 
+Time for last 1000 cycles: 0.498999834061
+Current Cycle: 278000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 279000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 280000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 281000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 282000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 283000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 284000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 285000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 286000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 287000 
+Time for last 1000 cycles: 0.486999988556
+Current Cycle: 288000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 289000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 290000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 291000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 292000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 293000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 294000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 295000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 296000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 297000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 298000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 299000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 300000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 301000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 302000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 303000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 304000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 305000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 306000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 307000 
+Time for last 1000 cycles: 0.480999946594
+Current Cycle: 308000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 309000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 310000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 311000 
+Time for last 1000 cycles: 0.49599981308
+Current Cycle: 312000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 313000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 314000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 315000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 316000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 317000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 318000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 319000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 320000 
+Time for last 1000 cycles: 0.494999885559
+Current Cycle: 321000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 322000 
+Time for last 1000 cycles: 0.502999782562
+Current Cycle: 323000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 324000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 325000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 326000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 327000 
+Time for last 1000 cycles: 0.49599981308
+Current Cycle: 328000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 329000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 330000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 331000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 332000 
+Time for last 1000 cycles: 0.531000137329
+Current Cycle: 333000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 334000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 335000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 336000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 337000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 338000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 339000 
+Time for last 1000 cycles: 0.49599981308
+Current Cycle: 340000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 341000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 342000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 343000 
+Time for last 1000 cycles: 0.492000102997
+Current Cycle: 344000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 345000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 346000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 347000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 348000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 349000 
+Time for last 1000 cycles: 0.494000196457
+Current Cycle: 350000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 351000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 352000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 353000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 354000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 355000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 356000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 357000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 358000 
+Time for last 1000 cycles: 0.471999883652
+Current Cycle: 359000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 360000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 361000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 362000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 363000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 364000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 365000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 366000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 367000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 368000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 369000 
+Time for last 1000 cycles: 0.517000198364
+Current Cycle: 370000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 371000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 372000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 373000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 374000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 375000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 376000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 377000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 378000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 379000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 380000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 381000 
+Time for last 1000 cycles: 0.529000043869
+Current Cycle: 382000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 383000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 384000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 385000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 386000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 387000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 388000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 389000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 390000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 391000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 392000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 393000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 394000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 395000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 396000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 397000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 398000 
+Time for last 1000 cycles: 0.512999773026
+Current Cycle: 399000 
+Time for last 1000 cycles: 0.498000144958
+Current Cycle: 400000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 401000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 402000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 403000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 404000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 405000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 406000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 407000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 408000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 409000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 410000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 411000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 412000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 413000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 414000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 415000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 416000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 417000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 418000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 419000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 420000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 421000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 422000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 423000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 424000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 425000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 426000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 427000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 428000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 429000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 430000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 431000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 432000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 433000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 434000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 435000 
+Time for last 1000 cycles: 0.489000082016
+Current Cycle: 436000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 437000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 438000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 439000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 440000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 441000 
+Time for last 1000 cycles: 0.512999773026
+Current Cycle: 442000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 443000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 444000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 445000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 446000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 447000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 448000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 449000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 450000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 451000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 452000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 453000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 454000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 455000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 456000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 457000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 458000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 459000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 460000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 461000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 462000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 463000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 464000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 465000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 466000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 467000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 468000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 469000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 470000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 471000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 472000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 473000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 474000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 475000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 476000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 477000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 478000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 479000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 480000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 481000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 482000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 483000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 484000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 485000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 486000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 487000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 488000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 489000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 490000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 491000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 492000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 493000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 494000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 495000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 496000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 497000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 498000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 499000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 500000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 501000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 502000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 503000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 504000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 505000 
+Time for last 1000 cycles: 0.531000137329
+Current Cycle: 506000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 507000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 508000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 509000 
+Time for last 1000 cycles: 0.527000188828
+Current Cycle: 510000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 511000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 512000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 513000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 514000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 515000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 516000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 517000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 518000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 519000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 520000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 521000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 522000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 523000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 524000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 525000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 526000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 527000 
+Time for last 1000 cycles: 0.522999763489
+Current Cycle: 528000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 529000 
+Time for last 1000 cycles: 0.486000061035
+Current Cycle: 530000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 531000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 532000 
+Time for last 1000 cycles: 0.498000144958
+Current Cycle: 533000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 534000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 535000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 536000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 537000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 538000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 539000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 540000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 541000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 542000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 543000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 544000 
+Time for last 1000 cycles: 0.52999997139
+Current Cycle: 545000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 546000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 547000 
+Time for last 1000 cycles: 0.494999885559
+Current Cycle: 548000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 549000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 550000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 551000 
+Time for last 1000 cycles: 0.527000188828
+Current Cycle: 552000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 553000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 554000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 555000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 556000 
+Time for last 1000 cycles: 0.532999992371
+Current Cycle: 557000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 558000 
+Time for last 1000 cycles: 0.484999895096
+Current Cycle: 559000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 560000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 561000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 562000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 563000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 564000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 565000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 566000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 567000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 568000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 569000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 570000 
+Time for last 1000 cycles: 0.531000137329
+Current Cycle: 571000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 572000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 573000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 574000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 575000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 576000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 577000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 578000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 579000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 580000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 581000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 582000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 583000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 584000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 585000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 586000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 587000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 588000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 589000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 590000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 591000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 592000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 593000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 594000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 595000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 596000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 597000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 598000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 599000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 600000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 601000 
+Time for last 1000 cycles: 0.520000219345
+Current Cycle: 602000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 603000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 604000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 605000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 606000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 607000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 608000 
+Time for last 1000 cycles: 0.52799987793
+Current Cycle: 609000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 610000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 611000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 612000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 613000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 614000 
+Time for last 1000 cycles: 0.52799987793
+Current Cycle: 615000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 616000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 617000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 618000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 619000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 620000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 621000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 622000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 623000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 624000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 625000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 626000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 627000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 628000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 629000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 630000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 631000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 632000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 633000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 634000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 635000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 636000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 637000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 638000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 639000 
+Time for last 1000 cycles: 0.477999925613
+Current Cycle: 640000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 641000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 642000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 643000 
+Time for last 1000 cycles: 0.484000205994
+Current Cycle: 644000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 645000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 646000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 647000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 648000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 649000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 650000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 651000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 652000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 653000 
+Time for last 1000 cycles: 0.46599984169
+Current Cycle: 654000 
+Time for last 1000 cycles: 0.416000127792
+Current Cycle: 655000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 656000 
+Time for last 1000 cycles: 0.447999954224
+Current Cycle: 657000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 658000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 659000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 660000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 661000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 662000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 663000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 664000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 665000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 666000 
+Time for last 1000 cycles: 0.507000207901
+Current Cycle: 667000 
+Time for last 1000 cycles: 0.483000040054
+Current Cycle: 668000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 669000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 670000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 671000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 672000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 673000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 674000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 675000 
+Time for last 1000 cycles: 0.510000228882
+Current Cycle: 676000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 677000 
+Time for last 1000 cycles: 0.47400021553
+Current Cycle: 678000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 679000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 680000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 681000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 682000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 683000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 684000 
+Time for last 1000 cycles: 0.46799993515
+Current Cycle: 685000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 686000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 687000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 688000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 689000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 690000 
+Time for last 1000 cycles: 0.507000207901
+Current Cycle: 691000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 692000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 693000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 694000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 695000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 696000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 697000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 698000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 699000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 700000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 701000 
+Time for last 1000 cycles: 0.498000144958
+Current Cycle: 702000 
+Time for last 1000 cycles: 0.490999937057
+Current Cycle: 703000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 704000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 705000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 706000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 707000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 708000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 709000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 710000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 711000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 712000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 713000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 714000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 715000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 716000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 717000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 718000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 719000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 720000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 721000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 722000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 723000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 724000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 725000 
+Time for last 1000 cycles: 0.484999895096
+Current Cycle: 726000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 727000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 728000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 729000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 730000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 731000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 732000 
+Time for last 1000 cycles: 0.515999794006
+Current Cycle: 733000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 734000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 735000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 736000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 737000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 738000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 739000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 740000 
+Time for last 1000 cycles: 0.502999782562
+Current Cycle: 741000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 742000 
+Time for last 1000 cycles: 0.476000070572
+Current Cycle: 743000 
+Time for last 1000 cycles: 0.486999988556
+Current Cycle: 744000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 745000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 746000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 747000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 748000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 749000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 750000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 751000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 752000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 753000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 754000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 755000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 756000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 757000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 758000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 759000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 760000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 761000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 762000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 763000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 764000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 765000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 766000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 767000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 768000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 769000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 770000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 771000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 772000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 773000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 774000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 775000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 776000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 777000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 778000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 779000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 780000 
+Time for last 1000 cycles: 0.482999801636
+Current Cycle: 781000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 782000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 783000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 784000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 785000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 786000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 787000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 788000 
+Time for last 1000 cycles: 0.495000123978
+Current Cycle: 789000 
+Time for last 1000 cycles: 0.490000009537
+Current Cycle: 790000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 791000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 792000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 793000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 794000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 795000 
+Time for last 1000 cycles: 0.460000038147
+Current Cycle: 796000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 797000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 798000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 799000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 800000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 801000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 802000 
+Time for last 1000 cycles: 0.515999794006
+Current Cycle: 803000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 804000 
+Time for last 1000 cycles: 0.49799990654
+Current Cycle: 805000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 806000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 807000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 808000 
+Time for last 1000 cycles: 0.507000207901
+Current Cycle: 809000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 810000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 811000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 812000 
+Time for last 1000 cycles: 0.504999876022
+Current Cycle: 813000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 814000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 815000 
+Time for last 1000 cycles: 0.498000144958
+Current Cycle: 816000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 817000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 818000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 819000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 820000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 821000 
+Time for last 1000 cycles: 0.487999916077
+Current Cycle: 822000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 823000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 824000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 825000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 826000 
+Time for last 1000 cycles: 0.491999864578
+Current Cycle: 827000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 828000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 829000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 830000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 831000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 832000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 833000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 834000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 835000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 836000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 837000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 838000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 839000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 840000 
+Time for last 1000 cycles: 0.492000102997
+Current Cycle: 841000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 842000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 843000 
+Time for last 1000 cycles: 0.497000217438
+Current Cycle: 844000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 845000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 846000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 847000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 848000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 849000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 850000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 851000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 852000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 853000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 854000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 855000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 856000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 857000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 858000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 859000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 860000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 861000 
+Time for last 1000 cycles: 0.479999780655
+Current Cycle: 862000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 863000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 864000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 865000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 866000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 867000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 868000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 869000 
+Time for last 1000 cycles: 0.490999937057
+Current Cycle: 870000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 871000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 872000 
+Time for last 1000 cycles: 0.515999794006
+Current Cycle: 873000 
+Time for last 1000 cycles: 0.491999864578
+Current Cycle: 874000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 875000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 876000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 877000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 878000 
+Time for last 1000 cycles: 0.490999937057
+Current Cycle: 879000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 880000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 881000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 882000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 883000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 884000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 885000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 886000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 887000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 888000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 889000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 890000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 891000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 892000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 893000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 894000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 895000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 896000 
+Time for last 1000 cycles: 0.49599981308
+Current Cycle: 897000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 898000 
+Time for last 1000 cycles: 0.517000198364
+Current Cycle: 899000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 900000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 901000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 902000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 903000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 904000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 905000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 906000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 907000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 908000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 909000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 910000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 911000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 912000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 913000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 914000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 915000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 916000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 917000 
+Time for last 1000 cycles: 0.52599978447
+Current Cycle: 918000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 919000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 920000 
+Time for last 1000 cycles: 0.50400018692
+Current Cycle: 921000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 922000 
+Time for last 1000 cycles: 0.481999874115
+Current Cycle: 923000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 924000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 925000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 926000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 927000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 928000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 929000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 930000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 931000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 932000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 933000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 934000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 935000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 936000 
+Time for last 1000 cycles: 0.520000219345
+Current Cycle: 937000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 938000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 939000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 940000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 941000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 942000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 943000 
+Time for last 1000 cycles: 0.463999986649
+Current Cycle: 944000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 945000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 946000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 947000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 948000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 949000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 950000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 951000 
+Time for last 1000 cycles: 0.515999794006
+Current Cycle: 952000 
+Time for last 1000 cycles: 0.52799987793
+Current Cycle: 953000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 954000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 955000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 956000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 957000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 958000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 959000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 960000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 961000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 962000 
+Time for last 1000 cycles: 0.520000219345
+Current Cycle: 963000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 964000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 965000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 966000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 967000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 968000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 969000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 970000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 971000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 972000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 973000 
+Time for last 1000 cycles: 0.517000198364
+Current Cycle: 974000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 975000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 976000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 977000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 978000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 979000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 980000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 981000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 982000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 983000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 984000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 985000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 986000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 987000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 988000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 989000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 990000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 991000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 992000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 993000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 994000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 995000 
+Time for last 1000 cycles: 0.529000043869
+Current Cycle: 996000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 997000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 998000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 999000 
+Time for last 1000 cycles: 0.529000043869
+Current Cycle: 1000000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 1001000 
+Time for last 1000 cycles: 0.442999839783
+Current Cycle: 1002000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 1003000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1004000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1005000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 1006000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 1007000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 1008000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1009000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1010000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 1011000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1012000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 1013000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1014000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 1015000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 1016000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 1017000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1018000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1019000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 1020000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1021000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1022000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1023000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1024000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 1025000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1026000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 1027000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 1028000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1029000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1030000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 1031000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1032000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1033000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1034000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1035000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 1036000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 1037000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 1038000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1039000 
+Time for last 1000 cycles: 0.480999946594
+Current Cycle: 1040000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 1041000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1042000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1043000 
+Time for last 1000 cycles: 0.498999834061
+Current Cycle: 1044000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1045000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 1046000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 1047000 
+Time for last 1000 cycles: 0.548000097275
+Current Cycle: 1048000 
+Time for last 1000 cycles: 0.530999898911
+Current Cycle: 1049000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1050000 
+Time for last 1000 cycles: 0.547999858856
+Current Cycle: 1051000 
+Time for last 1000 cycles: 0.520000219345
+Current Cycle: 1052000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1053000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1054000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1055000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1056000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 1057000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1058000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 1059000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1060000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1061000 
+Time for last 1000 cycles: 0.52599978447
+Current Cycle: 1062000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1063000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1064000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1065000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 1066000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1067000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1068000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1069000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1070000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1071000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 1072000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1073000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 1074000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1075000 
+Time for last 1000 cycles: 0.52799987793
+Current Cycle: 1076000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1077000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1078000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 1079000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 1080000 
+Time for last 1000 cycles: 0.465000152588
+Current Cycle: 1081000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1082000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1083000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 1084000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1085000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 1086000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1087000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 1088000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1089000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1090000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1091000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 1092000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1093000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 1094000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 1095000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1096000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1097000 
+Time for last 1000 cycles: 0.500999927521
+Current Cycle: 1098000 
+Time for last 1000 cycles: 0.464999914169
+Current Cycle: 1099000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 1100000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1101000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1102000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1103000 
+Time for last 1000 cycles: 0.499000072479
+Current Cycle: 1104000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1105000 
+Time for last 1000 cycles: 0.52799987793
+Current Cycle: 1106000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1107000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 1108000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1109000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1110000 
+Time for last 1000 cycles: 0.518999814987
+Current Cycle: 1111000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 1112000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 1113000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 1114000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 1115000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1116000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1117000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1118000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1119000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1120000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1121000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1122000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1123000 
+Time for last 1000 cycles: 0.529000043869
+Current Cycle: 1124000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 1125000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 1126000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 1127000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 1128000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1129000 
+Time for last 1000 cycles: 0.5
+Current Cycle: 1130000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1131000 
+Time for last 1000 cycles: 0.489000082016
+Current Cycle: 1132000 
+Time for last 1000 cycles: 0.47100019455
+Current Cycle: 1133000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1134000 
+Time for last 1000 cycles: 0.517999887466
+Current Cycle: 1135000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1136000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 1137000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1138000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1139000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1140000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1141000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1142000 
+Time for last 1000 cycles: 0.503000020981
+Current Cycle: 1143000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1144000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1145000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1146000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1147000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1148000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 1149000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 1150000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 1151000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1152000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1153000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1154000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1155000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1156000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1157000 
+Time for last 1000 cycles: 0.508000135422
+Current Cycle: 1158000 
+Time for last 1000 cycles: 0.529000043869
+Current Cycle: 1159000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1160000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1161000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 1162000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1163000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1164000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1165000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1166000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1167000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 1168000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1169000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1170000 
+Time for last 1000 cycles: 0.501999855042
+Current Cycle: 1171000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1172000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1173000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1174000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 1175000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 1176000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1177000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1178000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 1179000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1180000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1181000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1182000 
+Time for last 1000 cycles: 0.517000198364
+Current Cycle: 1183000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 1184000 
+Time for last 1000 cycles: 0.524999856949
+Current Cycle: 1185000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1186000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1187000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1188000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1189000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1190000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 1191000 
+Time for last 1000 cycles: 0.532999992371
+Current Cycle: 1192000 
+Time for last 1000 cycles: 0.526999950409
+Current Cycle: 1193000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1194000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 1195000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1196000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1197000 
+Time for last 1000 cycles: 0.512000083923
+Current Cycle: 1198000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1199000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1200000 
+Time for last 1000 cycles: 0.524000167847
+Current Cycle: 1201000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1202000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1203000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1204000 
+Time for last 1000 cycles: 0.521999835968
+Current Cycle: 1205000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 1206000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1207000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1208000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 1209000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1210000 
+Time for last 1000 cycles: 0.498999834061
+Current Cycle: 1211000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 1212000 
+Time for last 1000 cycles: 0.523000001907
+Current Cycle: 1213000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1214000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1215000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 1216000 
+Time for last 1000 cycles: 0.518000125885
+Current Cycle: 1217000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1218000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 1219000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1220000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1221000 
+Time for last 1000 cycles: 0.528000116348
+Current Cycle: 1222000 
+Time for last 1000 cycles: 0.516999959946
+Current Cycle: 1223000 
+Time for last 1000 cycles: 0.521000146866
+Current Cycle: 1224000 
+Time for last 1000 cycles: 0.525000095367
+Current Cycle: 1225000 
+Time for last 1000 cycles: 0.509000062943
+Current Cycle: 1226000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 1227000 
+Time for last 1000 cycles: 0.523999929428
+Current Cycle: 1228000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1229000 
+Time for last 1000 cycles: 0.496999979019
+Current Cycle: 1230000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1231000 
+Time for last 1000 cycles: 0.483999967575
+Current Cycle: 1232000 
+Time for last 1000 cycles: 0.480999946594
+Current Cycle: 1233000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 1234000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 1235000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 1236000 
+Time for last 1000 cycles: 0.510999917984
+Current Cycle: 1237000 
+Time for last 1000 cycles: 0.47200012207
+Current Cycle: 1238000 
+Time for last 1000 cycles: 0.493999958038
+Current Cycle: 1239000 
+Time for last 1000 cycles: 0.506000041962
+Current Cycle: 1240000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1241000 
+Time for last 1000 cycles: 0.501000165939
+Current Cycle: 1242000 
+Time for last 1000 cycles: 0.493000030518
+Current Cycle: 1243000 
+Time for last 1000 cycles: 0.520999908447
+Current Cycle: 1244000 
+Time for last 1000 cycles: 0.514999866486
+Current Cycle: 1245000 
+Time for last 1000 cycles: 0.506999969482
+Current Cycle: 1246000 
+Time for last 1000 cycles: 0.509999990463
+Current Cycle: 1247000 
+Time for last 1000 cycles: 0.508999824524
+Current Cycle: 1248000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1249000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1250000 
+Time for last 1000 cycles: 0.50200009346
+Current Cycle: 1251000 
+Time for last 1000 cycles: 0.507999897003
+Current Cycle: 1252000 
+Time for last 1000 cycles: 0.513000011444
+Current Cycle: 1253000 
+Time for last 1000 cycles: 0.519000053406
+Current Cycle: 1254000 
+Time for last 1000 cycles: 0.496000051498
+Current Cycle: 1255000 
+Time for last 1000 cycles: 0.505000114441
+Current Cycle: 1256000 
+Time for last 1000 cycles: 0.511999845505
+Current Cycle: 1257000 
+Time for last 1000 cycles: 0.505999803543
+Current Cycle: 1258000 
+Time for last 1000 cycles: 0.514000177383
+Current Cycle: 1259000 
+Time for last 1000 cycles: 0.503999948502
+Current Cycle: 1260000 
+Time for last 1000 cycles: 0.515000104904
+Current Cycle: 1261000 
+Time for last 1000 cycles: 0.513999938965
+Current Cycle: 1262000 
+Time for last 1000 cycles: 0.519999980927
+Current Cycle: 1263000 
+Time for last 1000 cycles: 0.522000074387
+Current Cycle: 1264000 
+Time for last 1000 cycles: 0.516000032425
+Current Cycle: 1265000 
+Time for last 1000 cycles: 0.526000022888
+Current Cycle: 1266000 
+Time for last 1000 cycles: 0.511000156403
+Current Cycle: 1267000 
+Time for last 1000 cycles: 0.516000032425
+Item-Item Collaborative Filtering RMSE: 1.42524675988
+Elapsed Time: 647.947000027
+Collaborative Filter on Arbitrary Dataset done in  707.635999918 seconds
