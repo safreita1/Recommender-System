@@ -2,12 +2,17 @@ import math
 import itertools
 import time
 from MatrixOperations import convert_coo_to_csc_and_csr
+from scipy import sparse
 
 
 class BaselineRecommendations:
-    def __init__(self, training_matrix_coo, test_matrix_coo):
-        self.training_matrix_coo = training_matrix_coo
-        self.test_matrix_coo = test_matrix_coo
+    def __init__(self, dataset):
+        # Load the sparse matrix from a file
+        self.training_filepath = 'matrices/{}_training.npz'.format(dataset)
+        self.testing_filepath = 'matrices/{}_test.npz'.format(dataset)
+        self.training_matrix_coo = self.load_sparse_matrix(self.training_filepath)
+        self.test_matrix_coo = self.load_sparse_matrix(self.testing_filepath)
+
         self.training_matrix_csr = None
         self.test_matrix_csr = None
         self.training_matrix_csc = None
@@ -19,6 +24,9 @@ class BaselineRecommendations:
         self.user_centered = {}
         self.user_average = {}
         self.global_mean = 0.0
+
+    def load_sparse_matrix(self, file_name):
+        return sparse.load_npz(file_name)
 
     def calculate_baseline_RMSE(self):
         summed_error = 0
@@ -105,23 +113,23 @@ class BaselineRecommendations:
         start = time.time()
         self.calculate_global_baseline_rating()
         end = time.time()
-        print "Finished global movie mean: " + str((end - start))
+        print "Time to calculate global movie mean: " + str((end - start))
 
         start = time.time()
         self.calculate_relative_mean_movie_rating()
         end = time.time()
-        print "Finished mean movie ratings: " + str((end - start))
+        print "Time to calculate mean movie ratings: " + str((end - start))
 
         start = time.time()
         self.calculate_mean_user_rating()
 
         end = time.time()
-        print "Finished mean user ratings: " + str((end - start))
+        print "Time to calculate mean user ratings: " + str((end - start))
 
         start = time.time()
         rmse = self.calculate_baseline_RMSE()
         end = time.time()
-        print "Finished calculating RMSE: " + str((end - start))
+        print "Time to calculate RMSE: " + str((end - start))
 
         return rmse
 

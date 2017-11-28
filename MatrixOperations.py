@@ -52,39 +52,4 @@ def convert_coo_to_csc_and_csr(matrix):
     return matrix.tocsc(), matrix.tocsr()
 
 
-def test_center(self):
-    new_sparse_matrix = sparse.load_npz('matrices/centered_training_arbitrary.npz')
-    sparse_matrix = self.training_matrix_coo.tocsr()
-    new_sparse_matrix = new_sparse_matrix.tocsr()
-    ix = 0
-    flag = True
-
-    # Iterate over all nonempty rows in csr
-    while ix < sparse_matrix.shape[0]:
-        num = 0
-        while num < 1 and ix < sparse_matrix.shape[0]:
-            new_row = new_sparse_matrix.getrow(ix)
-            old_row = sparse_matrix.getrow(ix)
-            num = new_row.nnz
-            ix = ix + 1
-            if num != old_row.nnz:
-                print "why"
-        # Verify the new rating = old rating - mean
-        for index in new_row.indices:
-
-            if index in old_row.indices:
-                old_data = sparse_matrix[ix, index]
-                mean = self.movie_average[ix]
-                new_data = new_sparse_matrix[ix, index]
-                if old_data - mean != new_data and old_data != 0 and new_data != 0:
-                    flag = False
-                    print "Value Mismatch: Expected {} Got {} For {} With {}".format(old_data + mean,new_data, ix, mean)
-
-            else:
-                print "index mismatch"
-
-        ix = ix + 1
-    print "Clean? {}".format(flag)
-
-
 

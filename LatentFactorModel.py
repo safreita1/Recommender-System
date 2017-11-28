@@ -7,10 +7,17 @@ from MatrixOperations import convert_coo_to_csc_and_csr, center_matrix_user
 import time
 import os
 import datetime
+from scipy import sparse
 
 
 class LatentFactorModel:
-    def __init__(self, epochs, k, learning_rate, lambda_reg, training_coo, test_coo, user_average):
+    def __init__(self, epochs, k, learning_rate, lambda_reg):
+        # Load the sparse matrix from a file
+        self.training_filepath = 'matrices/{}_training.npz'.format('random')
+        self.testing_filepath = 'matrices/{}_test.npz'.format('random')
+        self.training_coo = self.load_sparse_matrix(self.training_filepath)
+        self.test_coo = self.load_sparse_matrix(self.testing_filepath)
+
         self.P = None
         self.Q = None
         self.epochs = epochs
@@ -18,16 +25,52 @@ class LatentFactorModel:
         self.k = k
         self.learning_rate = learning_rate
         self.lambda_reg = lambda_reg
-        self.training_coo = training_coo
         self.training_csc = None
         self.training_csr = None
-        self.test_coo = test_coo
         self.test_csc = None
         self.test_csr = None
-        self.user_average = user_average
+        self.user_average = {}
+        self.global_mean = 0.0
         self.user_std = defaultdict(int)
         self.model_directory = None
         self.model_loaded = False
+
+        self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
+        self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
+        self.calculate_mean_user_rating()
+        self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
+
+
+    def load_sparse_matrix(self, file_name):
+        return sparse.load_npz(file_name)
+
+    def calculate_global_baseline_rating(self):
+        summed_movie_rating = 0
+        for i, j, v in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
+            summed_movie_rating = summed_movie_rating + v
+
+        number_of_ratings = self.training_coo.nnz
+        self.global_mean = float(summed_movie_rating) / number_of_ratings
+
+    def calculate_mean_user_rating(self):
+        self.calculate_global_baseline_rating()
+
+        # Calculate the mean of each user
+        user_sums = self.training_csc.sum(axis=0)
+        # Reshape the matrix to array form for proper indexing
+        user_sums = user_sums.reshape((user_sums.size, 1))
+        # Calculate the number of ratings for each user
+        user_rating_counts = self.training_csc.getnnz(axis=0)
+
+        # Loop through each user
+        number_of_users = self.training_csc.shape[1]
+        for index in xrange(1, number_of_users):
+            # Check to see if the user has not rated
+            if user_sums[index] != 0:
+                user_average = float(user_sums[index]) / user_rating_counts[index]
+                self.user_average[index] = user_average
+            else:
+                self.user_average[index] = self.global_mean
 
     def calculate_user_std(self):
         for movie, user, rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
@@ -37,14 +80,12 @@ class LatentFactorModel:
         for user, value in self.user_std.iteritems():
             self.user_std[user] = math.sqrt(self.user_std[user] / (number_of_users - 1))
 
-
     def run_svd(self):
         u, s, vt = svds(self.training_csc, k=self.k)
 
         self.Q = u
         diag_matrix = np.diag(s)
         self.P = diag_matrix.dot(vt)
-
 
     def predicted_value(self, movie, user):
         col = self.P[:, user]
@@ -195,8 +236,7 @@ class LatentFactorModel:
 
 
     def calculate_epoch_error(self, epoch):
-        print "Movie 4830, user 47914, true rating: 6. Predicted rating: " + str( self.predicted_value(4830, 47914) + self.user_average[47914])
-
+        #print "Movie 4830, user 47914, true rating: 6. Predicted rating: " + str( self.predicted_value(4830, 47914) + self.user_average[47914])
         start = time.time()
         rmse_test = self.calculate_test_rmse()
         end = time.time()
@@ -211,6 +251,7 @@ class LatentFactorModel:
         print "Test RMSE for epoch {}: {}".format(epoch, rmse_test)
 
         return rmse_test, rmse_training
+
 
     def optimize_matrices(self):
         model_already_tested_and_saved = self.model_loaded
@@ -251,19 +292,9 @@ class LatentFactorModel:
 
 
     def run_new_model(self):
-        self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
-
-        self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
-        self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
-
         self.run_svd()
         self.optimize_matrices()
 
     def run_old_model(self, model_directory):
-        self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
-
-        self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
-        self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
-
         self.load_model(model_directory=model_directory)
         self.optimize_matrices()
