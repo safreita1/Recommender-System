@@ -1,0 +1,12 @@
+Finished converting to csc and csr
+Finished global movie mean: 0.847999811172
+Finished mean movie ratings: 0.125
+Finished mean user ratings: 0.767000198364
+Finished calculating RMSE: 1.625
+RMSE Baseline: 1.23406594671
+Current count 0
+Time taken 0.0
+Current count 100000
+Time taken 98.489000082
+Current count 200000
+Time taken 98.6370000839

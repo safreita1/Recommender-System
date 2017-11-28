@@ -71,23 +71,12 @@ class DataPreprocessing:
         test_list = random.sample(xrange(total_size),test_size)
         test_data = np.zeros((test_size, 3))
         test_index = 0
-<<<<<<< HEAD
-=======
 
->>>>>>> f3f94b9bc0f2ca753dd157f13753a023616c7eeb
         for ix in test_list:
             test_data[test_index]=  data[ix]
             test_index = test_index + 1
         training_data = np.delete(data, test_list, 0)
-<<<<<<< HEAD
-        return training_data, test_data,
 
-    def random_split(self, rating_data, training_file_name, test_file_name):
-        training_dst = self.npz_path + 'random_training'
-        testing_dst = self.npz_path + 'random_test'
-        # Randomly split the data into an 80-20 training/test set respectively
-        training_data, test_data = self.random_sample(rating_data)
-=======
 
         return training_data, test_data,
 
@@ -98,37 +87,27 @@ class DataPreprocessing:
         # Randomly split the data into an 80-20 training/test set respectively
         training_data, test_data = self.random_sample(rating_data)
 
->>>>>>> f3f94b9bc0f2ca753dd157f13753a023616c7eeb
+
         # Training data
         training_user_col = training_data[:, 0]
         training_movie_row = training_data[:, 1]
         training_rating_data = training_data[:, 2]
 
         # Write the training data to a csv file
-<<<<<<< HEAD
-        print "Writing training data to .csv"
-        self.write_matrix_to_csv(training_user_col, training_movie_row, training_rating_data, training_file_name)
-        print "Done"
-=======
+
         #print "Writing training data to .csv"
         #self.write_matrix_to_csv(training_user_col, training_movie_row, training_rating_data, training_file_name)
         #print "Done"
 
->>>>>>> f3f94b9bc0f2ca753dd157f13753a023616c7eeb
         # Test data
         test_user_col = test_data[:, 0]
         test_movie_row = test_data[:, 1]
         test_rating_data = test_data[:, 2]
 
         # Write the test data to a csv file
-<<<<<<< HEAD
-        print "Writing test data to .csv"
-        self.write_matrix_to_csv(test_user_col, test_movie_row, test_rating_data, test_file_name)
-        print "Done"
+
         # Find the sparse matrix dimensions
-        sparse_user_size = max(rating_data[:, 0]) + 1
-        sparse_movie_size = max(rating_data[:, 1]) + 1
-=======
+
         #print "Writing test data to .csv"
         #self.write_matrix_to_csv(test_user_col, test_movie_row, test_rating_data, test_file_name)
         #print "Done"
@@ -137,25 +116,18 @@ class DataPreprocessing:
         sparse_user_size = max(rating_data[:, 0]) + 1
         sparse_movie_size = max(rating_data[:, 1]) + 1
 
->>>>>>> f3f94b9bc0f2ca753dd157f13753a023616c7eeb
+
         print "Building Sparse Matrices"
         training_matrix = sparse.coo_matrix((training_rating_data, (training_movie_row, training_user_col)),
                                             shape=(sparse_movie_size, sparse_user_size), dtype=np.float64)
         test_matrix = sparse.coo_matrix((test_rating_data, (test_movie_row, test_user_col)),
                                              shape=(sparse_movie_size,sparse_user_size),dtype=np.float64)
-<<<<<<< HEAD
+
         print "Done"
         print "Saving Sparse Matrices"
         self.save_sparse_matrix(file_name=training_dst, sparse_matrix=training_matrix)
         self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
         print "Done"
-=======
-
-        print "Saving Sparse Matrices"
-        self.save_sparse_matrix(file_name=training_dst, sparse_matrix=training_matrix)
-        self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
-
->>>>>>> f3f94b9bc0f2ca753dd157f13753a023616c7eeb
 
     def arbitrary_split(self, rating_data, training_file_name, test_file_name):
         training_dst = self.npz_path + 'arbitrary_training'
@@ -200,9 +172,6 @@ class DataPreprocessing:
         self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
         print "Done"
 
-        print "Saving Sparse Matrices"
-        self.save_sparse_matrix(file_name=training_dst, sparse_matrix=training_matrix)
-        self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
 
     def remap_dataset(self, path_to_movies, path_to_ratings, target_filepath):
         csv_delimeter = ','
