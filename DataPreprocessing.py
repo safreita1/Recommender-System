@@ -32,7 +32,6 @@ class DataPreprocessing:
             exit(1)
         if not os.path.isdir(self.npz_path):
             os.mkdir(self.npz_path)
-
         if not os.path.isfile(self.remapped_filepath):
             tick = time.time()
             print "Remapped data not found\nRemapping data"
@@ -77,7 +76,6 @@ class DataPreprocessing:
             test_index = test_index + 1
         training_data = np.delete(data, test_list, 0)
 
-
         return training_data, test_data,
 
     def random_split(self, rating_data, training_file_name, test_file_name):
@@ -87,14 +85,12 @@ class DataPreprocessing:
         # Randomly split the data into an 80-20 training/test set respectively
         training_data, test_data = self.random_sample(rating_data)
 
-
         # Training data
         training_user_col = training_data[:, 0]
         training_movie_row = training_data[:, 1]
         training_rating_data = training_data[:, 2]
 
         # Write the training data to a csv file
-
         #print "Writing training data to .csv"
         #self.write_matrix_to_csv(training_user_col, training_movie_row, training_rating_data, training_file_name)
         #print "Done"
@@ -105,9 +101,6 @@ class DataPreprocessing:
         test_rating_data = test_data[:, 2]
 
         # Write the test data to a csv file
-
-        # Find the sparse matrix dimensions
-
         #print "Writing test data to .csv"
         #self.write_matrix_to_csv(test_user_col, test_movie_row, test_rating_data, test_file_name)
         #print "Done"
@@ -116,18 +109,17 @@ class DataPreprocessing:
         sparse_user_size = max(rating_data[:, 0]) + 1
         sparse_movie_size = max(rating_data[:, 1]) + 1
 
-
         print "Building Sparse Matrices"
         training_matrix = sparse.coo_matrix((training_rating_data, (training_movie_row, training_user_col)),
                                             shape=(sparse_movie_size, sparse_user_size), dtype=np.float64)
         test_matrix = sparse.coo_matrix((test_rating_data, (test_movie_row, test_user_col)),
                                              shape=(sparse_movie_size,sparse_user_size),dtype=np.float64)
 
-        print "Done"
         print "Saving Sparse Matrices"
         self.save_sparse_matrix(file_name=training_dst, sparse_matrix=training_matrix)
         self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
         print "Done"
+
 
     def arbitrary_split(self, rating_data, training_file_name, test_file_name):
         training_dst = self.npz_path + 'arbitrary_training'
@@ -140,7 +132,6 @@ class DataPreprocessing:
         training_rating_data = rating_data[:split_delimiter, 2]
 
         # Write the training data to a csv file
-
         # print "Writing training data to .csv"
         # self.write_matrix_to_csv(training_user_col, training_movie_row, training_rating_data, training_file_name)
         # print "Done"
@@ -151,7 +142,6 @@ class DataPreprocessing:
         test_rating_data = rating_data[split_delimiter:, 2]
 
         # Write the test data to a csv file
-
         # print "Writing test data to .csv"
         # self.write_matrix_to_csv(test_user_col, test_movie_row, test_rating_data, test_file_name)
         # print "Done"
@@ -166,12 +156,11 @@ class DataPreprocessing:
                                                  shape=(sparse_movie_size, sparse_user_size), dtype=np.float64)
         test_matrix = sparse.coo_matrix((test_rating_data, (test_movie_row, test_user_col)),
                                              shape=(sparse_movie_size,sparse_user_size),dtype=np.float64)
-        print "Done"
+
         print "Saving Sparse Matrices"
         self.save_sparse_matrix(file_name=training_dst, sparse_matrix=training_matrix)
         self.save_sparse_matrix(file_name=testing_dst, sparse_matrix=test_matrix)
         print "Done"
-
 
     def remap_dataset(self, path_to_movies, path_to_ratings, target_filepath):
         csv_delimeter = ','
@@ -221,6 +210,7 @@ class DataPreprocessing:
         self.arbitrary_split(rating_data=self.rating_data, training_file_name=self.arbitrary_training_filepath,
                           test_file_name=self.arbitrary_testing_filepath)
         print "Arbitrary split finished in {} seconds".format(time.time() - start_time)
+
 
 if __name__ == '__main__':
     start_whole = time.time()
