@@ -42,7 +42,7 @@ if __name__ == '__main__':
             baseline_recommend.run_baseline()
 
 
-    #***************Collaborative Filtering Recommendation***************
+    #***************Item-Item Collaborative Filtering Recommendation***************
     collab_filt = raw_input("Do you want to run the collaborative filtering recommendation? (yes or no) ")
     while collab_filt != 'yes' and collab_filt != 'no':
         collab_filt = raw_input("Do you want to run the collaborative filtering recommendation? (yes or no) ")

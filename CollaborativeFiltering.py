@@ -43,6 +43,7 @@ class CollaborativeFiltering:
             self.cosine_similarity_csr=self.fill_similarity_matrix(centered_training_filepath,similarity_filepath)
             print "Building Similarity Matrix done in {} seconds".format(time.time() - tick)
         print "Class initialization done in {} seconds".format(time.time()-start_time)
+
     def calculate_baseline_estimate(self, movie_ratings, user_ratings, global_movie_mean, coo_matrix):
         baseline_estimate_rating = {}
         # Loop through each entry in the test dataset
