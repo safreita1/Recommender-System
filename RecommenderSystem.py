@@ -27,10 +27,11 @@ if __name__ == '__main__':
         while sample_type != 'r' and sample_type != 'a' and sample_type != 'b':
             sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
         if sample_type == 'r':
-            print "Calculating RMSE for arbitrary dataset split."
+            print "Calculating RMSE for random dataset split."
             baseline_recommend = BaselineRecommendations('random')
             baseline_recommend.run_baseline()
         elif sample_type == 'a':
+            print "Calculating RMSE for arbitrary dataset split."
             baseline_recommend = BaselineRecommendations('arbitrary')
             baseline_recommend.run_baseline()
         elif sample_type == 'b':
@@ -50,11 +51,13 @@ if __name__ == '__main__':
         sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
         while sample_type != 'r' and sample_type != 'a' and sample_type != 'b':
             sample_type = raw_input("Do you want to run the randomly sampled data, arbitrarily sampled data or both? (r, a, b) ")
+        print "Note: this is a fairly time consuming process--please allow for approximately 2+ hours to calculate RMSE on a single dataset."
         if sample_type == 'r':
-            print "Calculating RMSE for arbitrary dataset split."
+            print "Calculating RMSE for random dataset split."
             collab_recommend = CollaborativeFiltering()
             collab_recommend.collaborative_filter()
         elif sample_type == 'a':
+            print "Calculating RMSE for arbitrary dataset split."
             collab_recommend = CollaborativeFiltering(dataset='arbitrary')
             collab_recommend.collaborative_filter()
         elif sample_type == 'b':

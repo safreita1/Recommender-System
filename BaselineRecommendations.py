@@ -1,7 +1,6 @@
 import math
 import itertools
 import time
-from scipy import sparse
 from MatrixOperations import convert_coo_to_csc_and_csr
 from scipy import sparse
 
