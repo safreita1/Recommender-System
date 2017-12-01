@@ -4,7 +4,6 @@ import numpy as np
 
 
 def center_matrix(sparse_matrix, file_name, movie_average):
-
     ix = 0
     num_movies = sparse_matrix.shape[0]
     num_users = sparse_matrix.shape[1]

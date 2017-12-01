@@ -31,14 +31,18 @@ class LatentFactorModel:
         self.test_csr = None
         self.user_average = {}
         self.global_mean = 0.0
-        self.user_std = defaultdict(int)
         self.model_directory = None
         self.model_loaded = False
 
         self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
         self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
+
         self.calculate_mean_user_rating()
         self.training_coo = center_matrix_user(sparse_matrix=self.training_coo, user_average=self.user_average)
+
+        # Recalculate the CSC and CSR matrices after centering
+        self.training_csc, self.training_csr = convert_coo_to_csc_and_csr(self.training_coo)
+        self.test_csc, self.test_csr = convert_coo_to_csc_and_csr(self.test_coo)
 
 
     def load_sparse_matrix(self, file_name):
@@ -71,14 +75,6 @@ class LatentFactorModel:
                 self.user_average[index] = user_average
             else:
                 self.user_average[index] = self.global_mean
-
-    def calculate_user_std(self):
-        for movie, user, rating in itertools.izip(self.training_coo.row, self.training_coo.col, self.training_coo.data):
-            self.user_std[user] = self.user_std[user] + math.pow((self.user_average[user] - rating), 2)
-
-        number_of_users = len(self.user_std)
-        for user, value in self.user_std.iteritems():
-            self.user_std[user] = math.sqrt(self.user_std[user] / (number_of_users - 1))
 
     def run_svd(self):
         u, s, vt = svds(self.training_csc, k=self.k)
@@ -258,9 +254,9 @@ class LatentFactorModel:
         for epoch in xrange(self.current_epoch, self.epochs):
 
             if not model_already_tested_and_saved:
-                rmse_test, rmse_training = self.calculate_epoch_error(epoch)
+                #rmse_test, rmse_training = self.calculate_epoch_error(epoch)
 
-                self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
+                #self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
                 print "Epoch {} model saved".format(epoch)
             else:
                 model_already_tested_and_saved = False

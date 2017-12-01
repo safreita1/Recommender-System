@@ -104,7 +104,7 @@ if __name__ == '__main__':
                                           "to load the default model. ")
             if default_model == 'yes':
                 print "Initializing the latent factor model."
-                latent_model = LatentFactorModel(epochs=50, k=10, learning_rate=0.006, lambda_reg=0.06)
+                latent_model = LatentFactorModel(epochs=15, k=10, learning_rate=0.006, lambda_reg=0.06)
                 latent_model.load_model(model_directory='optimization/2017-11-23_16-28-35/')
                 print "Calculating the random split test RMSE."
                 test_rmse = latent_model.calculate_test_rmse()
@@ -112,7 +112,7 @@ if __name__ == '__main__':
             elif default_model == 'no':
                 directory = raw_input("Enter the model directory (e.g. 'optimization/2017-11-23_16-28-35/'): ")
                 print "Initializing the latent factor model."
-                latent_model = LatentFactorModel(epochs=50, k=10, learning_rate=0.006, lambda_reg=0.06)
+                latent_model = LatentFactorModel(epochs=15, k=10, learning_rate=0.006, lambda_reg=0.06)
                 latent_model.load_model(model_directory=directory)
                 print "Calculating the random split test RMSE."
                 test_rmse = latent_model.calculate_test_rmse()
