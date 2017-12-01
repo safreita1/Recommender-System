@@ -184,6 +184,7 @@ class DataPreprocessing:
             writer.writerow(['user_id', 'anime_id', 'rating'])
             # Remap the movie rating file based on the new movie ID
             count = 0
+            tick = 0
             for index, row in rating_data.iterrows():
                 count = count + 1
                 if count % 100000 == 0:

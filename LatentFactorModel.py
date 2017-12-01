@@ -254,9 +254,9 @@ class LatentFactorModel:
         for epoch in xrange(self.current_epoch, self.epochs):
 
             if not model_already_tested_and_saved:
-                #rmse_test, rmse_training = self.calculate_epoch_error(epoch)
+                rmse_test, rmse_training = self.calculate_epoch_error(epoch)
 
-                #self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
+                self.save_model(epoch=epoch, rmse_test=rmse_test, rmse_training=rmse_training)
                 print "Epoch {} model saved".format(epoch)
             else:
                 model_already_tested_and_saved = False
