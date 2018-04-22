@@ -1,5 +1,8 @@
 # Anime Recommendor System
 
+# Overview
+This is an implementation of two popular recommendation techniques (collaborative filtering and latent factor model) based on the Mining of Massive Datasets [video series](https://www.youtube.com/watch?v=xoA5v9AO7S0&list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV). In this implementation we work with predicting anime ratings for users using the CooperUnion Kaggle anime [dataset](https://www.kaggle.com/CooperUnion/anime-recommendations-database). 
+
 # How to Run?
 (1) Create three folders in the code directory named 'csv', 'matrices' and 'optimization'
 
